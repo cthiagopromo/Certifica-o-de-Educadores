@@ -73,9 +73,13 @@ export default function ApplicationProcessSection() {
           </div>
 
           <div className="flex flex-col justify-center items-center gap-4 text-center">
-            <Button asChild size="lg" className="bg-green-600 text-white hover:bg-green-700 px-12 py-6 text-xl rounded-2xl">
-              <Link href="#apply">QUERO MINHA BOLSA</Link>
-            </Button>
+            <div style={{paddingLeft: 48, paddingRight: 48, paddingTop: 24, paddingBottom: 24, background: 'var(--Button-Success-button-success--default, #16A34A)', borderRadius: 16, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{justifyContent: 'center', alignItems: 'flex-start', display: 'flex'}}>
+                  <Button asChild size="lg" className="bg-green-600 text-white hover:bg-green-700 px-12 py-6 text-xl rounded-2xl">
+                    <Link href="#apply">QUERO MINHA BOLSA</Link>
+                  </Button>
+                </div>
+            </div>
             <p className="text-muted-foreground text-xl">
               É direto, sem burocracia e pensado para não tirar seu foco do que
               realmente importa: ensinar.

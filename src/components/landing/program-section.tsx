@@ -22,9 +22,13 @@ export default function ProgramSection() {
               <p className="self-stretch justify-center"><span className="text-foreground text-base font-normal leading-tight">Quer abrir caminhos para novas oportunidades na educação? </span><span className="text-accent text-base font-semibold underline leading-tight">A certificação abre portas.</span></p>
             </div>
             <div className="self-stretch flex flex-col justify-start items-start gap-4">
-               <Button asChild size="lg" className="bg-green-600 text-white hover:bg-green-700 px-12 py-6 text-xl rounded-2xl">
-                    <Link href="#apply">QUERO MINHA BOLSA</Link>
-                </Button>
+                <div style={{paddingLeft: 48, paddingRight: 48, paddingTop: 24, paddingBottom: 24, background: 'var(--Button-Success-button-success--default, #16A34A)', borderRadius: 16, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{justifyContent: 'center', alignItems: 'flex-start', display: 'flex'}}>
+                      <Button asChild size="lg" className="bg-green-600 text-white hover:bg-green-700 px-12 py-6 text-xl rounded-2xl">
+                        <Link href="#apply">QUERO MINHA BOLSA</Link>
+                      </Button>
+                    </div>
+                </div>
               <p className="self-stretch justify-center text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
             </div>
           </div>
