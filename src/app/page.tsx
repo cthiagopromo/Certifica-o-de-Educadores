@@ -149,7 +149,7 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">1</span>
                             </div>
                         </div>
-                        <div className="w-full min-h-[15rem] p-8 md:p-12 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
+                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
                             <p className="self-stretch text-xl md:text-2xl text-foreground text-left">Você preenche o formulário com seus dados.</p>
                         </div>
                     </div>
@@ -160,8 +160,8 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">2</span>
                             </div>
                         </div>
-                        <div className="w-full min-h-[15rem] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
-                           <p className="self-stretch text-xl md:text-2xl text-foreground">
+                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
+                           <p className="self-stretch text-xl md:text-2xl text-foreground text-left">
                                 <span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span>
                                 <span className="font-bold">potencial impacto</span>
                                 <span className="font-normal"> que você pode gerar na educação.</span>
@@ -175,8 +175,8 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">3</span>
                             </div>
                         </div>
-                        <div className="w-full min-h-[15rem] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
-                           <p className="self-stretch text-xl md:text-2xl text-foreground">
+                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
+                           <p className="self-stretch text-xl md:text-2xl text-foreground text-left">
                                <span className="font-normal">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com</span>
                                <span className="font-bold"> 50% de bolsa.</span>
                            </p>
