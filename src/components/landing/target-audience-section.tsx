@@ -1,52 +1,60 @@
-import { User, Users, GraduationCap, Heart } from 'lucide-react';
+import Image from 'next/image';
 
 const audiences = [
   {
-    icon: <User className="w-8 h-8 text-primary" />,
-    title: 'Professores',
-    description: 'Que querem se atualizar e se destacar.',
+    image: "https://picsum.photos/292/195",
+    description: 'Professores que querem se atualizar e se destacar.',
+    aiHint: 'teacher classroom',
   },
   {
-    icon: <Users className="w-8 h-8 text-primary" />,
-    title: 'Coordenadores e Gestores',
-    description: 'Que buscam novas perspectivas para a escola.',
+    image: "https://picsum.photos/292/195",
+    description: 'Coordenadores e gestores que buscam novas perspectivas para a escola.',
+    aiHint: 'school coordinator meeting',
   },
   {
-    icon: <GraduationCap className="w-8 h-8 text-primary" />,
-    title: 'Estudantes de Pedagogia',
-    description: 'Que desejam entrar no mercado mais preparados.',
+    image: "https://picsum.photos/292/195",
+    description: 'Estudantes de Pedagogia que desejam entrar no mercado mais preparados.',
+    aiHint: 'pedagogy student studying',
   },
   {
-    icon: <Heart className="w-8 h-8 text-primary" />,
-    title: 'Pais e Educadores',
-    description: 'Que acreditam na educação como caminho de transformação.',
+    image: "https://picsum.photos/292/195",
+    description: 'Pais, mães e educadores que acreditam na educação como caminho de transformação.',
+    aiHint: 'parents helping child',
   },
 ];
 
 export default function TargetAudienceSection() {
   return (
-    <section className="py-20 md:py-28">
+    <section className="py-14">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold font-headline">👩‍🏫 Se você acredita no poder da educação, este programa é para você.</h2>
-          <p className="mt-4 text-lg text-muted-foreground">
-            A Certificação de Educadores é destinada a todos que têm a missão de ensinar e aprender. Se você faz parte dessa missão, essa bolsa é sua chance de crescer.
-          </p>
-        </div>
-        <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {audiences.map((audience, index) => (
-            <div key={index} className="p-8 bg-card rounded-lg shadow-sm border hover:border-primary/50 hover:shadow-lg transition-all duration-300">
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-lg">
-                  {audience.icon}
+        <div className="flex flex-col justify-start items-center gap-10">
+            <div className="flex flex-col justify-start items-center gap-6 text-center">
+                <div className="px-4 py-2 bg-muted rounded-lg inline-block">
+                    <div className="text-primary text-lg font-bold leading-snug">Quem pode se inscrever?</div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">{audience.title}</h3>
-                  <p className="text-muted-foreground">{audience.description}</p>
+                <div className="flex flex-col justify-center items-center gap-2">
+                    <h2 className="max-w-2xl text-foreground text-5xl font-semibold leading-[57.60px]">Se você acredita no poder da educação, este programa é para você.</h2>
+                    <p className="text-muted-foreground text-xl">A Certificação de Educadores é destinada a todos que têm a missão de ensinar e aprender:</p>
                 </div>
-              </div>
             </div>
-          ))}
+            <div className="self-stretch grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                {audiences.map((audience, index) => (
+                    <div key={index} className="flex flex-col justify-start items-center gap-6 overflow-hidden">
+                        <Image
+                            src={audience.image}
+                            alt={audience.description}
+                            width={292}
+                            height={195}
+                            className="self-stretch h-48 rounded-3xl object-cover"
+                            data-ai-hint={audience.aiHint}
+                        />
+                        <div className="self-stretch flex flex-col justify-start items-start gap-2">
+                            <div className="w-32 h-0.5 bg-primary"></div>
+                            <p className="self-stretch text-foreground text-xl">{audience.description}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
       </div>
     </section>
