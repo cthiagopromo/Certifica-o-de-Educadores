@@ -32,7 +32,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
-                             <Button asChild className="px-12 py-7 text-xl font-medium bg-accent text-accent-foreground rounded-2xl hover:bg-accent/90 flex-shrink-0">
+                             <Button asChild className="px-12 py-7 text-xl font-medium bg-green-600 text-accent-foreground rounded-2xl hover:bg-green-700 flex-shrink-0">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <div className="text-purple-200 text-lg">Agora chegou a sua vez de ser essa inspiração.</div>
