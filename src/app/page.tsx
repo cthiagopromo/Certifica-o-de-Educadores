@@ -72,16 +72,14 @@ export default function Home() {
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
                         </div>
                     </div>
-                    <div className="w-full lg:w-[556px] inline-flex flex-col justify-center items-start gap-2">
-                        <div className="self-stretch inline-flex justify-start items-center gap-4">
-                            <div className="h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm inline-flex flex-col justify-center items-start">
-                                <div className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</div>
-                            </div>
-                            <div className="h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm inline-flex flex-col justify-center items-start">
-                                <div className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</div>
-                            </div>
+                    <div className="w-full lg:w-[556px] grid grid-cols-2 gap-4">
+                        <div className="h-[246px] p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
+                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
-                        <div className="w-full flex flex-col justify-center items-start h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm">
+                        <div className="h-[246px] p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
+                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
+                        </div>
+                        <div className="h-[246px] p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                     </div>
@@ -150,7 +148,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
-                            <p className="self-stretch text-2xl text-foreground">Você preenche o formulário com seus dados.</p>
+                            <p className="self-stretch text-2xl text-foreground text-left">Você preenche o formulário com seus dados.</p>
                         </div>
                     </div>
                     <div className="w-full flex flex-col items-center gap-8 md:mt-8">
@@ -160,8 +158,8 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">2</span>
                             </div>
                         </div>
-                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start text-center">
-                           <p className="self-stretch text-2xl text-foreground">
+                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
+                           <p className="self-stretch text-2xl text-foreground text-left">
                                 <span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span>
                                 <span className="font-bold">potencial impacto</span>
                                 <span className="font-normal"> que você pode gerar na educação.</span>
