@@ -133,7 +133,7 @@ export default function Home() {
                     <h2 className="text-5xl font-semibold text-foreground max-w-2xl">O processo é simples, humano e rápido.</h2>
                 </div>
                 <div className="self-stretch grid grid-cols-1 md:grid-cols-3 gap-10">
-                <div className="flex flex-col items-center gap-[30px]">
+                <div className="w-full flex flex-col justify-start items-center gap-[30px]">
                     <div className="self-stretch relative flex justify-center items-center">
                         <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
                         <div className="relative px-2.5 py-0.5 bg-[#752BB5] rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
@@ -141,16 +141,18 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
-                        <div className="self-stretch justify-center flex flex-col text-foreground text-2xl font-normal leading-7">Você preenche o formulário com seus dados.</div>
+                        <p className="self-stretch text-2xl text-foreground">Você preenche o formulário com seus dados.</p>
                     </div>
                 </div>
-                    <div className="flex flex-col items-center gap-7 mt-0 md:mt-8">
-                        <div className="w-full relative flex justify-center">
-                            <div className="w-full h-px absolute top-1/2 bg-primary/20"></div>
-                            <span className="bg-primary text-primary-foreground rounded-full px-2.5 py-0.5 text-lg font-bold border-2 border-background z-10">2</span>
+                    <div className="w-full flex flex-col justify-start items-center gap-[30px] pt-8">
+                        <div className="self-stretch relative flex justify-center items-center">
+                            <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
+                            <div className="relative px-2.5 py-0.5 bg-[#752BB5] rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
+                                <span className="text-lg font-bold text-primary-foreground">2</span>
+                            </div>
                         </div>
-                        <div className="w-full h-60 p-8 bg-muted rounded-3xl shadow-lg flex items-center justify-center text-center">
-                            <p className="text-2xl text-foreground">Nossa equipe analisa cada perfil com cuidado, valorizando o <span className="font-bold">potencial impacto</span> que você pode gerar na educação.</p>
+                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
+                            <p className="self-stretch text-2xl text-foreground text-center"><span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span><span className="font-bold">potencial impacto</span><span className="font-normal"> que você pode gerar na educação.</span></p>
                         </div>
                     </div>
                     <div className="flex flex-col items-center gap-7 mt-0 md:mt-16">
