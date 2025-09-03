@@ -45,7 +45,7 @@ export default function Home() {
                         <p className="self-stretch"><span className="text-foreground text-base font-normal leading-tight">Quer abrir caminhos para novas oportunidades na educação? </span><span className="text-accent text-base font-semibold underline leading-tight">A certificação abre portas.</span></p>
                     </div>
                     <div className="self-stretch flex flex-col justify-start items-start gap-4">
-                         <Button asChild size="lg" className="px-12 py-6 bg-green-500 hover:bg-green-600 text-white rounded-2xl text-xl font-medium">
+                         <Button asChild className="px-12 py-6 bg-[#16A34A] hover:bg-[#16A34A]/90 text-[#FAFAFA] rounded-2xl text-xl font-medium">
                             <Link href="#apply">QUERO MINHA BOLSA</Link>
                         </Button>
                         <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
@@ -147,7 +147,7 @@ export default function Home() {
                     ))}
                 </div>
                 <div className="flex flex-col justify-center items-center gap-4 text-center">
-                    <Button asChild size="lg" className="px-12 py-6 bg-green-500 hover:bg-green-600 text-white rounded-2xl text-xl font-medium">
+                    <Button asChild className="px-12 py-6 bg-[#16A34A] hover:bg-[#16A34A]/90 text-[#FAFAFA] rounded-2xl text-xl font-medium">
                         <Link href="#apply">QUERO MINHA BOLSA</Link>
                     </Button>
                     <p className="text-muted-foreground text-xl">É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.</p>
@@ -167,7 +167,7 @@ export default function Home() {
                     <h2 className="text-5xl lg:text-6xl font-bold leading-tight text-white">As bolsas são limitadas.</h2>
                     <p className="self-stretch text-center justify-center text-lg text-white/90">As bolsas realmente são concedidas conforme a ordem de inscrição.<br/>Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.</p>
                 </div>
-                <Button asChild size="lg" className="px-12 py-6 bg-green-500 hover:bg-green-600 text-white rounded-2xl text-xl font-medium">
+                <Button asChild className="px-12 py-6 bg-[#16A34A] hover:bg-[#16A34A]/90 text-[#FAFAFA] rounded-2xl text-xl font-medium">
                     <Link href="#apply">QUERO MINHA BOLSA</Link>
                 </Button>
             </div>
