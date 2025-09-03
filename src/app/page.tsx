@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-background">
       <main className="flex flex-col items-center">
-        <div className="w-full flex flex-col justify-center items-center gap-12 overflow-hidden px-4 md:px-8">
+        <div className="w-full flex flex-col justify-center items-center gap-12 overflow-hidden px-8 md:px-16">
             <section id="hero" className="w-full max-w-[1312px] p-14 my-8 bg-primary rounded-[48px] text-primary-foreground">
                 <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
                     <div className="flex flex-col justify-start items-start gap-8 max-w-xl">
