@@ -13,12 +13,10 @@ export default function VacanciesSection() {
                 <div style={{width: 672, textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Text-Global-text-global-inverted--default, #FAFAFA)', fontSize: 56, fontFamily: 'Rethink Sans', fontWeight: '700', lineHeight: '64.96px', wordWrap: 'break-word'}}> As bolsas são limitadas.</div>
                 <div style={{width: '100%', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Text-Global-text-global-inverted--default, #FAFAFA)', fontSize: 18, fontFamily: 'Rethink Sans', fontWeight: 400, lineHeight: '21.60px', wordWrap: 'break-word'}}>As bolsas realmente são concedidas conforme a ordem de inscrição.<br/>Cada vaga preenchida é uma oportunidade a menos para outro educador.  Então, se você sente que esse chamado é para você, aproveite agora.</div>
             </div>
-            <div style={{width: '100%', height: '100%', paddingLeft: 48, paddingRight: 48, paddingTop: 24, paddingBottom: 24, background: 'var(--Button-Success-button-success--default, #16A34A)', borderRadius: 16, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
-                <div style={{justifyContent: 'center', alignItems: 'flex-start', display: 'flex'}}>
-                  <Button asChild size="lg" className="bg-transparent text-white hover:bg-transparent px-0 py-0 text-xl font-medium leading-normal">
+            <div style={{display: 'flex', padding: '24px 48px', alignItems: 'flex-start', background: 'var(--Button-Success-button-success--default, #16A34A)', borderRadius: 16}}>
+                <Button asChild size="lg" className="bg-transparent text-white hover:bg-transparent px-0 py-0 text-xl font-medium leading-normal">
                     <Link href="#apply">QUERO MINHA BOLSA</Link>
-                  </Button>
-                </div>
+                </Button>
             </div>
         </div>
       </div>

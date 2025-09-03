@@ -22,9 +22,9 @@ export default function ProgramSection() {
               <p className="self-stretch justify-center"><span className="text-foreground text-base font-normal leading-tight">Quer abrir caminhos para novas oportunidades na educação? </span><span className="text-accent text-base font-semibold underline leading-tight">A certificação abre portas.</span></p>
             </div>
             <div className="self-stretch flex flex-col justify-start items-start gap-4">
-              <Button asChild className="px-12 py-6 bg-green-500 rounded-2xl text-xl font-medium leading-normal text-white hover:bg-green-600">
-                <Link href="#apply">QUERO MINHA BOLSA</Link>
-              </Button>
+                <Button asChild className="px-12 py-6 bg-green-500 rounded-2xl text-xl font-medium leading-normal text-white hover:bg-green-600">
+                    <Link href="#apply">QUERO MINHA BOLSA</Link>
+                </Button>
               <p className="self-stretch justify-center text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
             </div>
           </div>
