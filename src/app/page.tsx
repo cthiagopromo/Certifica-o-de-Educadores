@@ -54,15 +54,15 @@ export default function Home() {
                         <div className="self-stretch py-4 flex flex-col justify-start items-start gap-1 text-base text-foreground">
                             <p>
                                 <span className="font-normal">Quer tornar suas aulas mais envolventes?</span>
-                                <span className="font-normal"> Temos materiais para isso.</span>
+                                <span className="text-primary font-semibold underline"> Temos materiais para isso.</span>
                             </p>
                             <p>
                                 <span className="font-normal">Quer se sentir mais seguro em frente aos alunos? </span> 
-                                <span className="font-normal">Você vai conquistar essa confiança.</span>
+                                <span className="text-primary font-semibold underline">Você vai conquistar essa confiança.</span>
                             </p>
                             <p>
                                 <span className="font-normal">Quer abrir caminhos para novas oportunidades na educação? </span> 
-                                <span className="font-normal">A certificação abre portas.</span>
+                                <span className="text-primary font-semibold underline">A certificação abre portas.</span>
                             </p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
