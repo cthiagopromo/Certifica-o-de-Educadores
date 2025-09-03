@@ -191,7 +191,6 @@ export default function Home() {
             <div className="self-stretch h-px bg-border" />
             <div className="self-stretch flex flex-col justify-start items-start gap-2.5">
                 <div className="self-stretch px-4 md:px-16 py-24 bg-primary rounded-3xl flex justify-center items-center overflow-hidden relative">
-                     <Image src="https://picsum.photos/1312/400" alt="Vagas limitadas" fill style={{objectFit: 'cover'}} className="z-0 opacity-20" data-ai-hint="abstract texture" />
                     <div className="relative z-10 flex flex-col items-center gap-6 max-w-2xl text-center">
                         <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
                             <span className="text-4xl font-bold">🚨</span>
