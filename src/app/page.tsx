@@ -72,7 +72,7 @@ export default function Home() {
                             <p className="self-stretch text-muted-foreground text-lg md:text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
                         </div>
                     </div>
-                    <div className="grid flex-1 grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+                    <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-4 w-full">
                         <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
@@ -149,8 +149,8 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">1</span>
                             </div>
                         </div>
-                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
-                            <p className="self-stretch text-xl md:text-2xl text-foreground text-left">Você preenche o formulário com seus dados.</p>
+                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left">
+                            <p className="self-stretch text-xl md:text-2xl text-foreground">Você preenche o formulário com seus dados.</p>
                         </div>
                     </div>
                     <div className="w-full flex flex-col items-center gap-8 md:mt-8">
@@ -160,8 +160,8 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">2</span>
                             </div>
                         </div>
-                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
-                           <p className="self-stretch text-xl md:text-2xl text-foreground text-left">
+                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left">
+                           <p className="self-stretch text-xl md:text-2xl text-foreground">
                                 <span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span>
                                 <span className="font-bold">potencial impacto</span>
                                 <span className="font-normal"> que você pode gerar na educação.</span>
@@ -175,8 +175,8 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">3</span>
                             </div>
                         </div>
-                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
-                           <p className="self-stretch text-xl md:text-2xl text-foreground text-left">
+                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left">
+                           <p className="self-stretch text-xl md:text-2xl text-foreground">
                                <span className="font-normal">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com</span>
                                <span className="font-bold"> 50% de bolsa.</span>
                            </p>
