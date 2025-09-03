@@ -35,7 +35,7 @@ export default function Home() {
                             <Button asChild className="px-10 py-5 md:px-12 md:py-6 bg-white text-black rounded-2xl text-lg md:text-xl font-medium hover:bg-gray-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
-                            <div className="text-[#F8B6FE] text-base md:text-lg font-normal leading-[1.2]">Agora chegou a sua vez de ser essa inspiração.</div>
+                            <div className="text-[#F8B6FE] text-lg font-normal leading-[1.2]">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
                     <Image className="w-full max-w-[29.6875rem] h-auto rounded-xl hidden lg:block" width={475} height={444} src="https://picsum.photos/475/444" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
@@ -54,7 +54,7 @@ export default function Home() {
                         <div className="self-stretch py-4 flex flex-col justify-start items-start gap-1 text-base text-foreground">
                             <p>
                                 <span className="font-normal">Quer tornar suas aulas mais envolventes?</span>
-                                <span className="font-semibold text-[#800A8B] underline"> Temos materiais para isso.</span>
+                                <span className="font-normal"> Temos materiais para isso.</span>
                             </p>
                             <p>
                                 <span className="font-normal">Quer se sentir mais seguro em frente aos alunos? </span> 
@@ -66,7 +66,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
-                           <Button asChild className="px-12 py-6 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-white">
+                           <Button asChild className="px-12 py-6 rounded-xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-white">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <p className="self-stretch text-muted-foreground text-lg md:text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
