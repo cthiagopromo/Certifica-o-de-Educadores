@@ -72,7 +72,7 @@ export default function Home() {
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
                         </div>
                     </div>
-                    <div className="w-full lg:w-auto grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="w-full sm:w-[270px] h-[246px] px-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
@@ -137,7 +137,7 @@ export default function Home() {
                     <div className="px-4 py-2 bg-muted rounded-lg">
                         <span className="text-primary text-lg font-bold">Como funciona o processo seletivo</span>
                     </div>
-                    <h2 className="text-5xl font-semibold text-foreground max-w-2xl">O processo é simples, humano e rápido.</h2>
+                    <h2 className="text-5xl font-semibold text-foreground max-w-2xl text-center leading-[1.2] -tracking-[0.03rem]">O processo é simples, humano e rápido.</h2>
                 </div>
                 <div className="self-stretch grid grid-cols-1 md:grid-cols-3 gap-10">
                     <div className="w-full flex flex-col items-center gap-8">
