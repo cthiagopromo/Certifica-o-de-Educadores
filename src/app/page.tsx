@@ -32,7 +32,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
-                            <Button asChild className="px-8 py-4 bg-white text-black rounded-2xl text-lg md:text-xl font-medium hover:bg-gray-200">
+                            <Button asChild className="px-10 py-5 md:px-12 md:py-6 bg-white text-black rounded-2xl text-lg md:text-xl font-medium hover:bg-gray-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <div className="text-[#F8B6FE] text-base md:text-lg font-normal leading-[1.2]">Agora chegou a sua vez de ser essa inspiração.</div>
