@@ -73,13 +73,13 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div className="w-full sm:w-[270px] h-[246px] px-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
+                        <div className="w-full p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
-                        <div className="w-full sm:w-[270px] h-[246px] px-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
+                        <div className="w-full p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
                         </div>
-                        <div className="w-full sm:w-[270px] h-[246px] px-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start col-span-1">
+                        <div className="w-full p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start sm:col-span-2">
                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                     </div>
