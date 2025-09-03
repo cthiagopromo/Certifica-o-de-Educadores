@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'EduTransform Landing',
-  description: 'Transform your teaching journey with our innovative program for educators.',
+  title: 'Sóeducador – Certificação de Educadores',
+  description: 'Abrimos inscrições para a Certificação de Educadores, com bolsas de 50% de desconto.',
 };
 
 export default function RootLayout({

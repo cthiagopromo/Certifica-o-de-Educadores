@@ -8,11 +8,11 @@ export default function Header() {
       <div className="container flex h-14 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <GraduationCap className="h-6 w-6 text-primary" />
-          <span className="text-xl font-bold text-foreground">EduTransform</span>
+          <span className="text-xl font-bold text-foreground">Sóeducador</span>
         </Link>
         <nav className="flex items-center gap-4">
           <Button asChild style={{ backgroundColor: 'hsl(var(--accent))', color: 'hsl(var(--accent-foreground))' }} className="hover:bg-accent/90">
-            <Link href="#apply">Apply Now</Link>
+            <Link href="#apply">QUERO MINHA BOLSA</Link>
           </Button>
         </nav>
       </div>

@@ -1,20 +1,20 @@
-import { FileText, MessageSquare, CheckCircle } from 'lucide-react';
+import { FileText, UserCheck, CheckCircle } from 'lucide-react';
 
 const steps = [
   {
     icon: <FileText className="w-8 h-8 text-primary-foreground" />,
-    title: 'Submit Application',
-    description: 'Fill out our straightforward online form with your details and aspirations.',
+    title: 'Preencha o formulário',
+    description: 'Você preenche o formulário com seus dados.',
   },
   {
-    icon: <MessageSquare className="w-8 h-8 text-primary-foreground" />,
-    title: 'Review & Interview',
-    description: 'Our team will review your application and may invite you for a virtual interview.',
+    icon: <UserCheck className="w-8 h-8 text-primary-foreground" />,
+    title: 'Análise de perfil',
+    description: 'Nossa equipe analisa cada perfil com cuidado, valorizando o potencial impacto que você pode gerar na educação.',
   },
   {
     icon: <CheckCircle className="w-8 h-8 text-primary-foreground" />,
-    title: 'Acceptance & Onboarding',
-    description: 'Receive your acceptance and begin the onboarding process for the program.',
+    title: 'Aprovação e Matrícula',
+    description: 'Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com 50% de bolsa.',
   },
 ];
 
@@ -23,9 +23,9 @@ export default function ApplicationProcessSection() {
     <section id="apply" className="py-20 md:py-28 bg-card border-y">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold font-headline">A Simple Path to Transformation</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-headline">📌 O processo é simples, humano e rápido.</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Follow these three easy steps to begin your journey with EduTransform.
+            É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.
           </p>
         </div>
         <div className="relative mt-16">
