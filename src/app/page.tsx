@@ -66,7 +66,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
-                           <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-accent hover:bg-accent/90 text-white">
+                           <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-green-600 hover:bg-green-700 text-white">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
@@ -74,11 +74,11 @@ export default function Home() {
                     </div>
                     <div className="w-full lg:w-[556px] flex flex-col justify-center items-start gap-4">
                         <div className="self-stretch flex flex-col sm:flex-row justify-start items-center gap-4">
-                            <div className="flex-1 w-full p-8 bg-muted rounded-3xl shadow-lg flex justify-center items-start h-60 max-w-[1280px] px-12 bg-Sufarce-Global-surface-label rounded-3xl shadow-[0px_1px_2px_-1px_rgba(0,0,0,0.10)] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-center items-start">
-                                <p className="self-stretch justify-center text-Text-Global-text-input-default text-2xl font-medium font-['Rethink_Sans'] leading-7">✅ Torne-se referência entre colegas e alunos.</p>
+                            <div className="w-full h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-lg inline-flex flex-col justify-center items-start">
+                                <p className="text-2xl font-medium leading-7 text-foreground">✅ Torne-se referência entre colegas e alunos.</p>
                             </div>
-                            <div className="flex-1 w-full p-8 bg-muted rounded-3xl shadow-lg flex justify-center items-start h-60 max-w-[1280px] px-12 bg-Sufarce-Global-surface-label rounded-3xl shadow-[0px_1px_2px_-1px_rgba(0,0,0,0.10)] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-center items-start">
-                                <p className="text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
+                            <div className="w-full h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-lg inline-flex flex-col justify-center items-start">
+                                <p className="text-2xl font-medium leading-7 text-muted-foreground">✅ Traga mais criatividade e inovação para suas aulas.</p>
                             </div>
                         </div>
                         <div className="w-full sm:w-auto p-8 bg-muted rounded-3xl shadow-lg flex justify-center items-start h-60 max-w-[1280px] px-12 bg-Sufarce-Global-surface-label rounded-3xl shadow-[0px_1px_2px_-1px_rgba(0,0,0,0.10)] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-center items-start">
@@ -142,7 +142,7 @@ export default function Home() {
                     <h2 className="text-5xl font-semibold text-foreground max-w-2xl">O processo é simples, humano e rápido.</h2>
                 </div>
                 <div className="self-stretch grid grid-cols-1 md:grid-cols-3 gap-10">
-                    <div className="w-full flex flex-col justify-start items-center gap-7">
+                    <div className="w-full flex flex-col items-center gap-7">
                         <div className="self-stretch relative flex justify-center items-center">
                             <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
                             <div className="relative px-2.5 py-0.5 bg-primary rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
@@ -153,7 +153,7 @@ export default function Home() {
                             <p className="self-stretch text-2xl text-foreground">Você preenche o formulário com seus dados.</p>
                         </div>
                     </div>
-                    <div className="w-full flex flex-col justify-start items-center gap-7 mt-0 md:mt-8">
+                    <div className="w-full flex flex-col items-center gap-7 mt-0 md:mt-8">
                         <div className="self-stretch relative flex justify-center items-center">
                             <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
                             <div className="relative px-2.5 py-0.5 bg-primary rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
@@ -168,7 +168,7 @@ export default function Home() {
                            </p>
                         </div>
                     </div>
-                    <div className="w-full flex flex-col justify-start items-center gap-7 mt-0 md:mt-16">
+                    <div className="w-full flex flex-col items-center gap-7 mt-0 md:mt-16">
                         <div className="self-stretch relative flex justify-center items-center">
                             <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
                             <div className="relative px-2.5 py-0.5 bg-primary rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
@@ -184,7 +184,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="flex flex-col items-center gap-4 text-center">
-                   <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-accent hover:bg-accent/90 text-white">
+                   <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-green-600 hover:bg-green-700 text-white">
                         <Link href="#apply">QUERO MINHA BOLSA</Link>
                     </Button>
                     <p className="text-xl text-muted-foreground">É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.</p>
