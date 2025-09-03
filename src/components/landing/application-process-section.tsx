@@ -73,8 +73,8 @@ export default function ApplicationProcessSection() {
           </div>
 
           <div className="flex flex-col justify-center items-center gap-4 text-center">
-            <Button asChild className="px-12 py-6 bg-green-500 rounded-2xl text-xl font-medium leading-normal text-white hover:bg-green-600">
-                <Link href="#apply">QUERO MINHA BOLSA</Link>
+            <Button asChild style={{display: 'flex', padding: '24px 48px', alignItems: 'flex-start'}} className="bg-green-500 rounded-2xl hover:bg-green-600">
+                <Link href="#apply" className="text-white text-xl font-medium leading-normal">QUERO MINHA BOLSA</Link>
             </Button>
             <p className="text-muted-foreground text-xl">
               É direto, sem burocracia e pensado para não tirar seu foco do que

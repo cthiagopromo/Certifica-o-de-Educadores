@@ -10,14 +10,12 @@ export default function VacanciesSection() {
                 <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Text-Global-text-title, #171717)', fontSize: 40, fontFamily: 'Rethink Sans', fontWeight: '700', lineHeight: '43.20px', wordWrap: 'break-word'}}>🚨</div>
             </div>
             <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 16, display: 'flex'}}>
-                <div style={{width: 672, textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Text-Global-text-global-inverted--default, #FAFAFA)', fontSize: 56, fontFamily: 'Rethink Sans', fontWeight: '700', lineHeight: '64.96px', wordWrap: 'break-word'}}> As bolsas são limitadas.</div>
-                <div style={{width: '100%', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Text-Global-text-global-inverted--default, #FAFAFA)', fontSize: 18, fontFamily: 'Rethink Sans', fontWeight: 400, lineHeight: '21.60px', wordWrap: 'break-word'}}>As bolsas realmente são concedidas conforme a ordem de inscrição.<br/>Cada vaga preenchida é uma oportunidade a menos para outro educador.  Então, se você sente que esse chamado é para você, aproveite agora.</div>
+                <div style={{width: 672, textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Text-Global-text-global-inverted--default, #FAFAFA)', fontSize: 56, fontFamily: 'Rethink Sans', fontWeight: '700', lineHeight: '64.96px', wordWrap: 'break-word'}}> As bolsas são limitadas.</div>
+                <div style={{width: '100%', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Text-Global-text-global-inverted--default, #FAFAFA)', fontSize: 18, fontFamily: 'Rethink Sans', fontWeight: 400, lineHeight: '21.60px', wordWrap: 'break-word'}}>As bolsas realmente são concedidas conforme a ordem de inscrição.<br/>Cada vaga preenchida é uma oportunidade a menos para outro educador.  Então, se você sente que esse chamado é para você, aproveite agora.</div>
             </div>
-            <div style={{display: 'flex', padding: '24px 48px', alignItems: 'flex-start', background: 'var(--Button-Success-button-success--default, #16A34A)', borderRadius: 16}}>
-                <Button asChild size="lg" className="bg-transparent text-white hover:bg-transparent px-0 py-0 text-xl font-medium leading-normal">
-                    <Link href="#apply">QUERO MINHA BOLSA</Link>
-                </Button>
-            </div>
+             <Button asChild style={{display: 'flex', padding: '24px 48px', alignItems: 'flex-start'}} className="bg-green-500 rounded-2xl hover:bg-green-600">
+                <Link href="#apply" className="text-white text-xl font-medium leading-normal">QUERO MINHA BOLSA</Link>
+            </Button>
         </div>
       </div>
     </section>
