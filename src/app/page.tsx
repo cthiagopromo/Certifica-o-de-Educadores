@@ -58,15 +58,15 @@ export default function Home() {
                             </p>
                             <p>
                                 <span className="font-normal">Quer se sentir mais seguro em frente aos alunos? </span> 
-                                <span className="font-normal">Você vai conquistar essa confiança.</span>
+                                <span className="font-semibold text-[#800A8B] underline">Você vai conquistar essa confiança.</span>
                             </p>
                             <p>
                                 <span className="font-normal">Quer abrir caminhos para novas oportunidades na educação? </span> 
-                                <span className="font-normal">A certificação abre portas.</span>
+                                <span className="font-semibold text-[#800A8B] underline">A certificação abre portas.</span>
                             </p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
-                           <Button asChild className="px-10 py-5 md:px-12 md:py-6 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-white">
+                           <Button asChild className="px-12 py-6 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-white">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <p className="self-stretch text-muted-foreground text-lg md:text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
@@ -184,7 +184,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="flex flex-col items-center gap-4 text-center">
-                   <Button asChild className="px-10 py-5 md:px-12 md:py-6 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-white">
+                   <Button asChild className="px-12 py-6 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-white">
                         <Link href="#apply">QUERO MINHA BOLSA</Link>
                     </Button>
                     <p className="text-lg md:text-xl text-muted-foreground max-w-xl">É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.</p>
@@ -201,7 +201,7 @@ export default function Home() {
                             <h2 className="text-white text-4xl md:text-6xl font-bold leading-tight"> As bolsas são limitadas.</h2>
                             <p className="self-stretch text-white/90 text-base md:text-lg font-normal leading-snug">As bolsas realmente são concedidas conforme a ordem de inscrição.<br/>Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.</p>
                         </div>
-                        <Button asChild className="px-10 py-5 md:px-12 md:py-7 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground">
+                        <Button asChild className="px-12 py-7 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground">
                             <Link href="#apply">QUERO MINHA BOLSA</Link>
                         </Button>
                     </div>
