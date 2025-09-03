@@ -32,7 +32,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
-                             <Button asChild className="px-12 py-7 text-xl font-medium bg-green-600 text-accent-foreground rounded-2xl hover:bg-green-700 flex-shrink-0">
+                             <Button asChild className="px-12 py-7 text-xl font-medium bg-accent text-accent-foreground rounded-2xl hover:bg-accent/90 flex-shrink-0">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <div className="text-purple-200 text-lg">Agora chegou a sua vez de ser essa inspiração.</div>
@@ -66,7 +66,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
-                           <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-green-600 hover:bg-green-700 text-white">
+                           <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-accent hover:bg-accent/90 text-white">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
@@ -74,7 +74,7 @@ export default function Home() {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="w-full sm:w-[270px] h-[246px] px-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
-                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7" style={{ color: 'var(--Text-Global-text-input-default, #737373)', fontFamily: 'Rethink Sans', fontSize: '1.5rem', fontStyle: 'normal', fontWeight: 500, lineHeight: '120%' }}>✅ Torne-se referência entre colegas e alunos.</p>
+                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
                         <div className="w-full sm:w-[270px] h-[246px] px-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
@@ -96,7 +96,7 @@ export default function Home() {
                         </div>
                         <div className="flex flex-col justify-center items-center gap-2">
                             <h2 className="w-full max-w-[672px] text-center text-foreground text-5xl font-semibold leading-tight">Se você acredita no poder da educação, este programa é para você.</h2>
-                            <p className="self-stretch text-center text-muted-foreground text-xl font-normal max-w-[672px] leading-tight tracking-tight" style={{ color: 'var(--Text-Global-text-input-default, #737373)', textAlign: 'center', fontFamily: 'Rethink Sans', fontSize: '1.25rem', fontStyle: 'normal', fontWeight: 400, lineHeight: '120%', letterSpacing: '-0.0125rem' }}>A Certificação de Educadores é destinada a todos que têm a missão de ensinar e aprender:</p>
+                            <p className="self-stretch text-center text-muted-foreground text-xl font-normal max-w-[672px] leading-tight tracking-tight">A Certificação de Educadores é destinada a todos que têm a missão de ensinar e aprender:</p>
                         </div>
                     </div>
                     <div className="self-stretch grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -137,7 +137,7 @@ export default function Home() {
                     <div className="px-4 py-2 bg-muted rounded-lg">
                         <span className="text-primary text-lg font-bold">Como funciona o processo seletivo</span>
                     </div>
-                    <h2 className="text-5xl font-semibold text-foreground max-w-2xl text-center leading-[1.2] -tracking-[0.03rem]" style={{ color: 'var(--Text-Global-text-title, #171717)', textAlign: 'center', fontFamily: 'Rethink Sans', fontSize: '3rem', fontStyle: 'normal', fontWeight: 600, lineHeight: '120%', letterSpacing: '-0.03rem' }}>O processo é simples, humano e rápido.</h2>
+                    <h2 className="text-5xl font-semibold text-foreground max-w-2xl text-center leading-[1.2] -tracking-[0.03rem]">O processo é simples, humano e rápido.</h2>
                 </div>
                 <div className="self-stretch grid grid-cols-1 md:grid-cols-3 gap-10">
                     <div className="w-full flex flex-col items-center gap-8">
@@ -182,7 +182,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="flex flex-col items-center gap-4 text-center">
-                   <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-green-600 hover:bg-green-700 text-white">
+                   <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-accent hover:bg-accent/90 text-white">
                         <Link href="#apply">QUERO MINHA BOLSA</Link>
                     </Button>
                     <p className="text-xl text-muted-foreground">É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.</p>
@@ -199,7 +199,7 @@ export default function Home() {
                             <h2 className="text-white text-6xl font-bold leading-tight"> As bolsas são limitadas.</h2>
                             <p className="self-stretch text-white/90 text-lg font-normal leading-snug">As bolsas realmente são concedidas conforme a ordem de inscrição.<br/>Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.</p>
                         </div>
-                        <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-accent hover:bg-accent/90 text-white">
+                        <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground">
                             <Link href="#apply">QUERO MINHA BOLSA</Link>
                         </Button>
                     </div>
