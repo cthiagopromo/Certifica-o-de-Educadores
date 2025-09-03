@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div className="bg-background">
       <main className="flex flex-col items-center">
-        <section id="hero" className="w-full max-w-[1872px] px-4 md:px-10 lg:px-44 py-14 my-8 bg-purple-900 rounded-[48px] text-primary-foreground flex flex-col justify-center items-start gap-10">
-            <div className="self-stretch inline-flex justify-between items-center">
-                <div className="inline-flex flex-col justify-start items-start gap-8">
+        <section id="hero" className="w-full flex justify-center px-4 md:px-10 lg:px-12 py-14 my-8">
+            <div className="w-full max-w-7xl bg-purple-900 rounded-[48px] text-primary-foreground flex justify-between items-center p-12">
+                <div className="flex flex-col justify-start items-start gap-8">
                     <div className="self-stretch flex flex-col justify-start items-start gap-2.5">
                         <div data-aparence="White" data-product="SóEducador" data-size="Large" data-typo="Logo" className="w-80 h-12 flex flex-col justify-start items-center gap-2.5">
                             <div className="self-stretch flex-1 relative">
@@ -28,12 +28,12 @@ export default function Home() {
                         <p className="flex-1 justify-center text-purple-200 text-lg font-normal leading-snug">Agora chegou a sua vez de ser essa inspiração.</p>
                     </div>
                 </div>
-                <Image className="w-[697px] h-[652px] rounded-xl" src="https://picsum.photos/697/652" width={697} height={652} alt="Professor inspirador" data-ai-hint="inspiring teacher" />
+                <Image className="w-[697px] h-[652px] rounded-xl hidden xl:block" src="https://picsum.photos/697/652" width={697} height={652} alt="Professor inspirador" data-ai-hint="inspiring teacher" />
             </div>
         </section>
 
-        <section id="programs" className="w-full px-4 md:px-10 lg:px-44 py-14">
-            <div className="w-full flex flex-col lg:flex-row justify-between items-center">
+        <section id="programs" className="w-full flex justify-center px-4 md:px-10 lg:px-12 py-14">
+            <div className="w-full max-w-7xl flex flex-col lg:flex-row justify-between items-center">
                 <div className="w-full lg:w-1/2 flex flex-col justify-start items-start gap-4">
                     <div className="px-4 py-2 bg-muted rounded-lg">
                         <div className="text-primary text-lg font-bold leading-snug">Conheça a formação contemplada</div>
@@ -54,7 +54,7 @@ export default function Home() {
                         <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2 flex flex-col justify-center items-start gap-2 mt-10 lg:mt-0">
+                <div className="w-full lg:w-1/2 flex flex-col justify-center items-start gap-2 mt-10 lg:mt-0 lg:pl-10">
                     <div className="self-stretch flex flex-col sm:flex-row justify-start items-center gap-4">
                         <div className="flex-1 w-full h-60 px-8 sm:px-12 bg-muted rounded-3xl shadow-lg flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
@@ -70,10 +70,10 @@ export default function Home() {
             </div>
         </section>
 
-        <div className="self-stretch h-px bg-border my-12" />
+        <div className="w-full max-w-7xl h-px bg-border my-12" />
 
-        <section id="target-audience" className="w-full px-4 md:px-10 lg:px-44 py-14">
-            <div className="w-full flex flex-col justify-start items-center gap-10">
+        <section id="target-audience" className="w-full flex justify-center px-4 md:px-10 lg:px-12 py-14">
+            <div className="w-full max-w-7xl flex flex-col justify-start items-center gap-10">
                 <div className="flex flex-col justify-start items-center gap-6 text-center">
                     <div className="px-4 py-2 bg-muted rounded-lg">
                         <div className="text-primary text-lg font-bold leading-snug">Quem pode se inscrever?</div>
@@ -113,10 +113,10 @@ export default function Home() {
             </div>
         </section>
 
-        <div className="self-stretch h-px bg-border my-12" />
+        <div className="w-full max-w-7xl h-px bg-border my-12" />
 
-        <section id="apply" className="w-full px-4 md:px-10 lg:px-44 py-14">
-            <div className="w-full flex flex-col justify-start items-center gap-10">
+        <section id="apply" className="w-full flex justify-center px-4 md:px-10 lg:px-12 py-14">
+            <div className="w-full max-w-7xl flex flex-col justify-start items-center gap-10">
                 <div className="flex flex-col justify-start items-center gap-6 text-center">
                     <div className="px-4 py-2 bg-muted rounded-lg">
                         <div className="text-primary text-lg font-bold leading-snug">Como funciona o processo seletivo</div>
@@ -158,10 +158,11 @@ export default function Home() {
             </div>
         </section>
 
-        <div className="self-stretch h-px bg-border my-12" />
+        <div className="w-full max-w-7xl h-px bg-border my-12" />
 
-        <section id="vacancies" className="w-full px-4 md:px-10 lg:px-44 py-24 rounded-3xl bg-primary text-primary-foreground relative overflow-hidden my-8">
-            <Image src="https://picsum.photos/1872/557" alt="Vagas limitadas" layout="fill" objectFit="cover" className="z-0 opacity-20" data-ai-hint="abstract texture" />
+        <section id="vacancies" className="w-full flex justify-center px-4 md:px-10 lg:px-12 py-14 my-8">
+          <div className="w-full max-w-7xl py-24 rounded-3xl bg-primary text-primary-foreground relative overflow-hidden">
+            <Image src="https://picsum.photos/1280/400" alt="Vagas limitadas" layout="fill" objectFit="cover" className="z-0 opacity-20" data-ai-hint="abstract texture" />
             <div className="relative z-10 flex flex-col justify-start items-center gap-6 text-center max-w-3xl mx-auto">
                 <div className="p-6 bg-[#F8B6FE] rounded-2xl shadow-lg">
                     <div className="text-4xl text-gray-900 font-bold">🚨</div>
@@ -174,12 +175,13 @@ export default function Home() {
                     <Link href="#apply">QUERO MINHA BOLSA</Link>
                 </Button>
             </div>
+          </div>
         </section>
 
-        <div className="self-stretch h-px bg-border my-12" />
+        <div className="w-full max-w-7xl h-px bg-border my-12" />
 
-        <section id="about" className="w-full px-4 md:px-10 lg:px-44 py-14 bg-gray-50 dark:bg-gray-900">
-            <div className="container mx-auto">
+        <section id="about" className="w-full flex justify-center px-4 md:px-10 lg:px-12 py-14 bg-gray-50 dark:bg-gray-900">
+            <div className="w-full max-w-7xl">
                 <div className="flex flex-col justify-start items-start gap-6">
                     <div className="w-full max-w-3xl flex flex-col justify-start items-start gap-2">
                         <div className="px-4 py-2 bg-muted rounded-lg">
@@ -205,8 +207,6 @@ export default function Home() {
                 </div>
             </div>
         </section>
-
-        <div className="self-stretch h-px bg-border my-12" />
 
       </main>
       <footer className="w-full bg-primary text-primary-foreground">
