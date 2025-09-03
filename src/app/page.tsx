@@ -54,15 +54,15 @@ export default function Home() {
                         <div className="self-stretch py-4 flex flex-col justify-start items-start gap-1 text-base text-foreground">
                             <p>
                                 <span className="font-normal">Quer tornar suas aulas mais envolventes?</span>
-                                <span className="font-semibold text-primary underline"> Temos materiais para isso.</span>
+                                <span className="font-semibold text-primary"> Temos materiais para isso.</span>
                             </p>
                             <p>
                                 <span className="font-normal">Quer se sentir mais seguro em frente aos alunos? </span>
-                                <span className="font-semibold text-primary underline">Você vai conquistar essa confiança.</span>
+                                <span className="font-semibold text-primary">Você vai conquistar essa confiança.</span>
                             </p>
                             <p>
                                 <span className="font-normal">Quer abrir caminhos para novas oportunidades na educação? </span>
-                                <span className="font-semibold text-primary underline">A certificação abre portas.</span>
+                                <span className="font-semibold text-primary">A certificação abre portas.</span>
                             </p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
@@ -74,14 +74,14 @@ export default function Home() {
                     </div>
                     <div className="w-full lg:w-[556px] flex flex-col justify-center items-start gap-2">
                         <div className="self-stretch flex justify-start items-center gap-4">
-                            <div className="flex-1 h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-lg flex flex-col justify-center items-start">
+                            <div className="flex-1 h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-md flex flex-col justify-center items-start">
                                 <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                             </div>
-                            <div className="flex-1 h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-lg flex flex-col justify-center items-start">
+                            <div className="flex-1 h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-md flex flex-col justify-center items-start">
                                 <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
                             </div>
                         </div>
-                        <div className="w-64 h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-lg flex flex-col justify-center items-start">
+                        <div className="w-64 h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-md flex flex-col justify-center items-start">
                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">1</span>
                             </div>
                         </div>
-                        <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-lg outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
+                        <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
                             <p className="self-stretch text-2xl text-foreground">Você preenche o formulário com seus dados.</p>
                         </div>
                     </div>
@@ -160,7 +160,7 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">2</span>
                             </div>
                         </div>
-                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-lg outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start text-left">
+                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start text-left">
                            <p className="self-stretch text-2xl text-foreground">
                                 <span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span>
                                 <span className="font-bold">potencial impacto</span>
@@ -175,7 +175,7 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">3</span>
                             </div>
                         </div>
-                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-lg outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start text-left">
+                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start text-left">
                            <p className="self-stretch text-2xl text-foreground">
                                <span className="font-normal">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com</span>
                                <span className="font-bold"> 50% de bolsa.</span>
