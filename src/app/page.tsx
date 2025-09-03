@@ -39,9 +39,9 @@ export default function Home() {
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">A Certificação de Educadores reúne de 1 a 3 cursos online, com conteúdo pensado para o dia a dia da sala de aula. Nada de teoria distante ou inacessível. Aqui, você vai encontrar formações práticas, aplicáveis e inspiradoras.</p>
                         </div>
                         <div className="self-stretch py-4 flex flex-col justify-start items-start gap-1">
-                            <p className="self-stretch"><span className="text-foreground text-base font-normal leading-tight">Quer tornar suas aulas mais envolventes?</span><Link href="#" className="text-accent text-base font-semibold underline leading-tight"> Temos materiais para isso.</Link></p>
-                            <p className="self-stretch"><span className="text-foreground text-base font-normal leading-tight">Quer se sentir mais seguro em frente aos alunos? </span><Link href="#" className="text-accent text-base font-semibold underline leading-tight">Você vai conquistar essa confiança.</Link></p>
-                            <p className="self-stretch"><span className="text-foreground text-base font-normal leading-tight">Quer abrir caminhos para novas oportunidades na educação? </span><Link href="#" className="text-accent text-base font-semibold underline leading-tight">A certificação abre portas.</Link></p>
+                            <p className="self-stretch text-base text-foreground"><span className="font-normal">Quer tornar suas aulas mais envolventes?</span><Link href="#" className="font-semibold text-accent underline"> Temos materiais para isso.</Link></p>
+                            <p className="self-stretch text-base text-foreground"><span className="font-normal">Quer se sentir mais seguro em frente aos alunos? </span><Link href="#" className="font-semibold text-accent underline">Você vai conquistar essa confiança.</Link></p>
+                            <p className="self-stretch text-base text-foreground"><span className="font-normal">Quer abrir caminhos para novas oportunidades na educação? </span><Link href="#" className="font-semibold text-accent underline">A certificação abre portas.</Link></p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
                             <Button asChild className="px-12 py-6 bg-accent hover:bg-accent/90 text-accent-foreground rounded-2xl text-xl font-medium">
@@ -206,7 +206,7 @@ export default function Home() {
                         <div className="flex-1 self-stretch flex flex-col justify-start items-start gap-4">
                             <div className="self-stretch flex flex-col sm:flex-row justify-start items-start gap-4">
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://picsum.photos/416/320" alt="Classroom" data-ai-hint="classroom students" />
-                                <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://picsum.photos/417/320" alt="Teacher helping student" data-ai-hint="teacher student" />
+                                <Image className="flex-1 h-80 object-cover rounded-2xl" width={417} height={320} src="https://picsum.photos/417/320" alt="Teacher helping student" data-ai-hint="teacher student" />
                             </div>
                             <div className="self-stretch py-14 bg-primary rounded-2xl flex flex-col justify-center items-center text-center">
                                 <div className="max-w-[848px] px-12 flex flex-col justify-start items-start">
@@ -252,3 +252,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
