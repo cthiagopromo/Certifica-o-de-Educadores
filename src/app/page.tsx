@@ -82,7 +82,7 @@ export default function Home() {
                         <div className="p-6 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
-                        <div className="p-6 bg-muted rounded-3xl shadow-sm flex-col justify-center items-start hidden sm:flex">
+                        <div className="p-6 rounded-3xl shadow-sm flex-col justify-center items-start hidden sm:flex">
                         </div>
                     </div>
                 </div>
@@ -273,3 +273,4 @@ export default function Home() {
 
     
 
+    
