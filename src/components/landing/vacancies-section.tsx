@@ -26,8 +26,8 @@ export default function VacanciesSection() {
                 As bolsas realmente são concedidas conforme a ordem de inscrição.<br/>Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.
               </p>
             </div>
-            <Button asChild style={{display: 'flex', padding: '24px 48px', alignItems: 'flex-start'}} className="bg-green-500 rounded-2xl hover:bg-green-600">
-                <Link href="#apply" className="text-white text-xl font-medium leading-normal">QUERO MINHA BOLSA</Link>
+            <Button asChild size="lg" className="px-12 py-6 bg-green-600 text-white rounded-2xl hover:bg-green-700 text-xl font-medium">
+                <Link href="#apply">QUERO MINHA BOLSA</Link>
             </Button>
           </div>
         </div>

@@ -22,8 +22,8 @@ export default function HeroSection() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-5 w-full sm:w-auto">
-                <Button asChild style={{display: 'flex', padding: '24px 48px', alignItems: 'flex-start'}} className="bg-white text-gray-900 rounded-2xl hover:bg-gray-200">
-                    <Link href="#apply" className="text-xl font-medium leading-normal">QUERO MINHA BOLSA</Link>
+                <Button asChild size="lg" className="px-12 py-6 bg-white text-gray-900 rounded-2xl hover:bg-gray-200 text-xl font-medium">
+                    <Link href="#apply">QUERO MINHA BOLSA</Link>
                 </Button>
                 <p className="text-lg text-gray-300">
                   Agora chegou a sua vez de ser essa inspiração.
