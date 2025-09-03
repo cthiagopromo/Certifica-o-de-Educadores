@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className="bg-background">
       <main className="flex flex-col items-center">
-        <div className="w-full max-w-[1440px] pt-8 bg-background inline-flex flex-col justify-center items-center gap-12 overflow-hidden">
-            <div className="w-[1312px] max-w-[1872px] p-14 bg-purple-900 rounded-[48px] flex flex-col justify-center items-start gap-10">
+        <div className="w-full pt-8 bg-background flex flex-col justify-center items-center gap-12 overflow-hidden">
+            <div className="w-full max-w-[1312px] p-14 bg-purple-900 rounded-[48px] flex flex-col justify-center items-start gap-10">
                 <div className="self-stretch inline-flex justify-between items-center">
                     <div className="w-[583px] inline-flex flex-col justify-start items-start gap-8">
                         <div className="self-stretch flex flex-col justify-start items-start gap-2.5">
@@ -31,8 +31,8 @@ export default function Home() {
                 </div>
             </div>
             <div className="self-stretch px-16 flex flex-col justify-start items-center gap-20">
-                <div className="self-stretch py-14 inline-flex justify-between items-center">
-                    <div className="w-[1312px] flex justify-between items-center">
+                <div className="self-stretch py-14 inline-flex justify-center items-center">
+                    <div className="w-full max-w-[1312px] flex justify-between items-center">
                         <div className="w-[651px] inline-flex flex-col justify-start items-start gap-4">
                             <div className="px-4 py-2 bg-muted rounded-lg flex flex-col justify-start items-start">
                                 <div className="inline-flex justify-start items-center gap-2">
@@ -71,8 +71,8 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="self-stretch h-px bg-border" />
-                <div className="self-stretch px-44 flex flex-col justify-center items-center gap-2.5">
-                    <div className="w-[1312px] flex flex-col justify-start items-center gap-10">
+                <div className="self-stretch px-16 flex flex-col justify-center items-center gap-2.5">
+                    <div className="w-full max-w-[1312px] flex flex-col justify-start items-center gap-10">
                         <div className="flex flex-col justify-start items-center gap-6">
                             <div className="px-4 py-2 bg-muted rounded-lg flex flex-col justify-start items-start">
                                 <div className="inline-flex justify-start items-center gap-2">
@@ -117,8 +117,8 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="self-stretch h-px bg-border" />
-                <div className="self-stretch px-44 flex flex-col justify-center items-center gap-2.5">
-                    <div className="w-[1312px] flex flex-col justify-start items-center gap-10">
+                <div className="self-stretch px-16 flex flex-col justify-center items-center gap-2.5">
+                    <div className="w-full max-w-[1312px] flex flex-col justify-start items-center gap-10">
                         <div className="flex flex-col justify-start items-center gap-6">
                             <div className="px-4 py-2 bg-muted rounded-lg flex flex-col justify-start items-start">
                                 <div className="inline-flex justify-start items-center gap-2">
@@ -178,7 +178,7 @@ export default function Home() {
                 </div>
                 <div className="self-stretch h-px bg-border" />
                 <div className="self-stretch flex flex-col justify-start items-start gap-2.5">
-                    <div className="self-stretch px-44 py-24 bg-primary rounded-3xl inline-flex justify-center items-center overflow-hidden relative">
+                    <div className="self-stretch px-16 py-24 bg-primary rounded-3xl inline-flex justify-center items-center overflow-hidden relative">
                          <Image src="https://picsum.photos/1312/400" alt="Vagas limitadas" layout="fill" objectFit="cover" className="z-0 opacity-20" data-ai-hint="abstract texture" />
                         <div className="relative z-10 inline-flex flex-col justify-start items-center gap-6">
                             <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg inline-flex justify-center items-center overflow-hidden">
@@ -196,7 +196,7 @@ export default function Home() {
                 </div>
                 <div className="self-stretch h-px bg-border" />
                 <div className="w-full bg-gray-50 dark:bg-gray-900 flex flex-col justify-center items-center">
-                    <div className="w-[1312px] flex flex-col justify-start items-start gap-6 py-14">
+                    <div className="w-full max-w-[1312px] flex flex-col justify-start items-start gap-6 py-14">
                         <div className="w-[803px] flex flex-col justify-start items-start gap-2">
                             <div className="px-4 py-2 bg-muted rounded-lg flex flex-col justify-start items-start">
                                 <div className="inline-flex justify-start items-center gap-2">
@@ -206,14 +206,14 @@ export default function Home() {
                             <div className="w-[494px] justify-center text-foreground text-5xl font-semibold leading-[57.60px]">Quem somos e por que fazemos isso</div>
                             <div className="self-stretch justify-center text-muted-foreground text-xl font-normal leading-normal">A SóEducador nasceu com um propósito simples e poderoso: estar ao lado dos professores. Sabemos que a educação no Brasil é cheia de desafios — mas também sabemos que cada professor carrega dentro de si a chama da transformação.</div>
                         </div>
-                        <div className="w-[1280px] inline-flex justify-start items-start gap-4">
+                        <div className="w-full max-w-[1280px] inline-flex justify-start items-start gap-4">
                             <Image className="w-96 self-stretch rounded-2xl object-cover" width={384} height={609} src="https://picsum.photos/384/609" alt="Educator" data-ai-hint="educator teaching" />
-                            <div className="w-[848px] self-stretch inline-flex flex-col justify-start items-start gap-4">
-                                <div className="w-[848px] inline-flex justify-start items-start gap-4">
-                                    <Image className="w-96 h-80 object-cover rounded-2xl" width={416} height={320} src="https://picsum.photos/416/320" alt="Classroom" data-ai-hint="classroom students" />
-                                    <Image className="w-96 h-80 object-cover rounded-2xl" width={416} height={320} src="https://picsum.photos/417/320" alt="Teacher helping student" data-ai-hint="teacher student" />
+                            <div className="flex-1 self-stretch inline-flex flex-col justify-start items-start gap-4">
+                                <div className="self-stretch inline-flex justify-start items-start gap-4">
+                                    <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://picsum.photos/416/320" alt="Classroom" data-ai-hint="classroom students" />
+                                    <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://picsum.photos/417/320" alt="Teacher helping student" data-ai-hint="teacher student" />
                                 </div>
-                                <div className="w-[848px] py-14 bg-primary rounded-2xl flex flex-col justify-center items-center">
+                                <div className="self-stretch py-14 bg-primary rounded-2xl flex flex-col justify-center items-center">
                                     <div className="max-w-[848px] px-12 flex flex-col justify-start items-start">
                                         <div className="self-stretch text-center justify-center text-white text-3xl font-medium leading-loose">Nossa missão é celebrar suas conquistas, espalhar amor pela educação e apoiar quem dedica a vida a ensinar. Porque, no fim das contas, quando apoiamos professores, transformamos o futuro de todos.</div>
                                     </div>
