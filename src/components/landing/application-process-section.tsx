@@ -1,20 +1,33 @@
-import { FileText, UserCheck, CheckCircle } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 const steps = [
   {
-    icon: <FileText className="w-8 h-8 text-primary-foreground" />,
     title: 'Preencha o formulário',
     description: 'Você preenche o formulário com seus dados.',
+    paddingTop: 'pt-0',
   },
   {
-    icon: <UserCheck className="w-8 h-8 text-primary-foreground" />,
     title: 'Análise de perfil',
-    description: 'Nossa equipe analisa cada perfil com cuidado, valorizando o potencial impacto que você pode gerar na educação.',
+    description: (
+      <>
+        Nossa equipe analisa cada perfil com cuidado, valorizando o{' '}
+        <span className="font-bold">potencial impacto</span> que você pode gerar
+        na educação.
+      </>
+    ),
+    paddingTop: 'md:pt-8',
   },
   {
-    icon: <CheckCircle className="w-8 h-8 text-primary-foreground" />,
     title: 'Aprovação e Matrícula',
-    description: 'Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com 50% de bolsa.',
+    description: (
+      <>
+        Se aprovado, você recebe uma mensagem de parabéns e o link para
+        garantir sua matrícula com{' '}
+        <span className="font-bold">50% de bolsa.</span>
+      </>
+    ),
+    paddingTop: 'md:pt-16',
   },
 ];
 
@@ -22,32 +35,51 @@ export default function ApplicationProcessSection() {
   return (
     <section id="apply" className="py-20 md:py-28 bg-card border-y">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold font-headline">📌 O processo é simples, humano e rápido.</h2>
-          <p className="mt-4 text-lg text-muted-foreground">
-            É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.
-          </p>
-        </div>
-        <div className="relative mt-16">
-          <div className="absolute left-1/2 top-6 h-[calc(100%-3rem)] w-px bg-border -translate-x-1/2 md:hidden" aria-hidden="true"></div>
-          <div className="absolute left-0 top-6 w-full h-px bg-border hidden md:block" aria-hidden="true"></div>
-          <div className="grid md:grid-cols-3 gap-y-16 md:gap-x-8">
+        <div className="flex flex-col justify-start items-center gap-10">
+          <div className="flex flex-col justify-start items-center gap-6 text-center">
+            <div className="px-4 py-2 bg-muted rounded-lg inline-block">
+              <div className="text-primary text-lg font-bold leading-snug">
+                Como funciona o processo seletivo
+              </div>
+            </div>
+            <h2 className="max-w-2xl text-foreground text-5xl font-semibold leading-tight">
+              O processo é simples, humano e rápido.
+            </h2>
+          </div>
+
+          <div className="self-stretch grid md:grid-cols-3 gap-10 items-start">
             {steps.map((step, index) => (
-              <div key={index} className="relative text-center">
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 md:hidden">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary z-10 relative">
-                      {step.icon}
+              <div
+                key={index}
+                className={`flex flex-col justify-start items-start w-full ${step.paddingTop}`}
+              >
+                <div className="self-stretch flex flex-col justify-start items-center gap-7">
+                  <div className="self-stretch relative inline-flex justify-center items-center">
+                    <div className="w-full h-px absolute top-1/2 -translate-y-1/2 bg-primary/20" />
+                    <div className="relative px-2.5 py-0.5 bg-primary rounded-full flex justify-center items-center border-2 border-background">
+                      <span className="text-primary-foreground text-lg font-bold">
+                        {index + 1}
+                      </span>
                     </div>
+                  </div>
+                  <div className="w-full h-60 max-w-sm px-8 bg-muted rounded-3xl shadow-lg outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
+                    <p className="self-stretch text-foreground text-xl md:text-2xl leading-7 text-center">
+                      {step.description}
+                    </p>
+                  </div>
                 </div>
-                 <div className="hidden md:flex justify-center mb-6">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary z-10 relative">
-                      {step.icon}
-                    </div>
-                 </div>
-                <h3 className="text-xl font-semibold mb-2 mt-12 md:mt-0">{`${index + 1}. ${step.title}`}</h3>
-                <p className="text-muted-foreground">{step.description}</p>
               </div>
             ))}
+          </div>
+
+          <div className="flex flex-col justify-center items-center gap-4 text-center">
+            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-12 py-6 text-xl">
+              <Link href="#apply">QUERO MINHA BOLSA</Link>
+            </Button>
+            <p className="text-muted-foreground text-xl">
+              É direto, sem burocracia e pensado para não tirar seu foco do que
+              realmente importa: ensinar.
+            </p>
           </div>
         </div>
       </div>
