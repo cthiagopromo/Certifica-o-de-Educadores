@@ -22,7 +22,7 @@ export default function ProgramSection() {
               <p className="self-stretch justify-center"><span className="text-foreground text-base font-normal leading-tight">Quer abrir caminhos para novas oportunidades na educação? </span><span className="text-accent text-base font-semibold underline leading-tight">A certificação abre portas.</span></p>
             </div>
             <div className="self-stretch flex flex-col justify-start items-start gap-4">
-               <Button asChild size="lg" style={{ backgroundColor: 'hsl(var(--accent))', color: 'hsl(var(--accent-foreground))' }} className="hover:bg-accent/90 px-12 py-6 text-xl">
+               <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-12 py-6 text-xl">
                     <Link href="#apply">QUERO MINHA BOLSA</Link>
                 </Button>
               <p className="self-stretch justify-center text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
