@@ -74,14 +74,14 @@ export default function Home() {
                     </div>
                     <div className="w-full lg:w-[556px] inline-flex flex-col justify-center items-start gap-2">
                         <div className="self-stretch inline-flex justify-start items-center gap-4">
-                            <div className="flex-1 h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm inline-flex flex-col justify-center items-start">
+                            <div className="h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm inline-flex flex-col justify-center items-start">
                                 <div className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</div>
                             </div>
-                            <div className="flex-1 h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm inline-flex flex-col justify-center items-start">
+                            <div className="h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm inline-flex flex-col justify-center items-start">
                                 <div className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</div>
                             </div>
                         </div>
-                        <div className="flex-1 w-full flex flex-col justify-center items-start h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm">
+                        <div className="w-full flex flex-col justify-center items-start h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm">
                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                     </div>
