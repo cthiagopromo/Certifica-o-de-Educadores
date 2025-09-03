@@ -75,10 +75,10 @@ export default function Home() {
                     <div className="w-full lg:w-[556px] inline-flex flex-col justify-center items-start gap-2">
                         <div className="self-stretch inline-flex justify-start items-center gap-4">
                             <div className="flex-1 h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm inline-flex flex-col justify-center items-start">
-                                <div className="self-stretch justify-center text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</div>
+                                <div className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</div>
                             </div>
                             <div className="flex-1 h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm inline-flex flex-col justify-center items-start">
-                                <div className="self-stretch justify-center text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</div>
+                                <div className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</div>
                             </div>
                         </div>
                         <div className="flex-1 w-full flex flex-col justify-center items-start h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm">
@@ -160,8 +160,8 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">2</span>
                             </div>
                         </div>
-                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
-                           <p className="self-stretch text-2xl text-foreground text-center">
+                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start text-center">
+                           <p className="self-stretch text-2xl text-foreground">
                                 <span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span>
                                 <span className="font-bold">potencial impacto</span>
                                 <span className="font-normal"> que você pode gerar na educação.</span>
@@ -271,3 +271,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
