@@ -32,10 +32,10 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
-                             <Button asChild className="px-8 py-4 bg-white text-black rounded-2xl text-lg md:text-xl font-medium hover:bg-gray-200">
+                            <Button asChild className="px-8 py-4 bg-white text-black rounded-2xl text-lg md:text-xl font-medium hover:bg-gray-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
-                            <div className="text-[#F8B6FE] text-base md:text-lg font-normal leading-tight">Agora chegou a sua vez de ser essa inspiração.</div>
+                            <div className="text-[#F8B6FE] text-base md:text-lg font-normal leading-[1.2]">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
                     <Image className="w-full max-w-[29.6875rem] h-auto rounded-xl hidden lg:block" width={475} height={444} src="https://picsum.photos/475/444" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
@@ -54,15 +54,15 @@ export default function Home() {
                         <div className="self-stretch py-4 flex flex-col justify-start items-start gap-1 text-base text-foreground">
                             <p>
                                 <span className="font-normal">Quer tornar suas aulas mais envolventes?</span>
-                                <span className="text-primary font-semibold underline"> Temos materiais para isso.</span>
+                                <span className="font-semibold text-[#800A8B] underline"> Temos materiais para isso.</span>
                             </p>
                             <p>
                                 <span className="font-normal">Quer se sentir mais seguro em frente aos alunos? </span> 
-                                <span className="text-primary font-semibold underline">Você vai conquistar essa confiança.</span>
+                                <span className="font-normal">Você vai conquistar essa confiança.</span>
                             </p>
                             <p>
                                 <span className="font-normal">Quer abrir caminhos para novas oportunidades na educação? </span> 
-                                <span className="text-primary font-semibold underline">A certificação abre portas.</span>
+                                <span className="font-normal">A certificação abre portas.</span>
                             </p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
@@ -73,13 +73,13 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-4 w-full">
-                        <div className="p-6 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
+                        <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
-                        <div className="p-6 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
+                        <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
                         </div>
-                        <div className="p-6 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
+                        <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
                            <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                         <div className="p-6 rounded-3xl flex flex-col justify-center items-start">
