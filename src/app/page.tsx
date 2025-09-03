@@ -72,17 +72,17 @@ export default function Home() {
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
                         </div>
                     </div>
-                    <div className="w-full lg:w-[556px] flex flex-col justify-center items-start gap-4">
-                        <div className="self-stretch flex flex-col sm:flex-row justify-start items-center gap-4">
-                            <div className="w-full h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-lg inline-flex flex-col justify-center items-start">
-                                <p className="text-2xl font-medium leading-7 text-foreground">✅ Torne-se referência entre colegas e alunos.</p>
+                    <div className="w-full lg:w-[556px] flex flex-col justify-center items-start gap-2">
+                        <div className="self-stretch flex justify-start items-center gap-4">
+                            <div className="flex-1 h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-lg flex flex-col justify-center items-start">
+                                <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                             </div>
-                            <div className="w-full h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-lg inline-flex flex-col justify-center items-start">
-                                <p className="text-2xl font-medium leading-7 text-muted-foreground">✅ Traga mais criatividade e inovação para suas aulas.</p>
+                            <div className="flex-1 h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-lg flex flex-col justify-center items-start">
+                                <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
                             </div>
                         </div>
-                        <div className="w-full sm:w-auto p-8 bg-muted rounded-3xl shadow-lg flex justify-center items-start h-60 max-w-[1280px] px-12 bg-Sufarce-Global-surface-label rounded-3xl shadow-[0px_1px_2px_-1px_rgba(0,0,0,0.10)] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-center items-start">
-                            <p className="text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
+                        <div className="w-64 h-60 max-w-[1280px] px-12 bg-muted rounded-3xl shadow-lg flex flex-col justify-center items-start">
+                           <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                     </div>
                 </div>
