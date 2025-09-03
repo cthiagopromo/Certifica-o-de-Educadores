@@ -43,7 +43,7 @@ export default function Home() {
             </section>
             <section id="programs" className="self-stretch py-14 flex justify-center items-center">
                 <div className="w-full max-w-[1312px] flex flex-col lg:flex-row justify-between items-center gap-20 px-4">
-                    <div className="w-full lg:w-[651px] flex flex-col justify-start items-start gap-4 shrink-0">
+                    <div className="flex flex-col items-start gap-4 flex-shrink-0 w-[651px]">
                         <div className="px-4 py-2 bg-muted rounded-lg flex justify-start items-start">
                             <div className="text-primary text-lg font-bold leading-snug">Conheça a formação contemplada</div>
                         </div>
@@ -73,13 +73,13 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full lg:w-[556px] grid grid-cols-2 gap-4">
-                        <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
+                        <div className="h-[246px] px-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
-                        <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
+                        <div className="h-[246px] px-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
                         </div>
-                        <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start col-span-1">
+                        <div className="h-[246px] px-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start col-span-1">
                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                     </div>
