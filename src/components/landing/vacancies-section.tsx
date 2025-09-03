@@ -17,8 +17,8 @@ export default function VacanciesSection() {
                     Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.
                 </p>
             </div>
-             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-12 py-6 text-xl">
-                <Link href="#apply">QUERO MINHA INSCRIÇÃO</Link>
+             <Button asChild size="lg" className="bg-green-600 text-white hover:bg-green-700 px-12 py-6 text-xl rounded-2xl">
+                <Link href="#apply">QUERO MINHA BOLSA</Link>
             </Button>
         </div>
       </div>

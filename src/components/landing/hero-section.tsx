@@ -22,7 +22,7 @@ export default function HeroSection() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-5 w-full sm:w-auto">
-                <Button asChild size="lg" className="bg-white text-purple-900 hover:bg-gray-200 px-12 py-6 text-xl w-full sm:w-auto">
+                <Button asChild size="lg" className="bg-green-600 text-white hover:bg-green-700 px-12 py-6 text-xl w-full sm:w-auto rounded-2xl">
                     <Link href="#apply">QUERO MINHA BOLSA</Link>
                 </Button>
                 <p className="text-lg text-gray-300">

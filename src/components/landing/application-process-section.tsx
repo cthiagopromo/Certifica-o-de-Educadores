@@ -73,7 +73,7 @@ export default function ApplicationProcessSection() {
           </div>
 
           <div className="flex flex-col justify-center items-center gap-4 text-center">
-            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-12 py-6 text-xl">
+            <Button asChild size="lg" className="bg-green-600 text-white hover:bg-green-700 px-12 py-6 text-xl rounded-2xl">
               <Link href="#apply">QUERO MINHA BOLSA</Link>
             </Button>
             <p className="text-muted-foreground text-xl">
