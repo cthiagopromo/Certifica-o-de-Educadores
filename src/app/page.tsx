@@ -11,7 +11,20 @@ export default function Home() {
             <section id="hero" className="w-full max-w-[1312px] p-14 my-8 bg-primary rounded-[48px] text-primary-foreground">
                 <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
                     <div className="flex flex-col justify-start items-start gap-8 max-w-xl">
-                        <div className="text-4xl font-bold text-primary-foreground">SóEducador</div>
+                    <svg width="329" height="50" viewBox="0 0 329 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5.59277 0.960205H60.2536L44.8324 49.9507H0L5.59277 0.960205Z" fill="#EEE4FF"/>
+                      <path d="M66.4258 17.7305H83.7325L78.1397 41.3005H60.833" fill="#EEE4FF"/>
+                      <path d="M87.6455 8.61108H109.824L104.231 42.1811H82.0527" fill="#EEE4FF"/>
+                      <path d="M114.641 17.7305H136.46L130.867 42.3005H109.048" fill="#EEE4FF"/>
+                      <path d="M140.938 9.08179H163.475L157.882 42.3005H135.346" fill="#EEE4FF"/>
+                      <path d="M170.252 18.3904H190.15L184.557 42.3005H164.659" fill="#EEE4FF"/>
+                      <path d="M196.082 17.7305H216.27L210.677 42.3005H190.489" fill="#EEE4FF"/>
+                      <path d="M219.711 17.7405H242.248L236.655 42.3105H214.118" fill="#EEE4FF"/>
+                      <path d="M248.197 9.08179H270.734L265.141 42.3005H242.604" fill="#EEE4FF"/>
+                      <path d="M276.684 17.7305H298.862L293.269 42.3005H271.091" fill="#EEE4FF"/>
+                      <path d="M304.826 17.9412H316.702L311.109 41.6212H299.233" fill="#EEE4FF"/>
+                      <path d="M318.084 33.4705H325.75L323.003 42.3105H315.337" fill="#EEE4FF"/>
+                    </svg>
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
                             <h1 className="self-stretch text-white text-5xl md:text-6xl font-bold leading-tight">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
                             <p className="self-stretch text-lg md:text-xl text-gray-200">
@@ -44,7 +57,7 @@ export default function Home() {
                             <p className="self-stretch text-base text-foreground"><span className="font-normal">Quer abrir caminhos para novas oportunidades na educação? </span><Link href="#" className="font-semibold text-accent underline">A certificação abre portas.</Link></p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
-                            <Button asChild className="px-12 py-6 bg-[#16A34A] hover:bg-[#16A34A]/90 text-white rounded-2xl text-xl font-medium">
+                           <Button asChild className="px-12 py-6 bg-[#16A34A] hover:bg-[#16A34A]/90 text-white rounded-2xl text-xl font-medium">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
@@ -112,65 +125,49 @@ export default function Home() {
                 </div>
             </div>
             <div className="self-stretch h-px bg-border" />
-            <div className="self-stretch px-4 md:px-16 flex flex-col justify-center items-center gap-2.5">
-                <div className="w-full max-w-[1312px] flex flex-col justify-start items-center gap-10">
-                    <div className="flex flex-col justify-start items-center gap-6">
-                        <div className="px-4 py-2 bg-muted rounded-lg flex flex-col justify-start items-start">
-                            <div className="inline-flex justify-start items-center gap-2">
-                                <div className="justify-center text-primary text-lg font-bold leading-snug">Como funciona o processo seletivo</div>
-                            </div>
-                        </div>
-                        <h2 className="w-full max-w-[672px] text-center text-foreground text-5xl font-semibold leading-tight">O processo é simples, humano e rápido.</h2>
+            <section id="how-it-works" className="w-full max-w-[1312px] py-14 flex flex-col items-center gap-10">
+                <div className="flex flex-col items-center gap-6 text-center">
+                    <div className="px-4 py-2 bg-muted rounded-lg">
+                        <span className="text-primary text-lg font-bold">Como funciona o processo seletivo</span>
                     </div>
-                    <div className="self-stretch grid grid-cols-1 md:grid-cols-3 gap-10">
-                        <div className="flex flex-col justify-start items-start">
-                            <div className="self-stretch flex flex-col justify-start items-center gap-7">
-                                <div className="self-stretch relative flex justify-center items-center">
-                                    <div className="w-full h-px absolute top-1/2 -translate-y-1/2 bg-primary/20" />
-                                    <div className="px-2.5 py-0.5 relative bg-primary rounded-full flex justify-center items-center border-2 border-background">
-                                        <div className="text-primary-foreground text-lg font-bold">1</div>
-                                    </div>
-                                </div>
-                                <div className="w-full h-60 p-8 bg-muted rounded-3xl shadow-lg flex flex-col justify-center items-center text-center">
-                                    <p className="text-foreground text-2xl font-normal leading-7">Você preenche o formulário com seus dados.</p>
-                                </div>
-                            </div>
+                    <h2 className="text-5xl font-semibold text-foreground max-w-2xl">O processo é simples, humano e rápido.</h2>
+                </div>
+                <div className="self-stretch grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <div className="flex flex-col items-center gap-7">
+                        <div className="w-full relative flex justify-center">
+                            <div className="w-full h-px absolute top-1/2 bg-primary/20"></div>
+                            <span className="bg-primary text-primary-foreground rounded-full px-2.5 py-0.5 text-lg font-bold border-2 border-background z-10">1</span>
                         </div>
-                        <div className="flex flex-col justify-start items-start mt-0 md:mt-8">
-                            <div className="self-stretch flex flex-col justify-start items-center gap-7">
-                                <div className="self-stretch relative flex justify-center items-center">
-                                    <div className="w-full h-px absolute top-1/2 -translate-y-1/2 bg-primary/20" />
-                                    <div className="px-2.5 py-0.5 relative bg-primary rounded-full flex justify-center items-center border-2 border-background">
-                                        <div className="text-primary-foreground text-lg font-bold">2</div>
-                                    </div>
-                                </div>
-                                <div className="w-full h-60 p-8 bg-muted rounded-3xl shadow-lg flex flex-col justify-center items-center text-center">
-                                    <p className="text-foreground text-2xl font-normal leading-7">Nossa equipe analisa cada perfil com cuidado, valorizando o <span className="font-bold">potencial impacto</span> que você pode gerar na educação.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex flex-col justify-start items-start mt-0 md:mt-16">
-                            <div className="self-stretch flex flex-col justify-start items-center gap-7">
-                                <div className="self-stretch relative flex justify-center items-center">
-                                    <div className="w-full h-px absolute top-1/2 -translate-y-1/2 bg-primary/20" />
-                                    <div className="px-2.5 py-0.5 relative bg-primary rounded-full flex justify-center items-center border-2 border-background">
-                                        <div className="text-primary-foreground text-lg font-bold">3</div>
-                                    </div>
-                                </div>
-                                <div className="w-full h-60 p-8 bg-muted rounded-3xl shadow-lg flex flex-col justify-center items-center text-center">
-                                    <p className="text-foreground text-2xl font-normal leading-7">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com<span className="font-bold"> 50% de bolsa.</span></p>
-                                </div>
-                            </div>
+                        <div className="w-full h-60 p-8 bg-muted rounded-3xl shadow-lg flex items-center justify-center text-center">
+                            <p className="text-2xl text-foreground">Você preenche o formulário com seus dados.</p>
                         </div>
                     </div>
-                    <div className="self-stretch flex flex-col justify-center items-center gap-4">
-                        <Button asChild className="px-12 py-6 bg-[#16A349] hover:bg-[#16A349]/90 text-white rounded-2xl text-xl font-medium">
-                            <Link href="#apply">QUERO MINHA BOLSA</Link>
-                        </Button>
-                        <p className="self-stretch text-center text-muted-foreground text-xl font-normal leading-normal">É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.</p>
+                    <div className="flex flex-col items-center gap-7 mt-0 md:mt-8">
+                        <div className="w-full relative flex justify-center">
+                            <div className="w-full h-px absolute top-1/2 bg-primary/20"></div>
+                            <span className="bg-primary text-primary-foreground rounded-full px-2.5 py-0.5 text-lg font-bold border-2 border-background z-10">2</span>
+                        </div>
+                        <div className="w-full h-60 p-8 bg-muted rounded-3xl shadow-lg flex items-center justify-center text-center">
+                            <p className="text-2xl text-foreground">Nossa equipe analisa cada perfil com cuidado, valorizando o <span className="font-bold">potencial impacto</span> que você pode gerar na educação.</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col items-center gap-7 mt-0 md:mt-16">
+                        <div className="w-full relative flex justify-center">
+                            <div className="w-full h-px absolute top-1/2 bg-primary/20"></div>
+                            <span className="bg-primary text-primary-foreground rounded-full px-2.5 py-0.5 text-lg font-bold border-2 border-background z-10">3</span>
+                        </div>
+                        <div className="w-full h-60 p-8 bg-muted rounded-3xl shadow-lg flex items-center justify-center text-center">
+                            <p className="text-2xl text-foreground">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com<span className="font-bold"> 50% de bolsa.</span></p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div className="flex flex-col items-center gap-4 text-center">
+                   <Button asChild className="px-12 py-6 bg-[#16A349] hover:bg-[#16A349]/90 text-white rounded-2xl text-xl font-medium">
+                        <Link href="#apply">QUERO MINHA BOLSA</Link>
+                    </Button>
+                    <p className="text-xl text-muted-foreground">É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.</p>
+                </div>
+            </section>
             <div className="self-stretch h-px bg-border" />
             <div className="self-stretch flex flex-col justify-start items-start gap-2.5">
                 <div className="self-stretch px-4 md:px-16 py-24 bg-primary rounded-3xl flex justify-center items-center overflow-hidden relative">
@@ -252,5 +249,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
