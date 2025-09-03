@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-background">
       <main className="flex flex-col items-center">
         <div className="w-full flex flex-col justify-center items-center gap-12 overflow-hidden px-8 md:px-16">
-            <section id="hero" className="w-full max-w-[1312px] p-14 my-8 bg-primary rounded-[48px] text-primary-foreground">
+            <section id="hero" className="w-full max-w-[82rem] p-14 my-8 bg-primary rounded-[3rem] text-primary-foreground">
                 <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
                     <div className="flex flex-col justify-start items-start gap-8 max-w-xl">
                     <svg width="329" height="50" viewBox="0 0 329 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,12 +38,12 @@ export default function Home() {
                             <div className="flex-1 text-[#F8B6FE] text-lg font-normal">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
-                    <Image className="w-full max-w-[475px] h-auto rounded-xl hidden lg:block" width={475} height={444} src="https://picsum.photos/475/444" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
+                    <Image className="w-full max-w-[29.6875rem] h-auto rounded-xl hidden lg:block" width={475} height={444} src="https://picsum.photos/475/444" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
                 </div>
             </section>
             <section id="programs" className="self-stretch py-14 flex justify-center items-center">
-                <div className="w-full max-w-[1312px] flex flex-col lg:flex-row justify-between items-center gap-20 px-4">
-                    <div className="flex flex-col items-start gap-4 flex-shrink-0 lg:w-[651px]">
+                <div className="w-full max-w-[82rem] flex flex-col lg:flex-row justify-between items-center gap-20 px-4">
+                    <div className="flex flex-col items-start gap-4 flex-shrink-0 lg:w-[40.6875rem]">
                         <div className="px-4 py-2 bg-muted rounded-lg flex justify-start items-start">
                             <div className="text-primary text-lg font-bold leading-snug">Conheça a formação contemplada</div>
                         </div>
@@ -89,7 +89,7 @@ export default function Home() {
             </section>
             <div className="self-stretch h-px bg-border" />
             <div className="self-stretch px-4 md:px-16 flex flex-col justify-center items-center gap-2.5">
-                <div className="w-full max-w-[1312px] flex flex-col justify-start items-center gap-10 py-14">
+                <div className="w-full max-w-[82rem] flex flex-col justify-start items-center gap-10 py-14">
                     <div className="flex flex-col justify-start items-center gap-6">
                         <div className="px-4 py-2 bg-muted rounded-lg flex flex-col justify-start items-start">
                             <div className="inline-flex justify-start items-center gap-2">
@@ -97,8 +97,8 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="flex flex-col justify-center items-center gap-2">
-                            <h2 className="w-full max-w-[672px] text-center text-foreground text-5xl font-semibold leading-tight">Se você acredita no poder da educação, este programa é para você.</h2>
-                            <p className="self-stretch text-center text-muted-foreground text-xl font-normal max-w-[672px] leading-tight tracking-tight">A Certificação de Educadores é destinada a todos que têm a missão de ensinar e aprender:</p>
+                            <h2 className="w-full max-w-[42rem] text-center text-foreground text-5xl font-semibold leading-tight">Se você acredita no poder da educação, este programa é para você.</h2>
+                            <p className="self-stretch text-center text-muted-foreground text-xl font-normal max-w-[42rem] leading-tight tracking-tight">A Certificação de Educadores é destinada a todos que têm a missão de ensinar e aprender:</p>
                         </div>
                     </div>
                     <div className="self-stretch grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -134,7 +134,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="self-stretch h-px bg-border" />
-            <section id="how-it-works" className="w-full max-w-[1312px] py-14 flex flex-col items-center gap-10">
+            <section id="how-it-works" className="w-full max-w-[82rem] py-14 flex flex-col items-center gap-10">
                 <div className="flex flex-col items-center gap-6 text-center">
                     <div className="px-4 py-2 bg-muted rounded-lg">
                         <span className="text-primary text-lg font-bold">Como funciona o processo seletivo</span>
@@ -145,22 +145,22 @@ export default function Home() {
                     <div className="w-full flex flex-col items-center gap-8">
                         <div className="self-stretch relative flex justify-center items-center">
                             <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
-                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
+                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[0.625rem] border-[0.09375rem] border-white flex justify-center items-center z-10">
                                 <span className="text-lg font-bold text-primary-foreground">1</span>
                             </div>
                         </div>
-                        <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
+                        <div className="w-full h-[15.375rem] p-12 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
                             <p className="self-stretch text-2xl text-foreground text-left">Você preenche o formulário com seus dados.</p>
                         </div>
                     </div>
                     <div className="w-full flex flex-col items-center gap-8 md:mt-8">
                         <div className="self-stretch relative flex justify-center items-center">
                             <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
-                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
+                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[0.625rem] border-[0.09375rem] border-white flex justify-center items-center z-10">
                                 <span className="text-lg font-bold text-primary-foreground">2</span>
                             </div>
                         </div>
-                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
+                        <div className="w-full h-[15.375rem] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
                            <p className="self-stretch text-2xl text-foreground">
                                 <span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span>
                                 <span className="font-bold">potencial impacto</span>
@@ -171,11 +171,11 @@ export default function Home() {
                     <div className="w-full flex flex-col items-center gap-8 md:mt-16">
                         <div className="self-stretch relative flex justify-center items-center">
                             <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
-                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
+                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[0.625rem] border-[0.09375rem] border-white flex justify-center items-center z-10">
                                 <span className="text-lg font-bold text-primary-foreground">3</span>
                             </div>
                         </div>
-                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
+                        <div className="w-full h-[15.375rem] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start">
                            <p className="self-stretch text-2xl text-foreground">
                                <span className="font-normal">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com</span>
                                <span className="font-bold"> 50% de bolsa.</span>
@@ -209,14 +209,14 @@ export default function Home() {
             </div>
             <div className="self-stretch h-px bg-border my-12" />
             <div className="w-full bg-gray-50 dark:bg-gray-900 flex flex-col justify-center items-center px-4 md:px-8">
-                <div className="w-full max-w-[1312px] flex flex-col justify-start items-start gap-6 py-14">
-                    <div className="w-full max-w-[803px] flex flex-col justify-start items-start gap-2">
+                <div className="w-full max-w-[82rem] flex flex-col justify-start items-start gap-6 py-14">
+                    <div className="w-full max-w-[50.1875rem] flex flex-col justify-start items-start gap-2">
                         <div className="px-4 py-2 bg-muted rounded-lg flex flex-col justify-start items-start">
                             <div className="inline-flex justify-start items-center gap-2">
                                 <div className="justify-center text-primary text-base font-semibold leading-normal">Sobre a SóEducador</div>
                             </div>
                         </div>
-                        <h2 className="w-full max-w-[494px] text-foreground text-5xl font-semibold leading-tight">Quem somos e por que fazemos isso</h2>
+                        <h2 className="w-full max-w-[30.875rem] text-foreground text-5xl font-semibold leading-tight">Quem somos e por que fazemos isso</h2>
                         <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">A SóEducador nasceu com um propósito simples e poderoso: estar ao lado dos professores. Sabemos que a educação no Brasil é cheia de desafios — mas também sabemos que cada professor carrega dentro de si a chama da transformação.</p>
                     </div>
                     <div className="w-full flex flex-col lg:flex-row justify-start items-start gap-4">
@@ -227,7 +227,7 @@ export default function Home() {
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={417} height={320} src="https://picsum.photos/417/320" alt="Teacher helping student" data-ai-hint="teacher student" />
                             </div>
                             <div className="self-stretch py-14 px-12 bg-primary rounded-2xl flex flex-col justify-center items-center text-center">
-                                <div className="max-w-[848px] flex flex-col justify-start items-start">
+                                <div className="max-w-[53rem] flex flex-col justify-start items-start">
                                     <p className="self-stretch text-white text-[1.75rem] font-medium leading-[1.2] tracking-[-0.0175rem]">Nossa missão é celebrar suas conquistas, espalhar amor pela educação e apoiar quem dedica a vida a ensinar. Porque, no fim das contas, quando apoiamos professores, transformamos o futuro de todos.</p>
                                 </div>
                             </div>
