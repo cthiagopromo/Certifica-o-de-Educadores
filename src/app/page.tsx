@@ -16,7 +16,7 @@ export default function Home() {
                         <path d="M66.4258 17.7305H83.7325L78.1397 41.3005H60.833" fill="#EEE4FF"/>
                         <path d="M87.6455 8.61108H109.824L104.231 42.1811H82.0527" fill="#EEE4FF"/>
                         <path d="M114.641 17.7305H136.46L130.867 42.3005H109.048" fill="#EEE4FF"/>
-                        <path d="M140.938 9.08179H163.475L157.882 42.3005H135.346" fill="#EEE4FF"/>
+                        <path d-="M140.938 9.08179H163.475L157.882 42.3005H135.346" fill="#EEE4FF"/>
                         <path d="M170.252 18.3904H190.15L184.557 42.3005H164.659" fill="#EEE4FF"/>
                         <path d="M196.082 17.7305H216.27L210.677 42.3005H190.489" fill="#EEE4FF"/>
                         <path d="M219.711 17.7405H242.248L236.655 42.3105H214.118" fill="#EEE4FF"/>
@@ -142,35 +142,37 @@ export default function Home() {
                     <h2 className="text-5xl font-semibold text-foreground max-w-2xl">O processo é simples, humano e rápido.</h2>
                 </div>
                 <div className="self-stretch grid grid-cols-1 md:grid-cols-3 gap-10">
-                    <div className="w-full flex flex-col justify-start items-center gap-7">
+                    <div className="w-full flex flex-col justify-start items-center gap-[30px]">
                         <div className="self-stretch relative flex justify-center items-center">
                             <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
                             <div className="relative px-2.5 py-0.5 bg-primary rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
                                 <span className="text-lg font-bold text-primary-foreground">1</span>
                             </div>
                         </div>
-                        <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-center">
-                            <p className="self-stretch text-2xl text-foreground text-center">Você preenche o formulário com seus dados.</p>
+                        <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
+                            <div className="self-stretch text-2xl text-foreground text-center">Você preenche o formulário com seus dados.</div>
                         </div>
                     </div>
-                    <div className="w-full flex flex-col justify-start items-center gap-7 pt-8 md:pt-0">
+                    <div className="w-full flex flex-col justify-start items-center gap-[30px] pt-8 md:pt-0">
                         <div className="self-stretch relative flex justify-center items-center">
                             <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
                             <div className="relative px-2.5 py-0.5 bg-primary rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
                                 <span className="text-lg font-bold text-primary-foreground">2</span>
                             </div>
                         </div>
-                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-center">
+                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
                             <div className="self-stretch text-2xl text-foreground text-center"><span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span><span className="font-bold">potencial impacto</span><span className="font-normal"> que você pode gerar na educação.</span></div>
                         </div>
                     </div>
-                    <div className="w-full flex flex-col items-center gap-7 mt-0 md:mt-16">
-                        <div className="w-full relative flex justify-center">
-                            <div className="w-full h-px absolute top-1/2 bg-primary/20"></div>
-                            <span className="bg-primary text-primary-foreground rounded-full px-2.5 py-0.5 text-lg font-bold border-2 border-background z-10">3</span>
+                    <div className="w-full flex flex-col justify-start items-center gap-[30px] pt-16">
+                         <div className="self-stretch relative flex justify-center items-center">
+                            <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
+                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
+                                <span className="text-lg font-bold text-primary-foreground">3</span>
+                            </div>
                         </div>
-                        <div className="w-full h-60 p-8 bg-muted rounded-3xl shadow-lg flex items-center justify-center text-center">
-                            <p className="text-2xl text-foreground">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com<span className="font-bold"> 50% de bolsa.</span></p>
+                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
+                           <div className="self-stretch text-center text-2xl text-foreground"><span className="font-normal">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com</span><span className="font-bold"> 50% de bolsa.</span></div>
                         </div>
                     </div>
                 </div>
