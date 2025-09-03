@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-background">
       <main className="flex flex-col items-center">
-        <div className="w-full flex flex-col justify-center items-center gap-12 overflow-hidden px-8 md:px-16">
+        <div className="w-full flex flex-col justify-center items-center gap-12 overflow-hidden px-8 md:px-32">
             <section id="hero" className="w-full max-w-[1312px] p-14 my-8 bg-primary rounded-[48px] text-primary-foreground">
                 <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
                     <div className="flex flex-col justify-start items-start gap-8 max-w-xl">
@@ -31,11 +31,11 @@ export default function Home() {
                               Abrimos inscrições para a Certificação de Educadores, com <span className="text-pink-400">bolsas de 50% de desconto.</span> Acreditamos que cada professor carrega dentro de si o poder de transformar o futuro.
                             </p>
                         </div>
-                        <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
-                             <Button asChild className="px-12 py-7 text-xl font-medium bg-accent text-accent-foreground rounded-2xl hover:bg-accent/90 flex-shrink-0">
+                        <div className="w-full inline-flex justify-center items-center gap-5">
+                             <Button asChild className="px-12 py-6 bg-white text-black rounded-2xl text-xl font-medium hover:bg-gray-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
-                            <div className="text-purple-200 text-lg">Agora chegou a sua vez de ser essa inspiração.</div>
+                            <div className="flex-1 text-[#F8B6FE] text-lg font-normal">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
                     <Image className="w-full max-w-[475px] h-auto rounded-xl hidden lg:block" width={475} height={444} src="https://picsum.photos/475/444" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
@@ -72,7 +72,7 @@ export default function Home() {
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
                         </div>
                     </div>
-                    <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-4 w-full">
                         <div className="p-6 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
@@ -82,7 +82,7 @@ export default function Home() {
                         <div className="p-6 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
-                        <div className="p-6 rounded-3xl shadow-sm flex-col justify-center items-start hidden sm:flex">
+                        <div className="p-6 rounded-3xl flex-col justify-center items-start hidden sm:flex">
                         </div>
                     </div>
                 </div>
@@ -193,7 +193,7 @@ export default function Home() {
             <div className="self-stretch h-px bg-border" />
             <div className="self-stretch flex flex-col justify-start items-start gap-2.5">
                 <div className="self-stretch px-4 md:px-16 py-16 bg-primary rounded-3xl flex justify-center items-center overflow-hidden">
-                    <div className="relative z-10 flex flex-col items-center gap-6 max-w-2xl text-center">
+                    <div className="flex flex-col items-center gap-6">
                         <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
                             <span className="text-4xl font-bold">🚨</span>
                         </div>
@@ -270,7 +270,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
-
-    
