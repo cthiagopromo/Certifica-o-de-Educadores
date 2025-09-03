@@ -96,7 +96,7 @@ export default function Home() {
                         </div>
                         <div className="flex flex-col justify-center items-center gap-2">
                             <h2 className="w-full max-w-[672px] text-center text-foreground text-5xl font-semibold leading-tight">Se você acredita no poder da educação, este programa é para você.</h2>
-                            <p className="self-stretch text-center text-muted-foreground text-xl font-normal leading-normal">A Certificação de Educadores é destinada a todos que têm a missão de ensinar e aprender:</p>
+                            <p className="self-stretch text-center text-muted-foreground text-xl font-normal leading-tight tracking-tight">A Certificação de Educadores é destinada a todos que têm a missão de ensinar e aprender:</p>
                         </div>
                     </div>
                     <div className="self-stretch grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
