@@ -43,7 +43,7 @@ export default function Home() {
             </section>
             <section id="programs" className="self-stretch py-14 flex justify-center items-center">
                 <div className="w-full max-w-[1312px] flex flex-col lg:flex-row justify-between items-center gap-10 px-4">
-                    <div className="w-full lg:w-[651px] flex flex-col justify-start items-start gap-4">
+                    <div className="w-[651px] flex flex-col justify-start items-start gap-4 shrink-0">
                         <div className="px-4 py-2 bg-muted rounded-lg flex justify-start items-start">
                             <div className="text-primary text-lg font-bold leading-snug">Conheça a formação contemplada</div>
                         </div>
@@ -57,11 +57,11 @@ export default function Home() {
                                 <span className="font-semibold text-primary"> Temos materiais para isso.</span>
                             </p>
                             <p>
-                                <span className="font-normal">Quer se sentir mais seguro em frente aos alunos? </span>
+                                <span className="font-normal">Quer se sentir mais seguro em frente aos alunos? </span> 
                                 <span className="font-semibold text-primary">Você vai conquistar essa confiança.</span>
                             </p>
                             <p>
-                                <span className="font-normal">Quer abrir caminhos para novas oportunidades na educação? </span>
+                                <span className="font-normal">Quer abrir caminhos para novas oportunidades na educação? </span> 
                                 <span className="font-semibold text-primary">A certificação abre portas.</span>
                             </p>
                         </div>
@@ -72,14 +72,14 @@ export default function Home() {
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
                         </div>
                     </div>
-                    <div className="w-full lg:w-[556px] grid grid-cols-2 gap-4">
+                    <div className="w-[556px] grid grid-cols-2 gap-4">
                         <div className="h-[246px] p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
                         <div className="h-[246px] p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
                         </div>
-                        <div className="h-[246px] p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
+                        <div className="h-[246px] p-12 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start col-span-1">
                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                     </div>
@@ -159,7 +159,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
-                           <p className="self-stretch text-2xl text-foreground text-left">
+                           <p className="self-stretch text-2xl text-foreground">
                                 <span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span>
                                 <span className="font-bold">potencial impacto</span>
                                 <span className="font-normal"> que você pode gerar na educação.</span>
@@ -191,7 +191,7 @@ export default function Home() {
             <div className="self-stretch h-px bg-border" />
             <div className="self-stretch flex flex-col justify-start items-start gap-2.5">
                 <div className="self-stretch px-4 md:px-16 py-24 bg-primary rounded-3xl flex justify-center items-center overflow-hidden relative">
-                     <Image src="https://picsum.photos/1312/400" alt="Vagas limitadas" fill className="z-0 opacity-20 object-cover" data-ai-hint="abstract texture" />
+                     <Image src="https://picsum.photos/1312/400" alt="Vagas limitadas" fill style={{objectFit: 'cover'}} className="z-0 opacity-20" data-ai-hint="abstract texture" />
                     <div className="relative z-10 flex flex-col justify-start items-center gap-6 max-w-2xl text-center">
                         <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
                             <span className="text-4xl font-bold">🚨</span>
