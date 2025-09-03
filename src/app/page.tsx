@@ -141,7 +141,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
-                        <p className="self-stretch text-2xl text-foreground text-center">Você preenche o formulário com seus dados.</p>
+                        <div className="self-stretch justify-center flex flex-col text-foreground text-2xl font-normal leading-7">Você preenche o formulário com seus dados.</div>
                     </div>
                 </div>
                     <div className="flex flex-col items-center gap-7 mt-0 md:mt-8">
