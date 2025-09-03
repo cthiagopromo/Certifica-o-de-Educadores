@@ -81,7 +81,7 @@ export default function Home() {
                                 <div className="self-stretch justify-center text-muted-foreground text-2xl font-medium font-['Rethink_Sans'] leading-7">✅ Traga mais criatividade e inovação para suas aulas.</div>
                             </div>
                         </div>
-                        <div className="flex-1 w-full flex flex-col justify-center items-start h-[246px] max-w-[1280px] px-12 bg-muted rounded-3xl shadow-sm">
+                        <div className="flex-1 w-full flex flex-col justify-center items-start h-[15.375rem] max-w-[80rem] px-12 bg-muted rounded-3xl shadow-sm">
                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                     </div>
