@@ -74,14 +74,14 @@ export default function Home() {
                     </div>
                     <div className="w-full lg:w-[556px] flex flex-col justify-center items-start gap-4">
                         <div className="self-stretch flex flex-col sm:flex-row justify-start items-center gap-4">
-                            <div className="flex-1 w-full p-8 bg-muted rounded-3xl shadow-lg flex justify-center items-start">
-                                <p className="text-muted-foreground text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
+                            <div className="flex-1 w-full p-8 bg-muted rounded-3xl shadow-lg flex justify-center items-start h-60 max-w-[1280px] px-12 bg-Sufarce-Global-surface-label rounded-3xl shadow-[0px_1px_2px_-1px_rgba(0,0,0,0.10)] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-center items-start">
+                                <p className="self-stretch justify-center text-Text-Global-text-input-default text-2xl font-medium font-['Rethink_Sans'] leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                             </div>
-                            <div className="flex-1 w-full p-8 bg-muted rounded-3xl shadow-lg flex justify-center items-start">
+                            <div className="flex-1 w-full p-8 bg-muted rounded-3xl shadow-lg flex justify-center items-start h-60 max-w-[1280px] px-12 bg-Sufarce-Global-surface-label rounded-3xl shadow-[0px_1px_2px_-1px_rgba(0,0,0,0.10)] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-center items-start">
                                 <p className="text-muted-foreground text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
                             </div>
                         </div>
-                        <div className="w-full sm:w-auto p-8 bg-muted rounded-3xl shadow-lg flex justify-center items-start">
+                        <div className="w-full sm:w-auto p-8 bg-muted rounded-3xl shadow-lg flex justify-center items-start h-60 max-w-[1280px] px-12 bg-Sufarce-Global-surface-label rounded-3xl shadow-[0px_1px_2px_-1px_rgba(0,0,0,0.10)] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.10)] inline-flex flex-col justify-center items-start">
                             <p className="text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                     </div>
@@ -161,11 +161,11 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-lg outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start text-left">
-                            <p className="self-stretch text-2xl text-foreground">
+                           <p className="self-stretch text-2xl text-foreground">
                                 <span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span>
                                 <span className="font-bold">potencial impacto</span>
                                 <span className="font-normal"> que você pode gerar na educação.</span>
-                            </p>
+                           </p>
                         </div>
                     </div>
                     <div className="w-full flex flex-col justify-start items-center gap-7 mt-0 md:mt-16">
