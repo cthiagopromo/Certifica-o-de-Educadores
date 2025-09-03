@@ -12,18 +12,18 @@ export default function Home() {
                 <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
                     <div className="flex flex-col justify-start items-start gap-8 max-w-xl">
                     <svg width="329" height="50" viewBox="0 0 329 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5.59277 0.960205H60.2536L44.8324 49.9507H0L5.59277 0.960205Z" fill="#EEE4FF"/>
-                      <path d="M66.4258 17.7305H83.7325L78.1397 41.3005H60.833" fill="#EEE4FF"/>
-                      <path d="M87.6455 8.61108H109.824L104.231 42.1811H82.0527" fill="#EEE4FF"/>
-                      <path d="M114.641 17.7305H136.46L130.867 42.3005H109.048" fill="#EEE4FF"/>
-                      <path d="M140.938 9.08179H163.475L157.882 42.3005H135.346" fill="#EEE4FF"/>
-                      <path d="M170.252 18.3904H190.15L184.557 42.3005H164.659" fill="#EEE4FF"/>
-                      <path d="M196.082 17.7305H216.27L210.677 42.3005H190.489" fill="#EEE4FF"/>
-                      <path d="M219.711 17.7405H242.248L236.655 42.3105H214.118" fill="#EEE4FF"/>
-                      <path d="M248.197 9.08179H270.734L265.141 42.3005H242.604" fill="#EEE4FF"/>
-                      <path d="M276.684 17.7305H298.862L293.269 42.3005H271.091" fill="#EEE4FF"/>
-                      <path d="M304.826 17.9412H316.702L311.109 41.6212H299.233" fill="#EEE4FF"/>
-                      <path d="M318.084 33.4705H325.75L323.003 42.3105H315.337" fill="#EEE4FF"/>
+                        <path d="M5.59277 0.960205H60.2536L44.8324 49.9507H0L5.59277 0.960205Z" fill="#EEE4FF"/>
+                        <path d="M66.4258 17.7305H83.7325L78.1397 41.3005H60.833" fill="#EEE4FF"/>
+                        <path d="M87.6455 8.61108H109.824L104.231 42.1811H82.0527" fill="#EEE4FF"/>
+                        <path d="M114.641 17.7305H136.46L130.867 42.3005H109.048" fill="#EEE4FF"/>
+                        <path d="M140.938 9.08179H163.475L157.882 42.3005H135.346" fill="#EEE4FF"/>
+                        <path d="M170.252 18.3904H190.15L184.557 42.3005H164.659" fill="#EEE4FF"/>
+                        <path d="M196.082 17.7305H216.27L210.677 42.3005H190.489" fill="#EEE4FF"/>
+                        <path d="M219.711 17.7405H242.248L236.655 42.3105H214.118" fill="#EEE4FF"/>
+                        <path d="M248.197 9.08179H270.734L265.141 42.3005H242.604" fill="#EEE4FF"/>
+                        <path d="M276.684 17.7305H298.862L293.269 42.3005H271.091" fill="#EEE4FF"/>
+                        <path d="M304.826 17.9412H316.702L311.109 41.6212H299.233" fill="#EEE4FF"/>
+                        <path d="M318.084 33.4705H325.75L323.003 42.3105H315.337" fill="#EEE4FF"/>
                     </svg>
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
                             <h1 className="self-stretch text-white text-4xl font-bold leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
@@ -32,7 +32,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
-                            <Button asChild className="px-12 py-7 text-xl font-medium bg-accent text-accent-foreground rounded-2xl hover:bg-accent/90 flex-shrink-0">
+                             <Button asChild className="px-12 py-7 text-xl font-medium bg-green-600 text-white rounded-2xl hover:bg-green-700 flex-shrink-0">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <div className="text-purple-200 text-lg">Agora chegou a sua vez de ser essa inspiração.</div>
@@ -51,13 +51,22 @@ export default function Home() {
                             <h2 className="self-stretch text-foreground text-5xl font-semibold leading-tight">Um programa feito para apoiar você em cada passo.</h2>
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">A Certificação de Educadores reúne de 1 a 3 cursos online, com conteúdo pensado para o dia a dia da sala de aula. Nada de teoria distante ou inacessível. Aqui, você vai encontrar formações práticas, aplicáveis e inspiradoras.</p>
                         </div>
-                        <div className="self-stretch py-4 flex flex-col justify-start items-start gap-1">
-                            <p className="self-stretch text-base text-foreground"><span className="font-normal">Quer tornar suas aulas mais envolventes?</span><Link href="#" className="font-semibold text-primary underline"> Temos materiais para isso.</Link></p>
-                            <p className="self-stretch text-base text-foreground"><span className="font-normal">Quer se sentir mais seguro em frente aos alunos? </span><Link href="#" className="font-semibold text-primary underline">Você vai conquistar essa confiança.</Link></p>
-                            <p className="self-stretch text-base text-foreground"><span className="font-normal">Quer abrir caminhos para novas oportunidades na educação? </span><Link href="#" className="font-semibold text-primary underline">A certificação abre portas.</Link></p>
+                        <div className="self-stretch py-4 flex flex-col justify-start items-start gap-1 text-base text-foreground">
+                            <p>
+                                <span className="font-normal">Quer tornar suas aulas mais envolventes?</span>
+                                <Link href="#" className="font-semibold text-primary underline"> Temos materiais para isso.</Link>
+                            </p>
+                            <p>
+                                <span className="font-normal">Quer se sentir mais seguro em frente aos alunos? </span>
+                                <Link href="#" className="font-semibold text-primary underline">Você vai conquistar essa confiança.</Link>
+                            </p>
+                            <p>
+                                <span className="font-normal">Quer abrir caminhos para novas oportunidades na educação? </span>
+                                <Link href="#" className="font-semibold text-primary underline">A certificação abre portas.</Link>
+                            </p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
-                           <Button asChild style={{backgroundColor: '#16A34A'}} className="px-12 py-6 rounded-2xl text-xl font-medium">
+                           <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-green-600 hover:bg-green-700 text-white">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
@@ -133,29 +142,29 @@ export default function Home() {
                     <h2 className="text-5xl font-semibold text-foreground max-w-2xl">O processo é simples, humano e rápido.</h2>
                 </div>
                 <div className="self-stretch grid grid-cols-1 md:grid-cols-3 gap-10">
-                <div className="w-full flex flex-col justify-start items-center gap-[30px]">
-                    <div className="self-stretch relative flex justify-center items-center">
-                        <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
-                        <div className="relative px-2.5 py-0.5 bg-[#752BB5] rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
-                            <span className="text-lg font-bold text-primary-foreground">1</span>
-                        </div>
-                    </div>
-                    <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
-                        <p className="self-stretch text-2xl text-foreground">Você preenche o formulário com seus dados.</p>
-                    </div>
-                </div>
-                    <div className="w-full flex flex-col justify-start items-center gap-[30px] pt-8">
+                    <div className="w-full flex flex-col justify-start items-center gap-7">
                         <div className="self-stretch relative flex justify-center items-center">
                             <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
-                            <div className="relative px-2.5 py-0.5 bg-[#752BB5] rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
+                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
+                                <span className="text-lg font-bold text-primary-foreground">1</span>
+                            </div>
+                        </div>
+                        <div className="w-full h-[246px] p-12 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-center">
+                            <p className="self-stretch text-2xl text-foreground text-center">Você preenche o formulário com seus dados.</p>
+                        </div>
+                    </div>
+                    <div className="w-full flex flex-col justify-start items-center gap-7 pt-8 md:pt-0">
+                        <div className="self-stretch relative flex justify-center items-center">
+                            <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
+                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[10px] border-[1.5px] border-white flex justify-center items-center z-10">
                                 <span className="text-lg font-bold text-primary-foreground">2</span>
                             </div>
                         </div>
-                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-start">
-                            <p className="self-stretch text-2xl text-foreground text-center"><span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span><span className="font-bold">potencial impacto</span><span className="font-normal"> que você pode gerar na educação.</span></p>
+                        <div className="w-full h-[246px] px-8 bg-muted rounded-3xl shadow-[0px_10px_16px_-2px_rgba(0,0,0,0.04)] outline outline-1 outline-offset-[-1px] outline-border flex flex-col justify-center items-center">
+                            <div className="self-stretch text-2xl text-foreground text-center"><span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span><span className="font-bold">potencial impacto</span><span className="font-normal"> que você pode gerar na educação.</span></div>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center gap-7 mt-0 md:mt-16">
+                    <div className="w-full flex flex-col items-center gap-7 mt-0 md:mt-16">
                         <div className="w-full relative flex justify-center">
                             <div className="w-full h-px absolute top-1/2 bg-primary/20"></div>
                             <span className="bg-primary text-primary-foreground rounded-full px-2.5 py-0.5 text-lg font-bold border-2 border-background z-10">3</span>
@@ -166,7 +175,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="flex flex-col items-center gap-4 text-center">
-                   <Button asChild style={{backgroundColor: '#16A34A'}} className="px-12 py-6 rounded-2xl text-xl font-medium">
+                   <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-green-600 hover:bg-green-700 text-white">
                         <Link href="#apply">QUERO MINHA BOLSA</Link>
                     </Button>
                     <p className="text-xl text-muted-foreground">É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.</p>
@@ -184,7 +193,7 @@ export default function Home() {
                             <h2 className="text-white text-6xl font-bold leading-tight"> As bolsas são limitadas.</h2>
                             <p className="self-stretch text-white/90 text-lg font-normal leading-snug">As bolsas realmente são concedidas conforme a ordem de inscrição.<br/>Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.</p>
                         </div>
-                        <Button asChild style={{backgroundColor: '#16A34A'}} className="px-12 py-6 rounded-2xl text-xl font-medium">
+                        <Button asChild className="px-12 py-6 rounded-2xl text-xl font-medium bg-green-600 hover:bg-green-700 text-white">
                             <Link href="#apply">QUERO MINHA BOLSA</Link>
                         </Button>
                     </div>
