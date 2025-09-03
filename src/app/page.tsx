@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Twitter, Linkedin, Globe, Siren, Check } from 'lucide-react';
+import { Twitter, Linkedin } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -74,22 +74,13 @@ export default function Home() {
                     </div>
                     <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-4 w-full">
                         <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
-                            <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7 flex items-center gap-2">
-                                <Check className="w-6 h-6 text-primary" />
-                                <span>Torne-se referência entre colegas e alunos.</span>
-                            </p>
+                            <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
                         <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
-                            <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7 flex items-center gap-2">
-                                <Check className="w-6 h-6 text-primary" />
-                                <span>Traga mais criatividade e inovação para suas aulas.</span>
-                            </p>
+                            <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
                         </div>
                         <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
-                           <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7 flex items-center gap-2">
-                                <Check className="w-6 h-6 text-primary" />
-                                <span>Viva a satisfação de ensinar com ainda mais impacto.</span>
-                            </p>
+                           <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                         <div className="p-6 bg-transparent rounded-3xl flex flex-col justify-center items-start">
                         </div>
@@ -204,7 +195,7 @@ export default function Home() {
                 <div className="self-stretch px-4 md:px-8 py-16 bg-primary rounded-3xl flex justify-center items-center">
                     <div className="flex flex-col items-center gap-6 text-center max-w-2xl">
                         <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
-                            <Siren className="w-12 h-12 text-primary" />
+                            <span className="text-5xl">🚨</span>
                         </div>
                         <div className="self-stretch flex flex-col justify-center items-center gap-4">
                             <h2 className="text-white text-4xl md:text-6xl font-bold leading-tight"> As bolsas são limitadas.</h2>
@@ -255,7 +246,7 @@ export default function Home() {
                     <Link href="/" className="flex items-center gap-2">
                         <span className="text-2xl font-bold">SóEducador</span>
                     </Link>
-                    <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo <Globe className="h-5 w-5" /></p>
+                    <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo 🌎</p>
                 </div>
                 <div className="h-px w-full bg-primary-foreground/20" />
                 <div className="flex w-full flex-col items-center justify-between gap-4 md:flex-row">
