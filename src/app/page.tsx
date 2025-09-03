@@ -44,7 +44,7 @@ export default function Home() {
                             <p className="self-stretch text-base text-foreground"><span className="font-normal">Quer abrir caminhos para novas oportunidades na educação? </span><Link href="#" className="font-semibold text-accent underline">A certificação abre portas.</Link></p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
-                            <Button asChild className="px-12 py-6 bg-accent hover:bg-accent/90 text-accent-foreground rounded-2xl text-xl font-medium">
+                            <Button asChild className="px-12 py-6 bg-[#16A34A] hover:bg-[#16A34A]/90 text-white rounded-2xl text-xl font-medium">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <p className="self-stretch text-muted-foreground text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
