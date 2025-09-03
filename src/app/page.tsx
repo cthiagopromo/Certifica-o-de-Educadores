@@ -82,6 +82,8 @@ export default function Home() {
                         <div className="p-6 bg-muted rounded-3xl shadow-sm flex flex-col justify-center items-start">
                            <p className="self-stretch text-muted-foreground text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
+                        <div className="p-6 bg-muted rounded-3xl shadow-sm flex-col justify-center items-start hidden sm:flex">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -224,7 +226,7 @@ export default function Home() {
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://picsum.photos/416/320" alt="Classroom" data-ai-hint="classroom students" />
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={417} height={320} src="https://picsum.photos/417/320" alt="Teacher helping student" data-ai-hint="teacher student" />
                             </div>
-                            <div className="self-stretch py-14 bg-primary rounded-2xl flex flex-col justify-center items-center text-center">
+                            <div className="self-stretch w-[53rem] py-14 px-0 bg-primary rounded-2xl flex flex-col justify-center items-center text-center">
                                 <div className="max-w-[848px] px-12 flex flex-col justify-start items-start">
                                     <p className="self-stretch text-white text-3xl font-medium leading-loose">Nossa missão é celebrar suas conquistas, espalhar amor pela educação e apoiar quem dedica a vida a ensinar. Porque, no fim das contas, quando apoiamos professores, transformamos o futuro de todos.</p>
                                 </div>
