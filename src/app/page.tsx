@@ -35,7 +35,7 @@ export default function Home() {
                             <Button asChild className="px-12 py-8 bg-white text-black rounded-2xl text-lg md:text-xl font-medium hover:bg-gray-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
-                            <div className="text-[#F8B6FE] text-lg font-normal leading-[1.2]">Agora chegou a sua vez de ser essa inspiração.</div>
+                            <div className="text-lg font-normal leading-[1.2] text-[#F8B6FE]">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
                     <Image className="w-full max-w-[29.6875rem] h-auto rounded-xl hidden lg:block" width={475} height={444} src="https://picsum.photos/475/444" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
@@ -72,7 +72,7 @@ export default function Home() {
                             <p className="self-stretch text-muted-foreground text-lg md:text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
                         </div>
                     </div>
-                    <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-4 w-full">
+                    <div className="grid flex-1 grid-cols-1 lg:grid-cols-2 gap-4 w-full">
                         <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
                             <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
