@@ -10,7 +10,7 @@ export default function VacanciesSection() {
           <Image
             src="https://picsum.photos/1872/557"
             alt="Background"
-            layout="fill"
+            fill
             objectFit="cover"
             className="absolute z-0"
             data-ai-hint="abstract texture"

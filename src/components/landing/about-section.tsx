@@ -5,13 +5,13 @@ export default function AboutSection() {
     <section id="about" className="py-20 md:py-28 bg-gray-50 flex justify-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col justify-start items-start gap-6">
-          <div className="w-[803px] flex flex-col justify-start items-start gap-2">
+          <div className="w-full max-w-3xl flex flex-col justify-start items-start gap-2">
             <div className="px-4 py-2 bg-muted rounded-lg flex flex-col justify-start items-start">
               <div className="inline-flex justify-start items-center gap-2">
                 <div className="justify-center text-primary text-base font-semibold leading-normal">Sobre a SóEducador</div>
               </div>
             </div>
-            <div className="w-[494px] justify-center text-foreground text-5xl font-semibold leading-[57.60px]">Quem somos e por que fazemos isso</div>
+            <div className="w-full max-w-lg justify-center text-foreground text-5xl font-semibold leading-[57.60px]">Quem somos e por que fazemos isso</div>
             <div className="self-stretch justify-center text-muted-foreground text-xl font-normal leading-normal">A SóEducador nasceu com um propósito simples e poderoso: estar ao lado dos professores. Sabemos que a educação no Brasil é cheia de desafios — mas também sabemos que cada professor carrega dentro de si a chama da transformação.</div>
           </div>
           <div className="w-full flex flex-wrap justify-center items-start gap-4">

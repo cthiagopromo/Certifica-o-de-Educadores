@@ -18,12 +18,12 @@ export default function HeroSection() {
                 Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.
               </h1>
               <p className="text-lg lg:text-xl text-gray-100">
-                Abrimos inscrições para a Certificação de Educadores, com <span className="text-yellow-300">bolsas de 50% de desconto.</span> Acreditamos que cada professor carrega dentro de si o poder de transformar o futuro.
+                Abrimos inscrições para a Certificação de Educadores, com <span className="text-accent">bolsas de 50% de desconto.</span> Acreditamos que cada professor carrega dentro de si o poder de transformar o futuro.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-5 w-full sm:w-auto">
-                <Button asChild style={{display: 'flex', padding: '24px 48px', alignItems: 'flex-start'}} className="bg-green-500 rounded-2xl hover:bg-green-600">
-                    <Link href="#apply" className="text-white text-xl font-medium leading-normal">QUERO MINHA BOLSA</Link>
+                <Button asChild style={{display: 'flex', padding: '24px 48px', alignItems: 'flex-start'}} className="bg-white text-gray-900 rounded-2xl hover:bg-gray-200">
+                    <Link href="#apply" className="text-xl font-medium leading-normal">QUERO MINHA BOLSA</Link>
                 </Button>
                 <p className="text-lg text-gray-300">
                   Agora chegou a sua vez de ser essa inspiração.
