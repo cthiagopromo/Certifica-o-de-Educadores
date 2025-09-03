@@ -35,7 +35,7 @@ export default function Home() {
                              <Button asChild className="px-8 py-4 bg-white text-black rounded-2xl text-lg md:text-xl font-medium hover:bg-gray-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
-                            <div className="text-[#F8B6FE] text-base md:text-lg font-normal leading-[1.2]">Agora chegou a sua vez de ser essa inspiração.</div>
+                            <div className="text-[#F8B6FE] text-base md:text-lg font-normal leading-tight">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
                     <Image className="w-full max-w-[29.6875rem] h-auto rounded-xl hidden lg:block" width={475} height={444} src="https://picsum.photos/475/444" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
