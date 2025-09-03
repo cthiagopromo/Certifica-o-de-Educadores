@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-background">
       <main className="flex flex-col items-center">
-        <div className="w-full flex flex-col justify-center items-center gap-12 overflow-hidden px-8 md:px-32">
+        <div className="w-full flex flex-col justify-center items-center gap-12 overflow-hidden px-8 md:px-16">
             <section id="hero" className="w-full max-w-[1312px] p-14 my-8 bg-primary rounded-[48px] text-primary-foreground">
                 <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
                     <div className="flex flex-col justify-start items-start gap-8 max-w-xl">
@@ -28,10 +28,10 @@ export default function Home() {
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
                             <h1 className="self-stretch text-white text-4xl font-bold leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
                             <p className="self-stretch text-lg md:text-xl text-gray-200">
-                              Abrimos inscrições para a Certificação de Educadores, com <span className="text-pink-400">bolsas de 50% de desconto.</span> Acreditamos que cada professor carrega dentro de si o poder de transformar o futuro.
+                              Abrimos inscrições para a Certificação de Educadores, com <span className="text-[#F8B6FE]">bolsas de 50% de desconto.</span> Acreditamos que cada professor carrega dentro de si o poder de transformar o futuro.
                             </p>
                         </div>
-                        <div className="w-full inline-flex justify-center items-center gap-5">
+                        <div className="w-full inline-flex justify-start items-center gap-5">
                              <Button asChild className="px-8 py-4 bg-white text-black rounded-2xl text-xl font-medium hover:bg-gray-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
@@ -89,7 +89,7 @@ export default function Home() {
             </section>
             <div className="self-stretch h-px bg-border" />
             <div className="self-stretch px-4 md:px-16 flex flex-col justify-center items-center gap-2.5">
-                <div className="w-full max-w-[1312px] flex flex-col justify-start items-center gap-10">
+                <div className="w-full max-w-[1312px] flex flex-col justify-start items-center gap-10 py-14">
                     <div className="flex flex-col justify-start items-center gap-6">
                         <div className="px-4 py-2 bg-muted rounded-lg flex flex-col justify-start items-start">
                             <div className="inline-flex justify-start items-center gap-2">
@@ -191,11 +191,11 @@ export default function Home() {
                 </div>
             </section>
             <div className="self-stretch h-px bg-border" />
-            <div className="self-stretch flex flex-col justify-start items-start gap-2.5">
+            <div className="w-full self-stretch flex flex-col justify-start items-center">
                 <div className="self-stretch px-4 md:px-16 py-16 bg-primary rounded-3xl flex justify-center items-center">
-                    <div className="flex flex-col items-center gap-6">
+                    <div className="flex flex-col items-center gap-6 text-center max-w-2xl">
                         <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
-                            <span className="text-4xl font-bold">🚨</span>
+                            <span className="text-4xl">🚨</span>
                         </div>
                         <div className="self-stretch flex flex-col justify-center items-center gap-4">
                             <h2 className="text-white text-6xl font-bold leading-tight"> As bolsas são limitadas.</h2>
@@ -207,7 +207,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="self-stretch h-px bg-border" />
+            <div className="self-stretch h-px bg-border my-12" />
             <div className="w-full bg-gray-50 dark:bg-gray-900 flex flex-col justify-center items-center px-4 md:px-8">
                 <div className="w-full max-w-[1312px] flex flex-col justify-start items-start gap-6 py-14">
                     <div className="w-full max-w-[803px] flex flex-col justify-start items-start gap-2">
@@ -226,8 +226,8 @@ export default function Home() {
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://picsum.photos/416/320" alt="Classroom" data-ai-hint="classroom students" />
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={417} height={320} src="https://picsum.photos/417/320" alt="Teacher helping student" data-ai-hint="teacher student" />
                             </div>
-                            <div className="self-stretch py-14 px-0 bg-primary rounded-2xl flex flex-col justify-center items-center text-center w-[53rem]">
-                                <div className="max-w-[848px] px-12 flex flex-col justify-start items-start">
+                            <div className="self-stretch py-14 px-12 bg-primary rounded-2xl flex flex-col justify-center items-center text-center">
+                                <div className="max-w-[848px] flex flex-col justify-start items-start">
                                     <p className="self-stretch text-white text-[1.75rem] font-medium leading-[1.2] tracking-[-0.0175rem]">Nossa missão é celebrar suas conquistas, espalhar amor pela educação e apoiar quem dedica a vida a ensinar. Porque, no fim das contas, quando apoiamos professores, transformamos o futuro de todos.</p>
                                 </div>
                             </div>
@@ -235,7 +235,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="self-stretch h-px bg-border" />
+            <div className="self-stretch h-px bg-border mt-12" />
         </div>
       </main>
       <footer className="w-full bg-primary text-primary-foreground">
@@ -270,5 +270,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
