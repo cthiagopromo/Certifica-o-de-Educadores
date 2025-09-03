@@ -226,9 +226,9 @@ export default function Home() {
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://picsum.photos/416/320" alt="Classroom" data-ai-hint="classroom students" />
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={417} height={320} src="https://picsum.photos/417/320" alt="Teacher helping student" data-ai-hint="teacher student" />
                             </div>
-                            <div className="self-stretch w-[53rem] py-14 px-0 bg-primary rounded-2xl flex flex-col justify-center items-center text-center">
+                            <div className="self-stretch py-14 px-0 bg-primary rounded-2xl flex flex-col justify-center items-center text-center w-[53rem]">
                                 <div className="max-w-[848px] px-12 flex flex-col justify-start items-start">
-                                    <p className="self-stretch text-white text-3xl font-medium leading-loose">Nossa missão é celebrar suas conquistas, espalhar amor pela educação e apoiar quem dedica a vida a ensinar. Porque, no fim das contas, quando apoiamos professores, transformamos o futuro de todos.</p>
+                                    <p className="self-stretch text-white text-[1.75rem] font-medium leading-[1.2] tracking-[-0.0175rem]">Nossa missão é celebrar suas conquistas, espalhar amor pela educação e apoiar quem dedica a vida a ensinar. Porque, no fim das contas, quando apoiamos professores, transformamos o futuro de todos.</p>
                                 </div>
                             </div>
                         </div>
@@ -272,3 +272,4 @@ export default function Home() {
 }
 
     
+
