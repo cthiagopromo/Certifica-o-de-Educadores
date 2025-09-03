@@ -32,7 +32,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="w-full inline-flex justify-center items-center gap-5">
-                             <Button asChild className="px-12 py-6 bg-white text-black rounded-2xl text-xl font-medium hover:bg-gray-200">
+                             <Button asChild className="px-8 py-4 bg-white text-black rounded-2xl text-xl font-medium hover:bg-gray-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <div className="flex-1 text-[#F8B6FE] text-lg font-normal">Agora chegou a sua vez de ser essa inspiração.</div>
@@ -192,7 +192,7 @@ export default function Home() {
             </section>
             <div className="self-stretch h-px bg-border" />
             <div className="self-stretch flex flex-col justify-start items-start gap-2.5">
-                <div className="self-stretch px-4 md:px-16 py-16 bg-primary rounded-3xl flex justify-center items-center overflow-hidden">
+                <div className="self-stretch px-4 md:px-16 py-16 bg-primary rounded-3xl flex justify-center items-center">
                     <div className="flex flex-col items-center gap-6">
                         <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
                             <span className="text-4xl font-bold">🚨</span>
@@ -270,3 +270,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
