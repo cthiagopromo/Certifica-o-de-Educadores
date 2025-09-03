@@ -24,7 +24,7 @@ export default function AboutSection() {
                 </div>
                 <div className="w-[848px] py-14 bg-primary rounded-2xl flex flex-col justify-center items-center">
                   <div className="max-w-[848px] px-12 flex flex-col justify-start items-start">
-                    <div className="self-stretch text-center justify-center text-white text-3xl font-medium leading-loose">Nossa missão é celebrar suas conquistas, espalhar amor pela educação e apoiar quem dedica a vida a ensinar.<br />             Porque, no fim das contas, quando apoiamos professores, transformamos o futuro de todos.</div>
+                    <div className="self-stretch text-center justify-center text-white text-[28px] font-medium leading-[33.60px]">Nossa missão é celebrar suas conquistas, espalhar amor pela educação e apoiar quem dedica a vida a ensinar.<br />             Porque, no fim das contas, quando apoiamos professores, transformamos o futuro de todos.</div>
                   </div>
                 </div>
               </div>
