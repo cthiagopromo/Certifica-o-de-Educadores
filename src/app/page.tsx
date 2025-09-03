@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Twitter, Linkedin, Globe, Siren } from 'lucide-react';
+import { Twitter, Linkedin, Globe, Siren, Check } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -74,13 +74,22 @@ export default function Home() {
                     </div>
                     <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-4 w-full">
                         <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
-                            <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
+                            <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7 flex items-center gap-2">
+                                <Check className="w-6 h-6 text-primary" />
+                                <span>Torne-se referência entre colegas e alunos.</span>
+                            </p>
                         </div>
                         <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
-                            <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
+                            <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7 flex items-center gap-2">
+                                <Check className="w-6 h-6 text-primary" />
+                                <span>Traga mais criatividade e inovação para suas aulas.</span>
+                            </p>
                         </div>
                         <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
-                           <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
+                           <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7 flex items-center gap-2">
+                                <Check className="w-6 h-6 text-primary" />
+                                <span>Viva a satisfação de ensinar com ainda mais impacto.</span>
+                            </p>
                         </div>
                         <div className="p-6 bg-transparent rounded-3xl flex flex-col justify-center items-start">
                         </div>
@@ -270,5 +279,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
