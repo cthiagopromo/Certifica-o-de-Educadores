@@ -15,9 +15,9 @@ export default function Home() {
                     <Image 
                         src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png"
                         alt="SóEducador Logo"
-                        width={320}
-                        height={50}
-                        className="w-56 md:w-80 h-auto"
+                        width={160}
+                        height={25}
+                        className="w-40 h-auto"
                     />
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
                             <h1 className="self-stretch text-white text-3xl md:text-4xl font-bold leading-tight md:leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
@@ -251,7 +251,7 @@ export default function Home() {
         <div className="bg-[#ED42FD] h-5 self-stretch" />
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center gap-8">
-                <div className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
+                <div className="flex flex-col items-center gap-2">
                     <Link href="/" className="flex items-center gap-2">
                         <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={90} height={14} className="h-auto" />
                     </Link>
