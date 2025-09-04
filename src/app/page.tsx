@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Twitter, Linkedin } from 'lucide-react';
+import { Twitter, Linkedin, Users, GraduationCap, Briefcase } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -104,33 +104,35 @@ export default function Home() {
                             <p className="self-stretch text-center text-muted-foreground text-lg md:text-xl font-normal max-w-[42rem] leading-tight tracking-tight">A Certificação de Educadores é destinada a todos que têm a missão de ensinar e aprender:</p>
                         </div>
                     </div>
-                    <div className="self-stretch grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                        <div className="flex flex-col justify-start items-center gap-6 transform hover:scale-105 transition-all duration-200 hover:shadow-md">
-                            <Image className="self-stretch h-48 rounded-3xl object-cover" width={288} height={192} src="https://picsum.photos/288/192" alt="Professor atualizado" data-ai-hint="teacher classroom" />
-                            <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                                <div className="w-32 h-0.5 bg-primary" />
-                                <p className="self-stretch text-foreground text-lg md:text-xl font-normal leading-normal">Professores que querem se atualizar e se destacar.</p>
+                    <div className="self-stretch grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start justify-center">
+                        
+                        <div className="flex flex-col items-center gap-2">
+                            <div className="w-32 h-0.5 bg-primary/20" />
+                            <div className="self-stretch p-6 bg-primary/5 rounded-3xl flex flex-col justify-start items-start gap-4">
+                                <div className="w-10 h-10 p-2 bg-primary/10 rounded-lg flex justify-center items-center">
+                                    <Users className="w-6 h-6 text-primary" />
+                                </div>
+                                <p className="self-stretch text-foreground text-xl font-normal leading-normal">Professores que querem se atualizar e se destacar.</p>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-start items-center gap-6 transform hover:scale-105 transition-all duration-200 hover:shadow-md">
-                            <Image className="self-stretch h-48 rounded-3xl object-cover" width={288} height={192} src="https://picsum.photos/288/193" alt="Coordenadores e gestores" data-ai-hint="school coordinator meeting" />
-                            <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                                <div className="w-32 h-0.5 bg-primary" />
-                                <p className="self-stretch text-foreground text-lg md:text-xl font-normal leading-normal">Coordenadores e gestores que buscam novas perspectivas para a escola.</p>
+
+                        <div className="flex flex-col items-center gap-2">
+                            <div className="w-32 h-0.5 bg-primary/20" />
+                            <div className="self-stretch p-6 bg-primary/5 rounded-3xl flex flex-col justify-start items-start gap-4">
+                                <div className="w-10 h-10 p-2 bg-primary/10 rounded-lg flex justify-center items-center">
+                                    <Briefcase className="w-6 h-6 text-primary" />
+                                </div>
+                                <p className="self-stretch text-foreground text-xl font-normal leading-normal">Coordenadores e gestores que buscam novas perspectivas para a escola.</p>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-start items-center gap-6 transform hover:scale-105 transition-all duration-200 hover:shadow-md">
-                            <Image className="self-stretch h-48 rounded-3xl object-cover" width={288} height={192} src="https://picsum.photos/288/194" alt="Estudantes de pedagogia" data-ai-hint="pedagogy student studying" />
-                            <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                                <div className="w-32 h-0.5 bg-primary" />
-                                <p className="self-stretch text-foreground text-lg md:text-xl font-normal leading-normal">Estudantes de Pedagogia que desejam entrar no mercado mais preparados.</p>
-                            </div>
-                        </div>
-                        <div className="flex flex-col justify-start items-center gap-6 transform hover:scale-105 transition-all duration-200 hover:shadow-md">
-                            <Image className="self-stretch h-48 rounded-3xl object-cover" width={288} height={192} src="https://picsum.photos/288/195" alt="Pais e educadores" data-ai-hint="parents helping child" />
-                            <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                                <div className="w-32 h-0.5 bg-primary" />
-                                <p className="self-stretch text-foreground text-lg md:text-xl font-normal leading-normal">Pais, mães e educadores que acreditam na educação como caminho de transformação.</p>
+
+                        <div className="flex flex-col items-center gap-2">
+                            <div className="w-32 h-0.5 bg-primary/20" />
+                            <div className="self-stretch p-6 bg-primary/5 rounded-3xl flex flex-col justify-start items-start gap-4">
+                                <div className="w-10 h-10 p-2 bg-primary/10 rounded-lg flex justify-center items-center">
+                                    <GraduationCap className="w-6 h-6 text-primary" />
+                                </div>
+                                <p className="self-stretch text-foreground text-xl font-normal leading-normal">Estudantes de Pedagogia que desejam entrar no mercado mais preparados.</p>
                             </div>
                         </div>
                     </div>
@@ -251,7 +253,7 @@ export default function Home() {
         <div className="bg-[#ED42FD] h-5 self-stretch" />
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center gap-8">
-                <div className="flex flex-col items-center justify-center text-center gap-4 w-auto h-auto">
+                <div className="flex flex-col items-center justify-center text-center gap-4">
                     <Link href="/" className="flex items-center gap-2">
                         <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={180} height={28} className="h-auto w-44" />
                     </Link>
@@ -279,5 +281,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
