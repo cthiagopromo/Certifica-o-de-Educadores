@@ -12,7 +12,7 @@ export default function Home() {
             <section id="hero" className="w-full max-w-[82rem] p-6 md:p-14 my-8 bg-primary rounded-[3rem] text-primary-foreground">
                 <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
                     <div className="flex flex-col justify-start items-start gap-8 max-w-xl">
-                    <svg className="w-64 md:w-80" viewBox="0 0 329 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-64 md:w-80 animate-fade-in" viewBox="0 0 329 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.59277 0.960205H60.2536L44.8324 49.9507H0L5.59277 0.960205Z" fill="#EEE4FF"/>
                         <path d="M66.4258 17.7305H83.7325L78.1397 41.3005H60.833" fill="#EEE4FF"/>
                         <path d="M87.6455 8.61108H109.824L104.231 42.1811H82.0527" fill="#EEE4FF"/>
@@ -27,19 +27,19 @@ export default function Home() {
                         <path d="M318.084 33.4705H325.75L323.003 42.3105H315.337" fill="#EEE4FF"/>
                     </svg>
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
-                            <h1 className="self-stretch text-white text-3xl md:text-4xl font-bold leading-tight md:leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
-                            <p className="self-stretch text-lg text-gray-200">
+                            <h1 className="self-stretch text-white text-3xl md:text-4xl font-bold leading-tight md:leading-10 animate-fade-in">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
+                            <p className="self-stretch text-lg text-gray-200 animate-fade-in-up">
                               Abrimos inscrições para a Certificação de Educadores, com <span className="text-[#F8B6FE]">bolsas de 50% de desconto.</span> Acreditamos que cada professor carrega dentro de si o poder de transformar o futuro.
                             </p>
                         </div>
                         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
-                            <Button asChild className="px-12 py-8 bg-white text-black rounded-2xl text-lg md:text-xl font-medium hover:bg-gray-200">
+                            <Button asChild className="px-12 py-8 bg-white text-black rounded-2xl text-lg md:text-xl font-medium hover:bg-gray-200 animate-bounce-slow transform hover:scale-105 transition-all duration-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
-                            <div className="text-lg font-normal leading-[1.2] text-[#F8B6FE]">Agora chegou a sua vez de ser essa inspiração.</div>
+                            <div className="text-lg font-normal leading-[1.2] text-[#F8B6FE] animate-fade-in-up">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
-                    <Image className="w-full max-w-[29.6875rem] h-auto rounded-xl hidden lg:block" width={475} height={444} src="https://picsum.photos/475/444" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
+                    <Image className="w-full max-w-[29.6875rem] h-auto rounded-xl hidden lg:block animate-fade-in" width={475} height={444} src="https://picsum.photos/475/444" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
                 </div>
             </section>
             <section id="programs" className="self-stretch py-10 md:py-14 flex justify-center items-center">
@@ -67,20 +67,20 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
-                           <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground">
+                           <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <p className="self-stretch text-muted-foreground text-lg md:text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
                         </div>
                     </div>
                     <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-4 w-full">
-                        <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
+                        <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start transform hover:scale-105 transition-all duration-200 hover:shadow-md">
                             <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
-                        <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
+                        <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start transform hover:scale-105 transition-all duration-200 hover:shadow-md">
                             <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Traga mais criatividade e inovação para suas aulas.</p>
                         </div>
-                        <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start">
+                        <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start transform hover:scale-105 transition-all duration-200 hover:shadow-md">
                            <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Viva a satisfação de ensinar com ainda mais impacto.</p>
                         </div>
                         <div className="p-6 bg-transparent rounded-3xl flex flex-col justify-center items-start">
@@ -103,28 +103,28 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="self-stretch grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                        <div className="flex flex-col justify-start items-center gap-6">
+                        <div className="flex flex-col justify-start items-center gap-6 transform hover:scale-105 transition-all duration-200 hover:shadow-md">
                             <Image className="self-stretch h-48 rounded-3xl object-cover" width={288} height={192} src="https://picsum.photos/288/192" alt="Professor atualizado" data-ai-hint="teacher classroom" />
                             <div className="self-stretch flex flex-col justify-start items-start gap-2">
                                 <div className="w-32 h-0.5 bg-primary" />
                                 <p className="self-stretch text-foreground text-lg md:text-xl font-normal leading-normal">Professores que querem se atualizar e se destacar.</p>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-start items-center gap-6">
+                        <div className="flex flex-col justify-start items-center gap-6 transform hover:scale-105 transition-all duration-200 hover:shadow-md">
                             <Image className="self-stretch h-48 rounded-3xl object-cover" width={288} height={192} src="https://picsum.photos/288/193" alt="Coordenadores e gestores" data-ai-hint="school coordinator meeting" />
                             <div className="self-stretch flex flex-col justify-start items-start gap-2">
                                 <div className="w-32 h-0.5 bg-primary" />
                                 <p className="self-stretch text-foreground text-lg md:text-xl font-normal leading-normal">Coordenadores e gestores que buscam novas perspectivas para a escola.</p>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-start items-center gap-6">
+                        <div className="flex flex-col justify-start items-center gap-6 transform hover:scale-105 transition-all duration-200 hover:shadow-md">
                             <Image className="self-stretch h-48 rounded-3xl object-cover" width={288} height={192} src="https://picsum.photos/288/194" alt="Estudantes de pedagogia" data-ai-hint="pedagogy student studying" />
                             <div className="self-stretch flex flex-col justify-start items-start gap-2">
                                 <div className="w-32 h-0.5 bg-primary" />
                                 <p className="self-stretch text-foreground text-lg md:text-xl font-normal leading-normal">Estudantes de Pedagogia que desejam entrar no mercado mais preparados.</p>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-start items-center gap-6">
+                        <div className="flex flex-col justify-start items-center gap-6 transform hover:scale-105 transition-all duration-200 hover:shadow-md">
                             <Image className="self-stretch h-48 rounded-3xl object-cover" width={288} height={192} src="https://picsum.photos/288/195" alt="Pais e educadores" data-ai-hint="parents helping child" />
                             <div className="self-stretch flex flex-col justify-start items-start gap-2">
                                 <div className="w-32 h-0.5 bg-primary" />
@@ -150,7 +150,7 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">1</span>
                             </div>
                         </div>
-                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left">
+                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left transform hover:scale-105 transition-all duration-200 hover:shadow-lg">
                             <p className="self-stretch text-xl md:text-2xl text-foreground">Você preenche o formulário com seus dados.</p>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">2</span>
                             </div>
                         </div>
-                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left">
+                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left transform hover:scale-105 transition-all duration-200 hover:shadow-lg">
                            <p className="self-stretch text-xl md:text-2xl text-foreground">
                                 <span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span>
                                 <span className="font-bold">potencial impacto</span>
@@ -176,7 +176,7 @@ export default function Home() {
                                 <span className="text-lg font-bold text-primary-foreground">3</span>
                             </div>
                         </div>
-                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left">
+                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left transform hover:scale-105 transition-all duration-200 hover:shadow-lg">
                            <p className="self-stretch text-xl md:text-2xl text-foreground">
                                <span className="font-normal">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com</span>
                                <span className="font-bold"> 50% de bolsa.</span>
@@ -185,7 +185,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="flex flex-col items-center gap-4 text-center">
-                   <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground">
+                   <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
                         <Link href="#apply">QUERO MINHA BOLSA</Link>
                     </Button>
                     <p className="text-lg md:text-xl text-muted-foreground max-w-xl">É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.</p>
@@ -202,7 +202,7 @@ export default function Home() {
                             <h2 className="text-white text-4xl md:text-6xl font-bold leading-tight"> As bolsas são limitadas.</h2>
                             <p className="self-stretch text-white/90 text-base md:text-lg font-normal leading-snug">As bolsas realmente são concedidas conforme a ordem de inscrição.<br/>Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.</p>
                         </div>
-                        <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground">
+                        <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
                             <Link href="#apply">QUERO MINHA BOLSA</Link>
                         </Button>
                     </div>
