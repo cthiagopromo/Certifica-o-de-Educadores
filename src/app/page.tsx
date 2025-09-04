@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Twitter, Linkedin, Users, GraduationCap, Briefcase, HeartHandshake } from 'lucide-react';
+import { Users, GraduationCap, Briefcase } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -260,7 +260,7 @@ export default function Home() {
                     <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo 🌎</p>
                 </div>
                 <div className="h-px w-full bg-primary-foreground/20" />
-                <div className="flex w-full flex-col items-center justify-between gap-4 md:flex-row">
+                <div className="flex w-full flex-col items-center justify-center gap-4">
                     <p className="text-xs text-center text-primary-foreground/80">
                     COPYRIGHT ©{new Date().getFullYear()}. INCI - INSTITUTO NACIONAL DE APERFEIÇOAMENTO PROFISSIONAL - CNPJ: 36.692.668/0001-94
                     </p>
