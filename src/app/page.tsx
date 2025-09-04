@@ -195,7 +195,7 @@ export default function Home() {
             <div className="w-full self-stretch flex flex-col justify-start items-center">
                 <div className="relative self-stretch px-4 md:px-8 py-16 bg-primary rounded-3xl flex justify-center items-center overflow-hidden">
                     <Image
-                        src="https://storage.googleapis.com/framer-media-development/a2105374-6014-469b-b27e-f7617f6e245a/background-JtS.png"
+                        src="/images/Container-bolsa-sóeducador.webp"
                         alt="Background"
                         layout="fill"
                         objectFit="cover"
