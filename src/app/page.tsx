@@ -208,9 +208,13 @@ export default function Home() {
                         </div>
                         <div className="self-stretch flex flex-col justify-center items-center gap-4">
                             <h2 className="text-white text-6xl font-bold leading-tight animate-fade-in"> As bolsas são limitadas.</h2>
-                            <p className="self-stretch text-white text-lg font-normal leading-snug">As bolsas realmente são concedidas conforme a ordem de inscrição.<br/>Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.</p>
+                            <p className="self-stretch text-white text-lg font-normal leading-snug">
+                                As bolsas realmente são concedidas conforme a ordem de inscrição.
+                                <br />
+                                Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.
+                            </p>
                         </div>
-                        <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
+                         <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
                             <Link href="#apply">QUERO MINHA BOLSA</Link>
                         </Button>
                     </div>
