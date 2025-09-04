@@ -234,7 +234,7 @@ export default function Home() {
                         <Image className="w-full lg:w-96 self-stretch rounded-2xl object-cover" width={384} height={609} src="https://i.postimg.cc/cJF7hPV4/professor-rosa-s-educador.webp" alt="Educadora sorrindo" data-ai-hint="educator teaching" />
                         <div className="flex-1 self-stretch flex flex-col justify-start items-start gap-4">
                             <div className="self-stretch flex flex-col sm:flex-row justify-start items-start gap-4">
-                                <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://picsum.photos/416/320" alt="Classroom" data-ai-hint="classroom students" />
+                                <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://i.postimg.cc/xjwv6vFH/professora-amarela-s-educador.webp" alt="Professora com blusa amarela" data-ai-hint="teacher smiling" />
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={417} height={320} src="https://picsum.photos/417/320" alt="Teacher helping student" data-ai-hint="teacher student" />
                             </div>
                             <div className="self-stretch p-8 md:py-14 md:px-12 bg-primary rounded-2xl flex flex-col justify-center items-center text-center">
