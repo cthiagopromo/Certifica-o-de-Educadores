@@ -39,7 +39,7 @@ export default function Home() {
                             <div className="text-lg font-normal leading-[1.2] text-[#F8B6FE] animate-fade-in-up">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
-                    <Image className="w-full max-w-[29.6875rem] h-auto rounded-xl hidden lg:block animate-fade-in" width={475} height={444} src="https://picsum.photos/475/444" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
+                    <Image className="w-full max-w-[29.6875rem] h-auto rounded-xl hidden lg:block animate-fade-in" width={475} height={444} src="https://i.postimg.cc/gJ3L3hdp/professor-s-educador.webp" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
                 </div>
             </section>
             <section id="programs" className="self-stretch py-10 md:py-14 flex justify-center items-center">
