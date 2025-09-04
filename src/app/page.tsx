@@ -12,7 +12,7 @@ export default function Home() {
             <section id="hero" className="w-full max-w-[82rem] p-6 md:p-14 my-8 bg-primary rounded-[3rem] text-primary-foreground">
                 <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
                     <div className="flex flex-col justify-start items-start gap-8 max-w-xl">
-                    <svg className="w-64 md:w-80 animate-fade-in" viewBox="0 0 329 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-64 md:w-80" viewBox="0 0 329 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.59277 0.960205H60.2536L44.8324 49.9507H0L5.59277 0.960205Z" fill="#EEE4FF"/>
                         <path d="M66.4258 17.7305H83.7325L78.1397 41.3005H60.833" fill="#EEE4FF"/>
                         <path d="M87.6455 8.61108H109.824L104.231 42.1811H82.0527" fill="#EEE4FF"/>
@@ -27,19 +27,35 @@ export default function Home() {
                         <path d="M318.084 33.4705H325.75L323.003 42.3105H315.337" fill="#EEE4FF"/>
                     </svg>
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
-                            <h1 className="self-stretch text-white text-3xl md:text-4xl font-bold leading-tight md:leading-10 animate-fade-in">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
-                            <p className="self-stretch text-lg text-gray-200 animate-fade-in-up">
+                            <h1 className="self-stretch text-white text-3xl md:text-4xl font-bold leading-tight md:leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
+                            <p className="self-stretch text-lg text-gray-200">
                               Abrimos inscrições para a Certificação de Educadores, com <span className="text-[#F8B6FE]">bolsas de 50% de desconto.</span> Acreditamos que cada professor carrega dentro de si o poder de transformar o futuro.
                             </p>
                         </div>
                         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
-                            <Button asChild className="px-12 py-8 bg-white text-black rounded-2xl text-lg md:text-xl font-medium hover:bg-gray-200 animate-bounce-slow transform hover:scale-105 transition-all duration-200">
+                            <Button asChild className="px-12 py-6 bg-white text-black rounded-2xl text-xl font-medium hover:bg-gray-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
-                            <div className="text-lg font-normal leading-[1.2] text-[#F8B6FE] animate-fade-in-up">Agora chegou a sua vez de ser essa inspiração.</div>
+                            <div className="text-lg font-normal leading-snug text-[#F8B6FE]">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
-                    <Image className="w-full max-w-[29.6875rem] h-auto rounded-xl hidden lg:block animate-fade-in" width={475} height={444} src="https://i.postimg.cc/dtGvv96w/professor-s-educador.webp" alt="Professor inspirador" data-ai-hint="inspiring teacher" />
+                    <div className="relative w-[616px] h-[444px] flex-shrink-0">
+                        <div className="absolute inset-0 bg-orange-400 rounded-3xl transform -rotate-3"></div>
+                        <Image 
+                            className="relative w-full h-full object-cover rounded-3xl" 
+                            width={616} 
+                            height={444} 
+                            src="https://picsum.photos/616/444" 
+                            alt="Professor inspirador"
+                            data-ai-hint="inspiring teacher"
+                        />
+                        <div className="absolute -top-8 -left-8 bg-white p-3 rounded-full shadow-lg transform rotate-12">
+                            <div className="bg-pink-200 text-pink-800 font-bold text-center rounded-full p-4 w-24 h-24 flex flex-col justify-center items-center text-sm">
+                                <span className="text-3xl leading-tight">50%</span>
+                                <span>DE DESCONTO</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section id="programs" className="self-stretch py-10 md:py-14 flex justify-center items-center">
