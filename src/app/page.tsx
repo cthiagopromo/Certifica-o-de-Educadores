@@ -32,7 +32,7 @@ export default function Home() {
                             <div className="text-lg font-normal leading-snug text-[#F8B6FE]">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
-                    <div className="w-full max-w-lg">
+                    <div className="w-full max-w-md">
                         <Image 
                             className="rounded-3xl w-full h-auto" 
                             width={616}
