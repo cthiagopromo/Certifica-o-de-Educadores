@@ -240,7 +240,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="w-full bg-primary text-primary-foreground">
-        <div className="bg-accent h-5 self-stretch" />
+        <div className="bg-[#ED42FD] h-5 self-stretch" />
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center gap-8">
                 <div className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
@@ -271,9 +271,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
-
-    
-
-    
