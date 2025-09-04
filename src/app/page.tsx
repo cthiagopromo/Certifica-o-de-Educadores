@@ -196,7 +196,7 @@ export default function Home() {
                 </div>
             </section>
             <div className="self-stretch h-px bg-border" />
-            <div className="w-full max-w-[82rem] self-stretch flex flex-col justify-start items-center">
+            <div className="w-full max-w-[82rem]">
                 <div
                     className="relative self-stretch bg-primary px-4 md:px-8 py-24 rounded-3xl flex justify-center items-center overflow-hidden"
                 >
