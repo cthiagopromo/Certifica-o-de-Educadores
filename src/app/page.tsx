@@ -193,13 +193,20 @@ export default function Home() {
             </section>
             <div className="self-stretch h-px bg-border" />
             <div className="w-full self-stretch flex flex-col justify-start items-center">
-                <div className="self-stretch px-4 md:px-8 py-16 bg-primary rounded-3xl flex justify-center items-center">
-                    <div className="flex flex-col items-center gap-6 text-center max-w-2xl">
+                <div className="relative self-stretch px-4 md:px-8 py-16 bg-primary rounded-3xl flex justify-center items-center overflow-hidden">
+                    <Image
+                        src="/images/background.png"
+                        alt="Background"
+                        layout="fill"
+                        objectFit="cover"
+                        className="absolute inset-0 z-0"
+                    />
+                    <div className="relative z-10 flex flex-col items-center gap-6 text-center max-w-2xl">
                         <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
                             <span className="text-5xl">🚨</span>
                         </div>
                         <div className="self-stretch flex flex-col justify-center items-center gap-4">
-                            <h2 className="text-white text-4xl md:text-6xl font-bold leading-tight"> As bolsas são limitadas.</h2>
+                            <h2 className="text-white text-4xl md:text-6xl font-bold leading-tight animate-fade-in"> As bolsas são limitadas.</h2>
                             <p className="self-stretch text-white/90 text-base md:text-lg font-normal leading-snug">As bolsas realmente são concedidas conforme a ordem de inscrição.<br/>Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.</p>
                         </div>
                         <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
