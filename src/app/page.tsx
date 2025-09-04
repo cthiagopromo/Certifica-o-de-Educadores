@@ -39,13 +39,12 @@ export default function Home() {
                             <div className="text-lg font-normal leading-snug text-[#F8B6FE]">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
-                    <div className="relative w-[616px] h-[444px] flex-shrink-0">
+                    <div className="relative w-full max-w-[616px] aspect-[616/444] flex-shrink-0">
                         <div className="absolute inset-0 bg-orange-400 rounded-3xl transform -rotate-3"></div>
                         <Image 
                             className="relative w-full h-full object-cover rounded-3xl" 
-                            width={616} 
-                            height={444} 
-                            src="https://picsum.photos/616/444" 
+                            fill
+                            src="https://i.postimg.cc/dtGvv96w/professor-s-educador.webp" 
                             alt="Professor inspirador"
                             data-ai-hint="inspiring teacher"
                         />
