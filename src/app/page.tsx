@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { toast } from '@/hooks/use-toast';
+import { useToast } from '@/hooks/use-toast';
 
 const formSchema = z.object({
   name: z.string().min(2, { message: 'O nome deve ter pelo menos 2 caracteres.' }),
@@ -26,6 +26,8 @@ export default function Home() {
       phone: '',
     },
   });
+
+  const { toast } = useToast()
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     console.log(values);
@@ -306,8 +308,8 @@ export default function Home() {
                         <h2 className="w-full text-foreground text-4xl md:text-5xl font-semibold leading-tight">Quem somos e por que fazemos isso</h2>
                         <p className="self-stretch text-muted-foreground text-lg md:text-xl font-normal leading-normal">A SóEducador nasceu com um propósito simples e poderoso: estar ao lado dos professores. Sabemos que a educação no Brasil é cheia de desafios — mas também sabemos que cada professor carrega dentro de si a chama da transformação.</p>
                     </div>
-                     <div className="w-full flex flex-col lg:flex-row justify-start items-start gap-4">
-                        <Image className="w-full lg:w-96 self-stretch rounded-2xl object-cover" width={384} height={609} src="https://i.postimg.cc/cJF7hPV4/professor-rosa-s-educador.webp" alt="Educadora sorrindo" data-ai-hint="educator teaching" />
+                     <div className="w-full grid lg:grid-cols-[24rem_1fr] gap-4">
+                        <Image className="w-full h-full object-cover rounded-2xl" width={384} height={609} src="https://i.postimg.cc/cJF7hPV4/professor-rosa-s-educador.webp" alt="Educadora sorrindo" data-ai-hint="educator teaching" />
                         <div className="flex-1 self-stretch flex flex-col justify-start items-start gap-4">
                             <div className="self-stretch grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <Image className="w-full h-80 object-cover rounded-2xl" width={416} height={320} src="https://i.postimg.cc/xjwv6vFH/professora-amarela-s-educador.webp" alt="Professora com blusa amarela" data-ai-hint="teacher smiling" />
