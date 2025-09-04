@@ -45,16 +45,16 @@ export default function Home() {
                 </div>
             </section>
             <section id="programs" className="self-stretch py-10 md:py-14 flex justify-center items-center">
-                <div className="w-full max-w-[82rem] flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-5 px-4">
-                    <div className="flex flex-col items-start gap-4 flex-shrink-0 lg:w-[40.6875rem]">
+                <div className="w-full max-w-[82rem] flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-16 px-4">
+                    <div className="flex flex-col items-start gap-6 lg:w-1/2">
                         <div className="px-4 py-2 bg-muted rounded-lg flex justify-start items-start">
                             <div className="text-primary text-base md:text-lg font-bold leading-snug">Conheça a formação contemplada</div>
                         </div>
-                        <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                            <h2 className="self-stretch text-foreground text-4xl md:text-5xl font-semibold leading-tight -tracking-[0.48px]">Um programa feito para apoiar você em cada passo.</h2>
-                            <p className="self-stretch text-muted-foreground text-lg md:text-xl font-normal leading-normal">A Certificação de Educadores reúne de 1 a 3 cursos online, com conteúdo pensado para o dia a dia da sala de aula. Nada de teoria distante ou inacessível. Aqui, você vai encontrar formações práticas, aplicáveis e inspiradoras.</p>
+                        <div className="self-stretch flex flex-col justify-start items-start gap-4">
+                            <h2 className="self-stretch text-foreground text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight -tracking-tight">Um programa feito para apoiar você em cada passo.</h2>
+                            <p className="self-stretch text-muted-foreground text-base md:text-lg lg:text-xl font-normal leading-normal">A Certificação de Educadores reúne de 1 a 3 cursos online, com conteúdo pensado para o dia a dia da sala de aula. Nada de teoria distante ou inacessível. Aqui, você vai encontrar formações práticas, aplicáveis e inspiradoras.</p>
                         </div>
-                        <div className="self-stretch py-4 flex flex-col justify-start items-start gap-1 text-base text-foreground">
+                        <div className="self-stretch py-4 flex flex-col justify-start items-start gap-2 text-base text-foreground">
                             <p>
                                 <span className="font-normal">Quer tornar suas aulas mais envolventes?</span>
                                 <span className="font-semibold text-primary underline"> Temos materiais para isso.</span>
@@ -72,10 +72,10 @@ export default function Home() {
                            <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
-                            <p className="self-stretch text-muted-foreground text-lg md:text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
+                            <p className="self-stretch text-muted-foreground text-base md:text-lg lg:text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
                         </div>
                     </div>
-                    <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-4 w-full">
+                    <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 gap-4 w-full lg:w-1/2">
                         <div className="p-6 bg-muted rounded-3xl shadow-custom flex flex-col justify-center items-start transform hover:scale-105 transition-all duration-200 hover:shadow-md">
                             <p className="self-stretch text-muted-foreground text-xl md:text-2xl font-medium leading-7">✅ Torne-se referência entre colegas e alunos.</p>
                         </div>
@@ -251,9 +251,9 @@ export default function Home() {
         <div className="bg-[#ED42FD] h-5 self-stretch" />
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center gap-8">
-                <div className="flex flex-col items-center gap-4">
+                <div className="flex flex-col items-center justify-center text-center gap-4 w-auto h-auto">
                     <Link href="/" className="flex items-center gap-2">
-                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={360} height={56} className="h-auto w-48" />
+                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={180} height={28} className="h-auto w-44" />
                     </Link>
                     <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo 🌎</p>
                 </div>
