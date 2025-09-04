@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Users, GraduationCap, Briefcase } from 'lucide-react';
+import { Users, GraduationCap, Briefcase, StepForward, CheckCircle, Award } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -146,49 +146,54 @@ export default function Home() {
                     </div>
                     <h2 className="text-4xl md:text-5xl font-semibold text-foreground max-w-2xl text-center leading-tight -tracking-tighter">O processo é simples, humano e rápido.</h2>
                 </div>
-                <div className="self-stretch grid grid-cols-1 md:grid-cols-3 gap-10">
-                    <div className="w-full flex flex-col items-center gap-8">
-                        <div className="self-stretch relative flex justify-center items-center">
-                            <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
-                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[0.625rem] border-[0.09375rem] border-white flex justify-center items-center z-10">
-                                <span className="text-lg font-bold text-primary-foreground">1</span>
+                <div className="w-full max-w-md mx-auto">
+                    <div className="relative flex flex-col items-start gap-8">
+                        {/* Step 1 */}
+                        <div className="relative w-full flex items-start gap-6">
+                            <div className="flex flex-col items-center gap-2">
+                                <div className="w-12 h-12 flex items-center justify-center bg-primary rounded-full text-primary-foreground font-bold text-xl z-10">1</div>
+                                <div className="w-0.5 flex-1 border-l-2 border-dashed border-primary/50"></div>
+                            </div>
+                            <div className="pt-2 flex-1 min-h-[10rem]">
+                                <div className="p-6 bg-muted rounded-2xl shadow-md">
+                                    <h3 className="text-xl font-semibold text-foreground mb-2">Preencha o formulário</h3>
+                                    <p className="text-foreground">Você preenche o formulário com seus dados em poucos minutos.</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left transform hover:scale-105 transition-all duration-200 hover:shadow-lg">
-                            <p className="self-stretch text-xl md:text-2xl text-foreground">Você preenche o formulário com seus dados.</p>
-                        </div>
-                    </div>
-                    <div className="w-full flex flex-col items-center gap-8 md:mt-8">
-                        <div className="self-stretch relative flex justify-center items-center">
-                            <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
-                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[0.625rem] border-[0.09375rem] border-white flex justify-center items-center z-10">
-                                <span className="text-lg font-bold text-primary-foreground">2</span>
+                        {/* Step 2 */}
+                        <div className="relative w-full flex items-start gap-6">
+                            <div className="flex flex-col items-center gap-2">
+                                <div className="w-12 h-12 flex items-center justify-center bg-primary rounded-full text-primary-foreground font-bold text-xl z-10">2</div>
+                                <div className="w-0.5 flex-1 border-l-2 border-dashed border-primary/50"></div>
+                            </div>
+                            <div className="pt-2 flex-1 min-h-[10rem]">
+                                <div className="p-6 bg-muted rounded-2xl shadow-md">
+                                    <h3 className="text-xl font-semibold text-foreground mb-2">Análise cuidadosa</h3>
+                                    <p className="text-foreground">
+                                        Nossa equipe analisa cada perfil com cuidado, valorizando o <span className="font-bold">potencial impacto</span> que você pode gerar na educação.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left transform hover:scale-105 transition-all duration-200 hover:shadow-lg">
-                           <p className="self-stretch text-xl md:text-2xl text-foreground">
-                                <span className="font-normal">Nossa equipe analisa cada perfil com cuidado, valorizando o </span>
-                                <span className="font-bold">potencial impacto</span>
-                                <span className="font-normal"> que você pode gerar na educação.</span>
-                           </p>
-                        </div>
-                    </div>
-                    <div className="w-full flex flex-col items-center gap-8 md:mt-16">
-                        <div className="self-stretch relative flex justify-center items-center">
-                            <div className="w-full h-px absolute top-1/2 bg-[#EDD9FF]"></div>
-                            <div className="relative px-2.5 py-0.5 bg-primary rounded-[0.625rem] border-[0.09375rem] border-white flex justify-center items-center z-10">
-                                <span className="text-lg font-bold text-primary-foreground">3</span>
+                        {/* Step 3 */}
+                        <div className="relative w-full flex items-start gap-6">
+                             <div className="flex flex-col items-center gap-2">
+                                <div className="w-12 h-12 flex items-center justify-center bg-primary rounded-full text-primary-foreground font-bold text-xl z-10">3</div>
                             </div>
-                        </div>
-                        <div className="w-full min-h-[15rem] p-8 bg-muted rounded-3xl shadow-md outline outline-1 outline-offset-[-0.0625rem] outline-border flex flex-col justify-center items-start text-left transform hover:scale-105 transition-all duration-200 hover:shadow-lg">
-                           <p className="self-stretch text-xl md:text-2xl text-foreground">
-                               <span className="font-normal">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com</span>
-                               <span className="font-bold"> 50% de bolsa.</span>
-                           </p>
+                            <div className="pt-2 flex-1 min-h-[10rem]">
+                                <div className="p-6 bg-muted rounded-2xl shadow-md">
+                                    <h3 className="text-xl font-semibold text-foreground mb-2">Receba a aprovação</h3>
+                                    <p className="text-foreground">
+                                       Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com <span className="font-bold">50% de bolsa.</span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col items-center gap-4 text-center">
+
+                <div className="flex flex-col items-center gap-4 text-center mt-10">
                    <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
                         <Link href="#apply">QUERO MINHA BOLSA</Link>
                     </Button>
@@ -196,27 +201,29 @@ export default function Home() {
                 </div>
             </section>
             <div className="self-stretch h-px bg-border" />
-            <div className="w-full max-w-[82rem] flex justify-center items-center">
-                <div
-                    className="relative w-full bg-primary px-4 md:px-8 py-24 rounded-3xl flex justify-center items-center overflow-hidden"
-                >
-                    <div className="relative z-10 flex flex-col items-center gap-6 text-center max-w-3xl">
-                        <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
-                            <span className="text-5xl leading-10">🚨</span>
-                        </div>
-                        <div className="self-stretch flex flex-col justify-center items-center gap-4">
-                            <h2 className="text-white text-6xl font-bold leading-tight animate-fade-in"> As bolsas são limitadas.</h2>
-                            <p className="self-stretch text-white text-lg font-normal leading-snug">
-                                As bolsas realmente são concedidas conforme a ordem de inscrição.
-                                <br />
-                                Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.
-                            </p>
-                        </div>
-                         <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
-                            <Link href="#apply">QUERO MINHA BOLSA</Link>
-                        </Button>
-                    </div>
-                </div>
+            <div className="w-full flex justify-center items-center">
+              <div className="w-full max-w-[82rem] flex justify-center items-center">
+                  <div
+                      className="relative w-full bg-primary px-4 md:px-8 py-24 rounded-3xl flex justify-center items-center overflow-hidden"
+                  >
+                      <div className="relative z-10 flex flex-col items-center gap-6 text-center max-w-3xl">
+                          <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
+                              <span className="text-5xl leading-10">🚨</span>
+                          </div>
+                          <div className="self-stretch flex flex-col justify-center items-center gap-4">
+                              <h2 className="text-white text-6xl font-bold leading-tight animate-fade-in"> As bolsas são limitadas.</h2>
+                              <p className="self-stretch text-white text-lg font-normal leading-snug">
+                                  As bolsas realmente são concedidas conforme a ordem de inscrição.
+                                  <br />
+                                  Cada vaga preenchida é uma oportunidade a menos para outro educador. Então, se você sente que esse chamado é para você, aproveite agora.
+                              </p>
+                          </div>
+                           <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
+                              <Link href="#apply">QUERO MINHA BOLSA</Link>
+                          </Button>
+                      </div>
+                  </div>
+              </div>
             </div>
             <div className="self-stretch h-px bg-border my-12" />
             <div className="w-full bg-gray-50 dark:bg-gray-900 flex flex-col justify-center items-center px-4 md:px-8">
@@ -271,5 +278,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
