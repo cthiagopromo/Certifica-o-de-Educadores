@@ -204,7 +204,7 @@ export default function Home() {
             <div className="w-full flex justify-center items-center">
               <div className="w-full max-w-[82rem] flex justify-center items-center">
                   <div
-                      className="relative w-full bg-primary px-4 md:px-8 py-24 rounded-3xl flex justify-center items-center overflow-hidden"
+                      className="w-full bg-primary px-4 md:px-8 py-24 rounded-3xl flex justify-center items-center overflow-hidden"
                   >
                       <div className="relative z-10 flex flex-col items-center gap-6 text-center max-w-3xl">
                           <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
