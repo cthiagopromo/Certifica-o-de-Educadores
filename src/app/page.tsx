@@ -40,7 +40,6 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="relative w-full max-w-[616px] aspect-[616/444] flex-shrink-0">
-                        <div className="absolute inset-0 bg-orange-400 rounded-3xl transform -rotate-3"></div>
                         <Image 
                             className="relative w-full h-full object-cover rounded-3xl" 
                             fill
