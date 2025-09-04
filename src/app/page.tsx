@@ -15,9 +15,9 @@ export default function Home() {
                     <Image 
                         src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png"
                         alt="SóEducador Logo"
-                        width={200}
-                        height={31}
-                        className="w-48 h-auto"
+                        width={250}
+                        height={39}
+                        className="w-60 h-auto"
                     />
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
                             <h1 className="self-stretch text-white text-3xl md:text-4xl font-bold leading-tight md:leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
@@ -198,7 +198,7 @@ export default function Home() {
             <div className="self-stretch h-px bg-border" />
             <div className="w-full max-w-[82rem]">
                 <div
-                    className="relative self-stretch bg-primary px-4 md:px-8 py-24 rounded-3xl flex justify-center items-center overflow-hidden"
+                    className="relative w-full bg-primary px-4 md:px-8 py-24 rounded-3xl flex justify-center items-center overflow-hidden"
                 >
                     <div className="relative z-10 flex flex-col items-center gap-6 text-center max-w-3xl">
                         <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
@@ -255,7 +255,7 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center gap-8">
                 <div className="flex flex-col items-center justify-center text-center gap-2">
                     <Link href="/" className="flex items-center gap-2">
-                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={360} height={56} className="h-auto w-44" />
+                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={720} height={112} className="h-auto w-88" />
                     </Link>
                     <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo 🌎</p>
                 </div>
@@ -264,16 +264,6 @@ export default function Home() {
                     <p className="text-xs text-center md:text-left text-primary-foreground/80">
                     COPYRIGHT ©{new Date().getFullYear()}. INCI - INSTITUTO NACIONAL DE APERFEIÇOAMENTO PROFISSIONAL - CNPJ: 36.692.668/0001-94
                     </p>
-                    <div className="flex justify-center space-x-6">
-                        <Link href="#" className="text-primary-foreground/80 hover:text-primary-foreground">
-                            <span className="sr-only">Twitter</span>
-                            <Twitter className="h-6 w-6" />
-                        </Link>
-                        <Link href="#" className="text-primary-foreground/80 hover:text-primary-foreground">
-                            <span className="sr-only">LinkedIn</span>
-                            <Linkedin className="h-6 w-6" />
-                        </Link>
-                    </div>
                 </div>
             </div>
         </div>
