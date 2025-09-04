@@ -237,7 +237,7 @@ export default function Home() {
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://i.postimg.cc/xjwv6vFH/professora-amarela-s-educador.webp" alt="Professora com blusa amarela" data-ai-hint="teacher smiling" />
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={417} height={320} src="https://i.postimg.cc/RZDVTRgx/professora-azul-s-educador.webp" alt="Teacher helping student" data-ai-hint="teacher student" />
                             </div>
-                            <div className="self-stretch p-8 md:py-14 md:px-12 bg-primary rounded-2xl flex flex-col justify-center items-center text-center">
+                            <div className="self-stretch flex-1 p-8 md:py-14 md:px-12 bg-primary rounded-2xl flex flex-col justify-center items-center text-center">
                                 <div className="max-w-[53rem] flex flex-col justify-start items-start">
                                     <p className="self-stretch text-white text-2xl md:text-[1.75rem] font-medium leading-snug md:leading-[1.2] tracking-tighter">Nossa missão é celebrar suas conquistas, espalhar amor pela educação e apoiar quem dedica a vida a ensinar. Porque, no fim das contas, quando apoiamos professores, transformamos o futuro de todos.</p>
                                 </div>
@@ -255,7 +255,7 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center gap-8">
                 <div className="flex flex-col items-center justify-center text-center gap-2">
                     <Link href="/" className="flex items-center gap-2">
-                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={360} height={56} className="h-auto w-44" />
+                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={180} height={28} className="h-auto w-44" />
                     </Link>
                     <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo 🌎</p>
                 </div>
