@@ -11,7 +11,7 @@ export default function Home() {
         <div className="w-full flex flex-col justify-center items-center gap-12 overflow-hidden px-4 sm:px-8 md:px-16">
             <section id="hero" className="w-full max-w-[82rem] p-6 md:p-14 my-8 bg-primary rounded-[3rem] text-primary-foreground">
                 <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
-                    <div className="flex flex-col justify-start items-start gap-8 max-w-xl">
+                    <div className="flex flex-col justify-start items-start gap-4 max-w-xl">
                     <Image 
                         src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png"
                         alt="SóEducador Logo"
@@ -279,3 +279,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
