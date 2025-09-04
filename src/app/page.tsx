@@ -48,12 +48,6 @@ export default function Home() {
                             alt="Professor inspirador"
                             data-ai-hint="inspiring teacher"
                         />
-                        <div className="absolute -top-8 -left-8 bg-white p-3 rounded-full shadow-lg transform rotate-12">
-                            <div className="bg-pink-200 text-pink-800 font-bold text-center rounded-full p-4 w-24 h-24 flex flex-col justify-center items-center text-sm">
-                                <span className="text-3xl leading-tight">50%</span>
-                                <span>DE DESCONTO</span>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
