@@ -15,9 +15,9 @@ export default function Home() {
                     <Image 
                         src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png"
                         alt="SóEducador Logo"
-                        width={160}
-                        height={25}
-                        className="w-40 h-auto"
+                        width={200}
+                        height={31}
+                        className="w-52 h-auto"
                     />
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
                             <h1 className="self-stretch text-white text-3xl md:text-4xl font-bold leading-tight md:leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
