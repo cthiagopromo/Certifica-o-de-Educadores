@@ -4,39 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Users, GraduationCap, Briefcase } from 'lucide-react';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
-import { Input } from '@/components/ui/input';
-import { useForm } from 'react-hook-form';
-import { z } from 'zod';
-import { zodResolver } from '@hookform/resolvers/zod';
-import { useToast } from '@/hooks/use-toast';
-
-const formSchema = z.object({
-  name: z.string().min(2, { message: 'O nome deve ter pelo menos 2 caracteres.' }),
-  email: z.string().email({ message: 'Por favor, insira um email válido.' }),
-  phone: z.string().min(10, { message: 'Por favor, insira um telefone válido.' }),
-});
 
 export default function Home() {
-  const form = useForm<z.infer<typeof formSchema>>({
-    resolver: zodResolver(formSchema),
-    defaultValues: {
-      name: '',
-      email: '',
-      phone: '',
-    },
-  });
-
-  const { toast } = useToast()
-
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    toast({
-      title: 'Inscrição enviada!',
-      description: 'Seus dados foram recebidos. Em breve entraremos em contato.',
-    });
-    form.reset();
-  }
 
   return (
     <div className="bg-background">
@@ -59,8 +28,8 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
-                            <Button asChild className="px-12 py-8 bg-white text-primary rounded-2xl text-xl font-medium hover:bg-gray-200 transform hover:scale-105 transition-all duration-200">
-                                <Link href="#apply">QUERO MINHA BOLSA</Link>
+                            <Button asChild className="px-12 py-8 bg-[#ED42FD] text-white rounded-2xl text-xl font-medium hover:bg-[#ED42FD]/90 transform hover:scale-105 transition-all duration-200">
+                                <Link href="https://pay.hotmart.com/F93297158S?off=d41paoj8&checkoutMode=allocator" target="_blank">QUERO MINHA BOLSA</Link>
                             </Button>
                             <div className="text-lg font-normal leading-snug text-[#F8B6FE]">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
@@ -103,7 +72,7 @@ export default function Home() {
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-4">
                            <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
-                                <Link href="#apply">QUERO MINHA BOLSA</Link>
+                                <Link href="https://pay.hotmart.com/F93297158S?off=d41paoj8&checkoutMode=allocator" target="_blank">QUERO MINHA BOLSA</Link>
                             </Button>
                             <p className="self-stretch text-muted-foreground text-base md:text-lg lg:text-xl font-normal leading-normal">E o melhor: você faz tudo no seu ritmo, de onde estiver, sem deixar de lado sua rotina.</p>
                         </div>
@@ -212,7 +181,7 @@ export default function Home() {
 
                 <div className="flex flex-col items-center gap-4 text-center mt-10">
                    <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
-                        <Link href="#apply">QUERO MINHA BOLSA</Link>
+                        <Link href="https://pay.hotmart.com/F93297158S?off=d41paoj8&checkoutMode=allocator" target="_blank">QUERO MINHA BOLSA</Link>
                     </Button>
                     <p className="text-lg md:text-xl text-muted-foreground max-w-xl">É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.</p>
                 </div>
@@ -237,7 +206,7 @@ export default function Home() {
                               </p>
                           </div>
                            <Button asChild className="px-12 py-8 rounded-2xl text-lg md:text-xl font-medium bg-accent hover:bg-accent/90 text-accent-foreground transform hover:scale-105 transition-all duration-200">
-                              <Link href="#apply">QUERO MINHA BOLSA</Link>
+                              <Link href="https://pay.hotmart.com/F93297158S?off=d41paoj8&checkoutMode=allocator" target="_blank">QUERO MINHA BOLSA</Link>
                           </Button>
                       </div>
                   </div>
@@ -296,3 +265,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
