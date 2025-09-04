@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Twitter, Linkedin, Users, GraduationCap, Briefcase } from 'lucide-react';
+import { Twitter, Linkedin, Users, GraduationCap, Briefcase, HeartHandshake } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -37,7 +37,7 @@ export default function Home() {
                             className="rounded-3xl w-full h-auto" 
                             width={616}
                             height={444}
-                            src="https://i.postimg.cc/cJF7hPV4/professor-rosa-s-educador.webp" 
+                            src="https://i.postimg.cc/j23qDSfr/professor-s-educador.webp" 
                             alt="Professora inspiradora sorrindo"
                             data-ai-hint="inspiring teacher"
                         />
@@ -253,9 +253,9 @@ export default function Home() {
         <div className="bg-[#ED42FD] h-5 self-stretch" />
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center gap-8">
-                <div className="flex flex-col items-center justify-center text-center gap-4">
+                <div className="flex flex-col items-center justify-center text-center gap-2">
                     <Link href="/" className="flex items-center gap-2">
-                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={180} height={28} className="h-auto w-44" />
+                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={360} height={56} className="h-auto w-44" />
                     </Link>
                     <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo 🌎</p>
                 </div>
