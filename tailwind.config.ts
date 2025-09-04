@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bolsa-pattern': "url('/images/Container-bolsa-sóeducador.webp')",
+        
       },
       fontFamily: {
         body: ['"Rethink Sans"', 'sans-serif'],

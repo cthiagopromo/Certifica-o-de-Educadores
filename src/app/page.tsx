@@ -193,7 +193,14 @@ export default function Home() {
             </section>
             <div className="self-stretch h-px bg-border" />
             <div className="w-full self-stretch flex flex-col justify-start items-center">
-                <div className="relative self-stretch px-4 md:px-8 py-16 bg-bolsa-pattern bg-cover bg-center rounded-3xl flex justify-center items-center overflow-hidden">
+                <div
+                    className="relative self-stretch px-4 md:px-8 py-16 rounded-3xl flex justify-center items-center overflow-hidden"
+                    style={{
+                        backgroundImage: "url('/images/Container-bolsa-sóeducador.webp')",
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                    }}
+                >
                     <div className="absolute inset-0 bg-primary/70 z-0" />
                     <div className="relative z-10 flex flex-col items-center gap-6 text-center max-w-2xl">
                         <div className="w-24 h-24 p-6 bg-[#F8B6FE] rounded-2xl shadow-lg flex justify-center items-center">
@@ -272,5 +279,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
