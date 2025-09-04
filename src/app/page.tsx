@@ -148,7 +148,6 @@ export default function Home() {
                 </div>
                 
                 <div className="self-stretch grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {/* Step 1 */}
                     <div className="flex flex-col items-center gap-4">
                         <div className="relative w-full flex justify-center items-center">
                             <div className="w-full h-px bg-primary/20" />
@@ -158,28 +157,22 @@ export default function Home() {
                             <h3 className="text-2xl font-normal text-foreground mb-2 leading-7">Você preenche o formulário com seus dados.</h3>
                         </div>
                     </div>
-                    {/* Step 2 */}
                     <div className="flex flex-col items-center gap-4">
                         <div className="relative w-full flex justify-center items-center">
                             <div className="w-full h-px bg-primary/20" />
                             <div className="absolute px-2.5 py-0.5 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">2</div>
                         </div>
                         <div className="p-8 bg-muted rounded-3xl shadow-md text-left flex flex-col justify-center items-start w-full h-60">
-                            <p className="text-2xl text-foreground leading-7">
-                                Nossa equipe analisa cada perfil com cuidado, valorizando o <span className="font-bold">potencial impacto</span> que você pode gerar na educação.
-                            </p>
+                            <p className="text-2xl text-foreground leading-7">Nossa equipe analisa cada perfil com cuidado, valorizando o <span className="font-bold">potencial impacto</span> que você pode gerar na educação.</p>
                         </div>
                     </div>
-                    {/* Step 3 */}
                     <div className="flex flex-col items-center gap-4">
                         <div className="relative w-full flex justify-center items-center">
                             <div className="w-full h-px bg-primary/20" />
                             <div className="absolute px-2.5 py-0.5 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">3</div>
                         </div>
                         <div className="p-8 bg-muted rounded-3xl shadow-md text-left flex flex-col justify-center items-start w-full h-60">
-                            <p className="text-2xl text-foreground leading-7">
-                               Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com <span className="font-bold">50% de bolsa.</span>
-                            </p>
+                            <p className="text-2xl text-foreground leading-7">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com <span className="font-bold">50% de bolsa.</span></p>
                         </div>
                     </div>
                 </div>
@@ -193,7 +186,7 @@ export default function Home() {
             </section>
             <div className="self-stretch h-px bg-border" />
             <div className="w-full flex justify-center items-center">
-              <div className="w-full max-w-[82rem] flex justify-center items-center">
+              <div className="w-full max-w-[82rem] flex justify-center items-center px-4">
                   <div
                       className="w-full bg-primary px-4 md:px-8 py-24 rounded-3xl flex justify-center items-center overflow-hidden"
                   >
@@ -231,7 +224,7 @@ export default function Home() {
                      <div className="w-full flex flex-col lg:flex-row justify-start items-start gap-4">
                         <Image className="w-full lg:w-96 self-stretch rounded-2xl object-cover" width={384} height={609} src="https://i.postimg.cc/cJF7hPV4/professor-rosa-s-educador.webp" alt="Educadora sorrindo" data-ai-hint="educator teaching" />
                         <div className="flex-1 self-stretch flex flex-col justify-start items-start gap-4">
-                            <div className="self-stretch flex flex-col sm:flex-row justify-start items-start gap-4">
+                            <div className="self-stretch flex flex-col md:flex-row justify-start items-start gap-4">
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://i.postimg.cc/xjwv6vFH/professora-amarela-s-educador.webp" alt="Professora com blusa amarela" data-ai-hint="teacher smiling" />
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={417} height={320} src="https://i.postimg.cc/RZDVTRgx/professora-azul-s-educador.webp" alt="Teacher helping student" data-ai-hint="teacher student" />
                             </div>
@@ -269,3 +262,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
