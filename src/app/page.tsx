@@ -32,10 +32,11 @@ export default function Home() {
                             <div className="text-lg font-normal leading-snug text-[#F8B6FE]">Agora chegou a sua vez de ser essa inspiração.</div>
                         </div>
                     </div>
-                    <div className="relative w-full max-w-md lg:max-w-lg xl:max-w-xl aspect-video flex-shrink-0">
+                    <div className="w-full max-w-lg">
                         <Image 
-                            className="object-cover rounded-3xl" 
-                            fill
+                            className="rounded-3xl w-full h-auto" 
+                            width={616}
+                            height={444}
                             src="https://i.postimg.cc/j23qDSfr/professor-s-educador.webp" 
                             alt="Professor inspirador"
                             data-ai-hint="inspiring teacher"
