@@ -36,7 +36,7 @@ export default function Home() {
                         <Image 
                             className="relative w-full h-full object-cover rounded-3xl" 
                             fill
-                            src="https://i.postimg.cc/dtGvv96w/professor-s-educador.webp" 
+                            src="https://i.postimg.cc/j23qDSfr/professor-s-educador.webp" 
                             alt="Professor inspirador"
                             data-ai-hint="inspiring teacher"
                         />
@@ -278,7 +278,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
-
-    
