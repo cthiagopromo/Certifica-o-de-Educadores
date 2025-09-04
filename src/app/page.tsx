@@ -252,7 +252,7 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center gap-8">
                 <div className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
                     <Link href="/" className="flex items-center gap-2">
-                        <span className="text-2xl font-bold">SóEducador</span>
+                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={180} height={28} className="h-auto" />
                     </Link>
                     <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo 🌎</p>
                 </div>
@@ -278,5 +278,7 @@ export default function Home() {
     </div>
   );
 }
+
+    
 
     
