@@ -153,8 +153,8 @@ export default function Home() {
                             <div className="w-full h-px bg-primary/20" />
                             <div className="absolute px-2.5 py-0.5 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">1</div>
                         </div>
-                        <div className="p-12 bg-muted rounded-3xl shadow-md text-left flex flex-col justify-center items-start w-full h-60">
-                            <h3 className="text-2xl font-normal text-foreground mb-2 leading-7">Você preenche o formulário com seus dados.</h3>
+                        <div className="p-8 md:p-12 bg-muted rounded-3xl shadow-md text-left flex flex-col justify-center items-start w-full min-h-60">
+                            <h3 className="text-xl md:text-2xl font-normal text-foreground leading-7">Você preenche o formulário com seus dados.</h3>
                         </div>
                     </div>
                     <div className="flex flex-col items-center gap-4">
@@ -162,8 +162,8 @@ export default function Home() {
                             <div className="w-full h-px bg-primary/20" />
                             <div className="absolute px-2.5 py-0.5 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">2</div>
                         </div>
-                        <div className="p-8 bg-muted rounded-3xl shadow-md text-left flex flex-col justify-center items-start w-full h-60">
-                            <p className="text-2xl text-foreground leading-7">Nossa equipe analisa cada perfil com cuidado, valorizando o <span className="font-bold">potencial impacto</span> que você pode gerar na educação.</p>
+                        <div className="p-8 bg-muted rounded-3xl shadow-md text-left flex flex-col justify-center items-start w-full min-h-60">
+                            <p className="text-xl md:text-2xl text-foreground leading-7">Nossa equipe analisa cada perfil com cuidado, valorizando o <span className="font-bold">potencial impacto</span> que você pode gerar na educação.</p>
                         </div>
                     </div>
                     <div className="flex flex-col items-center gap-4">
@@ -171,8 +171,8 @@ export default function Home() {
                             <div className="w-full h-px bg-primary/20" />
                             <div className="absolute px-2.5 py-0.5 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">3</div>
                         </div>
-                        <div className="p-8 bg-muted rounded-3xl shadow-md text-left flex flex-col justify-center items-start w-full h-60">
-                            <p className="text-2xl text-foreground leading-7">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com <span className="font-bold">50% de bolsa.</span></p>
+                        <div className="p-8 bg-muted rounded-3xl shadow-md text-left flex flex-col justify-center items-start w-full min-h-60">
+                            <p className="text-xl md:text-2xl text-foreground leading-7">Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com <span className="font-bold">50% de bolsa.</span></p>
                         </div>
                     </div>
                 </div>
@@ -195,7 +195,7 @@ export default function Home() {
                               <span className="text-5xl leading-10">🚨</span>
                           </div>
                           <div className="self-stretch flex flex-col justify-center items-center gap-4">
-                              <h2 className="text-white text-6xl font-bold leading-tight animate-fade-in"> As bolsas são limitadas.</h2>
+                              <h2 className="text-white text-4xl md:text-6xl font-bold leading-tight animate-fade-in"> As bolsas são limitadas.</h2>
                               <p className="self-stretch text-white text-lg font-normal leading-snug">
                                   As bolsas realmente são concedidas conforme a ordem de inscrição.
                                   <br />
@@ -224,7 +224,7 @@ export default function Home() {
                      <div className="w-full flex flex-col lg:flex-row justify-start items-start gap-4">
                         <Image className="w-full lg:w-96 self-stretch rounded-2xl object-cover" width={384} height={609} src="https://i.postimg.cc/cJF7hPV4/professor-rosa-s-educador.webp" alt="Educadora sorrindo" data-ai-hint="educator teaching" />
                         <div className="flex-1 self-stretch flex flex-col justify-start items-start gap-4">
-                            <div className="self-stretch flex flex-col md:flex-row justify-start items-start gap-4">
+                            <div className="self-stretch flex flex-col sm:flex-row justify-start items-start gap-4">
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://i.postimg.cc/xjwv6vFH/professora-amarela-s-educador.webp" alt="Professora com blusa amarela" data-ai-hint="teacher smiling" />
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={417} height={320} src="https://i.postimg.cc/RZDVTRgx/professora-azul-s-educador.webp" alt="Teacher helping student" data-ai-hint="teacher student" />
                             </div>
