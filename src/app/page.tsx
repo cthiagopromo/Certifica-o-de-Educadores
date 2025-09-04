@@ -255,13 +255,13 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center gap-8">
                 <div className="flex flex-col items-center justify-center text-center gap-2">
                     <Link href="/" className="flex items-center gap-2">
-                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={720} height={112} className="h-auto w-88" />
+                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={1440} height={224} className="h-auto w-88" />
                     </Link>
                     <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo 🌎</p>
                 </div>
                 <div className="h-px w-full bg-primary-foreground/20" />
                 <div className="flex w-full flex-col items-center justify-between gap-4 md:flex-row">
-                    <p className="text-xs text-center md:text-left text-primary-foreground/80">
+                    <p className="text-xs text-center text-primary-foreground/80">
                     COPYRIGHT ©{new Date().getFullYear()}. INCI - INSTITUTO NACIONAL DE APERFEIÇOAMENTO PROFISSIONAL - CNPJ: 36.692.668/0001-94
                     </p>
                 </div>
@@ -271,3 +271,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
