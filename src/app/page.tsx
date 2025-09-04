@@ -52,7 +52,7 @@ export default function Home() {
                     />
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
                             <h1 className="self-stretch text-white text-4xl font-bold leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos. Abrimos inscrições para a Certificação de Educadores.</h1>
-                            <p className="self-stretch text-lg text-gray-200">
+                            <p className="self-stretch text-gray-100 text-xl font-medium leading-normal">
                               Acreditamos que cada professor carrega dentro de si o poder de transformar o futuro. <span className="text-[#F8B6FE]">Bolsas de 50% de desconto.</span>
                             </p>
                         </div>
