@@ -196,7 +196,7 @@ export default function Home() {
                 </div>
             </section>
             <div className="self-stretch h-px bg-border" />
-            <div className="w-full max-w-[82rem]">
+            <div className="w-full max-w-[82rem] flex justify-center items-center">
                 <div
                     className="relative w-full bg-primary px-4 md:px-8 py-24 rounded-3xl flex justify-center items-center overflow-hidden"
                 >
@@ -252,10 +252,10 @@ export default function Home() {
       <footer className="w-full bg-primary text-primary-foreground">
         <div className="bg-[#ED42FD] h-5 self-stretch" />
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col items-center justify-center gap-8">
+            <div className="flex w-full flex-col items-center justify-center gap-4">
                 <div className="flex flex-col items-center justify-center text-center gap-2">
                     <Link href="/" className="flex items-center gap-2">
-                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={1440} height={224} className="h-auto w-88" />
+                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={1440} height={224} className="h-auto w-48" />
                     </Link>
                     <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo 🌎</p>
                 </div>
