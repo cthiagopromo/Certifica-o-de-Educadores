@@ -217,60 +217,7 @@ export default function Home() {
                     <p className="text-lg md:text-xl text-muted-foreground max-w-xl">É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.</p>
                 </div>
             </section>
-            <section id="apply" className="w-full max-w-[82rem] py-10 md:py-14 flex flex-col items-center gap-10 px-4">
-              <div className="flex flex-col items-center gap-6 text-center">
-                <h2 className="text-4xl md:text-5xl font-semibold text-foreground max-w-3xl">Preencha o formulário para concorrer a uma bolsa</h2>
-                <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">Levará apenas alguns minutos. Nossa equipe analisará seu perfil e entrará em contato em breve.</p>
-              </div>
-              <div className="w-full max-w-2xl p-8 space-y-8 bg-muted rounded-3xl shadow-md">
-                <Form {...form}>
-                  <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                    <FormField
-                      control={form.control}
-                      name="name"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel className="text-lg">Nome Completo</FormLabel>
-                          <FormControl>
-                            <Input placeholder="Seu nome completo" {...field} className="py-6 text-lg" />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <FormField
-                      control={form.control}
-                      name="email"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel className="text-lg">Email</FormLabel>
-                          <FormControl>
-                            <Input placeholder="seuemail@exemplo.com" {...field} className="py-6 text-lg" />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <FormField
-                      control={form.control}
-                      name="phone"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel className="text-lg">Telefone (com DDD)</FormLabel>
-                          <FormControl>
-                            <Input placeholder="(XX) XXXXX-XXXX" {...field} className="py-6 text-lg" />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <Button type="submit" className="w-full py-8 text-xl font-bold bg-accent hover:bg-accent/90 text-accent-foreground">
-                      ENVIAR INSCRIÇÃO
-                    </Button>
-                  </form>
-                </Form>
-              </div>
-            </section>
+            
             <div className="self-stretch h-px bg-border" />
             <div className="w-full flex justify-center items-center">
               <div className="w-full max-w-[82rem] flex justify-center items-center px-4">
