@@ -146,49 +146,43 @@ export default function Home() {
                     </div>
                     <h2 className="text-4xl md:text-5xl font-semibold text-foreground max-w-2xl text-center leading-tight -tracking-tighter">O processo é simples, humano e rápido.</h2>
                 </div>
-                <div className="w-full max-w-md mx-auto">
-                    <div className="relative flex flex-col items-start gap-8">
-                        {/* Step 1 */}
-                        <div className="relative w-full flex items-start gap-6">
-                            <div className="flex flex-col items-center gap-2">
-                                <div className="w-12 h-12 flex items-center justify-center bg-primary rounded-full text-primary-foreground font-bold text-xl z-10">1</div>
-                                <div className="w-0.5 flex-1 border-l-2 border-dashed border-primary/50"></div>
-                            </div>
-                            <div className="pt-2 flex-1 min-h-[10rem]">
-                                <div className="p-6 bg-muted rounded-2xl shadow-md">
-                                    <h3 className="text-xl font-semibold text-foreground mb-2">Preencha o formulário</h3>
-                                    <p className="text-foreground">Você preenche o formulário com seus dados em poucos minutos.</p>
-                                </div>
-                            </div>
+                
+                <div className="self-stretch grid grid-cols-1 md:grid-cols-3 gap-8">
+                    {/* Step 1 */}
+                    <div className="flex flex-col items-center gap-4">
+                        <div className="relative w-full flex justify-center items-center">
+                            <div className="w-full h-px bg-primary/20" />
+                            <div className="absolute w-8 h-8 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">1</div>
                         </div>
-                        {/* Step 2 */}
-                        <div className="relative w-full flex items-start gap-6">
-                            <div className="flex flex-col items-center gap-2">
-                                <div className="w-12 h-12 flex items-center justify-center bg-primary rounded-full text-primary-foreground font-bold text-xl z-10">2</div>
-                                <div className="w-0.5 flex-1 border-l-2 border-dashed border-primary/50"></div>
-                            </div>
-                            <div className="pt-2 flex-1 min-h-[10rem]">
-                                <div className="p-6 bg-muted rounded-2xl shadow-md">
-                                    <h3 className="text-xl font-semibold text-foreground mb-2">Análise cuidadosa</h3>
-                                    <p className="text-foreground">
-                                        Nossa equipe analisa cada perfil com cuidado, valorizando o <span className="font-bold">potencial impacto</span> que você pode gerar na educação.
-                                    </p>
-                                </div>
-                            </div>
+                        <div className="p-6 bg-muted rounded-2xl shadow-md text-center flex-grow w-full">
+                            <h3 className="text-xl font-semibold text-foreground mb-2">Preencha o formulário</h3>
+                            <p className="text-foreground">Você preenche o formulário com seus dados em poucos minutos.</p>
                         </div>
-                        {/* Step 3 */}
-                        <div className="relative w-full flex items-start gap-6">
-                             <div className="flex flex-col items-center gap-2">
-                                <div className="w-12 h-12 flex items-center justify-center bg-primary rounded-full text-primary-foreground font-bold text-xl z-10">3</div>
-                            </div>
-                            <div className="pt-2 flex-1 min-h-[10rem]">
-                                <div className="p-6 bg-muted rounded-2xl shadow-md">
-                                    <h3 className="text-xl font-semibold text-foreground mb-2">Receba a aprovação</h3>
-                                    <p className="text-foreground">
-                                       Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com <span className="font-bold">50% de bolsa.</span>
-                                    </p>
-                                </div>
-                            </div>
+                    </div>
+                    {/* Step 2 */}
+                    <div className="flex flex-col items-center gap-4">
+                        <div className="relative w-full flex justify-center items-center">
+                            <div className="w-full h-px bg-primary/20" />
+                            <div className="absolute w-8 h-8 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">2</div>
+                        </div>
+                        <div className="p-6 bg-muted rounded-2xl shadow-md text-center flex-grow w-full">
+                            <h3 className="text-xl font-semibold text-foreground mb-2">Análise cuidadosa</h3>
+                            <p className="text-foreground">
+                                Nossa equipe analisa cada perfil com cuidado, valorizando o <span className="font-bold">potencial impacto</span> que você pode gerar na educação.
+                            </p>
+                        </div>
+                    </div>
+                    {/* Step 3 */}
+                    <div className="flex flex-col items-center gap-4">
+                        <div className="relative w-full flex justify-center items-center">
+                            <div className="w-full h-px bg-primary/20" />
+                            <div className="absolute w-8 h-8 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">3</div>
+                        </div>
+                        <div className="p-6 bg-muted rounded-2xl shadow-md text-center flex-grow w-full">
+                            <h3 className="text-xl font-semibold text-foreground mb-2">Receba a aprovação</h3>
+                            <p className="text-foreground">
+                               Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com <span className="font-bold">50% de bolsa.</span>
+                            </p>
                         </div>
                     </div>
                 </div>
