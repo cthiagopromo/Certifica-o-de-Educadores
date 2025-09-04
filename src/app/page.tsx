@@ -37,8 +37,8 @@ export default function Home() {
                             className="rounded-3xl w-full h-auto" 
                             width={616}
                             height={444}
-                            src="https://i.postimg.cc/j23qDSfr/professor-s-educador.webp" 
-                            alt="Professor inspirador"
+                            src="https://i.postimg.cc/cJF7hPV4/professor-rosa-s-educador.webp" 
+                            alt="Professora inspiradora sorrindo"
                             data-ai-hint="inspiring teacher"
                         />
                     </div>
@@ -231,7 +231,7 @@ export default function Home() {
                         <p className="self-stretch text-muted-foreground text-lg md:text-xl font-normal leading-normal">A SóEducador nasceu com um propósito simples e poderoso: estar ao lado dos professores. Sabemos que a educação no Brasil é cheia de desafios — mas também sabemos que cada professor carrega dentro de si a chama da transformação.</p>
                     </div>
                     <div className="w-full flex flex-col lg:flex-row justify-start items-start gap-4">
-                        <Image className="w-full lg:w-96 self-stretch rounded-2xl object-cover" width={384} height={609} src="https://picsum.photos/384/609" alt="Educator" data-ai-hint="educator teaching" />
+                        <Image className="w-full lg:w-96 self-stretch rounded-2xl object-cover" width={384} height={609} src="https://i.postimg.cc/cJF7hPV4/professor-rosa-s-educador.webp" alt="Educadora sorrindo" data-ai-hint="educator teaching" />
                         <div className="flex-1 self-stretch flex flex-col justify-start items-start gap-4">
                             <div className="self-stretch flex flex-col sm:flex-row justify-start items-start gap-4">
                                 <Image className="flex-1 h-80 object-cover rounded-2xl" width={416} height={320} src="https://picsum.photos/416/320" alt="Classroom" data-ai-hint="classroom students" />
