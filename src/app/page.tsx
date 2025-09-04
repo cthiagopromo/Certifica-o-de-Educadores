@@ -17,7 +17,7 @@ export default function Home() {
                         alt="SóEducador Logo"
                         width={320}
                         height={50}
-                        className="w-64 md:w-80 h-auto"
+                        className="w-56 md:w-80 h-auto"
                     />
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
                             <h1 className="self-stretch text-white text-3xl md:text-4xl font-bold leading-tight md:leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
