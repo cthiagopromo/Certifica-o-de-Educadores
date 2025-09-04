@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'bolsa-pattern': "url('/images/Container-bolsa-sóeducador.webp')",
+      },
       fontFamily: {
         body: ['"Rethink Sans"', 'sans-serif'],
         headline: ['"Rethink Sans"', 'sans-serif'],
@@ -100,3 +103,5 @@ export default {
   },
   plugins: [require('tailwindcss-animate')],
 } satisfies Config;
+
+    
