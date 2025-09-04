@@ -26,7 +26,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
-                            <Button asChild className="px-12 py-6 bg-white text-black rounded-2xl text-xl font-medium hover:bg-gray-200">
+                            <Button asChild className="px-12 py-8 bg-accent text-accent-foreground rounded-2xl text-xl font-medium hover:bg-accent/90 transform hover:scale-105 transition-all duration-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <div className="text-lg font-normal leading-snug text-[#F8B6FE]">Agora chegou a sua vez de ser essa inspiração.</div>
@@ -253,7 +253,7 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center gap-8">
                 <div className="flex flex-col items-center gap-2">
                     <Link href="/" className="flex items-center gap-2">
-                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={180} height={28} className="h-auto" />
+                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={360} height={56} className="h-auto" />
                     </Link>
                     <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo 🌎</p>
                 </div>
