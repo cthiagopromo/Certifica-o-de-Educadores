@@ -12,20 +12,13 @@ export default function Home() {
             <section id="hero" className="w-full max-w-[82rem] p-6 md:p-14 my-8 bg-primary rounded-[3rem] text-primary-foreground">
                 <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
                     <div className="flex flex-col justify-start items-start gap-8 max-w-xl">
-                    <svg className="w-64 md:w-80" viewBox="0 0 329 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5.59277 0.960205H60.2536L44.8324 49.9507H0L5.59277 0.960205Z" fill="#EEE4FF"/>
-                        <path d="M66.4258 17.7305H83.7325L78.1397 41.3005H60.833" fill="#EEE4FF"/>
-                        <path d="M87.6455 8.61108H109.824L104.231 42.1811H82.0527" fill="#EEE4FF"/>
-                        <path d="M114.641 17.7305H136.46L130.867 42.3005H109.048" fill="#EEE4FF"/>
-                        <path d="M140.938 9.08179H163.475L157.882 42.3005H135.346" fill="#EEE4FF"/>
-                        <path d="M170.252 18.3904H190.15L184.557 42.3005H164.659" fill="#EEE4FF"/>
-                        <path d="M196.082 17.7305H216.27L210.677 42.3005H190.489" fill="#EEE4FF"/>
-                        <path d="M219.711 17.7405H242.248L236.655 42.3105H214.118" fill="#EEE4FF"/>
-                        <path d="M248.197 9.08179H270.734L265.141 42.3005H242.604" fill="#EEE4FF"/>
-                        <path d="M276.684 17.7305H298.862L293.269 42.3005H271.091" fill="#EEE4FF"/>
-                        <path d="M304.826 17.9412H316.702L311.109 41.6212H299.233" fill="#EEE4FF"/>
-                        <path d="M318.084 33.4705H325.75L323.003 42.3105H315.337" fill="#EEE4FF"/>
-                    </svg>
+                    <Image 
+                        src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png"
+                        alt="SóEducador Logo"
+                        width={320}
+                        height={50}
+                        className="w-64 md:w-80 h-auto"
+                    />
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
                             <h1 className="self-stretch text-white text-3xl md:text-4xl font-bold leading-tight md:leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
                             <p className="self-stretch text-lg text-gray-200">
