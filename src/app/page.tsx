@@ -1,10 +1,41 @@
+'use client';
 
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Users, GraduationCap, Briefcase, StepForward, CheckCircle, Award } from 'lucide-react';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
+import { Input } from '@/components/ui/input';
+import { useForm } from 'react-hook-form';
+import { z } from 'zod';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { toast } from '@/hooks/use-toast';
+
+const formSchema = z.object({
+  name: z.string().min(2, { message: 'O nome deve ter pelo menos 2 caracteres.' }),
+  email: z.string().email({ message: 'Por favor, insira um email válido.' }),
+  phone: z.string().min(10, { message: 'Por favor, insira um telefone válido.' }),
+});
 
 export default function Home() {
+  const form = useForm<z.infer<typeof formSchema>>({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      name: '',
+      email: '',
+      phone: '',
+    },
+  });
+
+  function onSubmit(values: z.infer<typeof formSchema>) {
+    console.log(values);
+    toast({
+      title: 'Inscrição enviada!',
+      description: 'Seus dados foram recebidos. Em breve entraremos em contato.',
+    });
+    form.reset();
+  }
+
   return (
     <div className="bg-background">
       <main className="flex flex-col items-center">
@@ -20,9 +51,9 @@ export default function Home() {
                         className="w-60 h-auto"
                     />
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
-                            <h1 className="self-stretch text-white text-3xl md:text-4xl font-bold leading-tight md:leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
+                            <h1 className="self-stretch text-white text-4xl font-bold leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos. Abrimos inscrições para a Certificação de Educadores.</h1>
                             <p className="self-stretch text-lg text-gray-200">
-                              Abrimos inscrições para a Certificação de Educadores, com <span className="text-[#F8B6FE]">bolsas de 50% de desconto.</span> Acreditamos que cada professor carrega dentro de si o poder de transformar o futuro.
+                              Acreditamos que cada professor carrega dentro de si o poder de transformar o futuro. <span className="text-[#F8B6FE]">Bolsas de 50% de desconto.</span>
                             </p>
                         </div>
                         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
@@ -184,6 +215,60 @@ export default function Home() {
                     <p className="text-lg md:text-xl text-muted-foreground max-w-xl">É direto, sem burocracia e pensado para não tirar seu foco do que realmente importa: ensinar.</p>
                 </div>
             </section>
+            <section id="apply" className="w-full max-w-[82rem] py-10 md:py-14 flex flex-col items-center gap-10 px-4">
+              <div className="flex flex-col items-center gap-6 text-center">
+                <h2 className="text-4xl md:text-5xl font-semibold text-foreground max-w-3xl">Preencha o formulário para concorrer a uma bolsa</h2>
+                <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">Levará apenas alguns minutos. Nossa equipe analisará seu perfil e entrará em contato em breve.</p>
+              </div>
+              <div className="w-full max-w-2xl p-8 space-y-8 bg-muted rounded-3xl shadow-md">
+                <Form {...form}>
+                  <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                    <FormField
+                      control={form.control}
+                      name="name"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel className="text-lg">Nome Completo</FormLabel>
+                          <FormControl>
+                            <Input placeholder="Seu nome completo" {...field} className="py-6 text-lg" />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+                    <FormField
+                      control={form.control}
+                      name="email"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel className="text-lg">Email</FormLabel>
+                          <FormControl>
+                            <Input placeholder="seuemail@exemplo.com" {...field} className="py-6 text-lg" />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+                    <FormField
+                      control={form.control}
+                      name="phone"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel className="text-lg">Telefone (com DDD)</FormLabel>
+                          <FormControl>
+                            <Input placeholder="(XX) XXXXX-XXXX" {...field} className="py-6 text-lg" />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+                    <Button type="submit" className="w-full py-8 text-xl font-bold bg-accent hover:bg-accent/90 text-accent-foreground">
+                      ENVIAR INSCRIÇÃO
+                    </Button>
+                  </form>
+                </Form>
+              </div>
+            </section>
             <div className="self-stretch h-px bg-border" />
             <div className="w-full flex justify-center items-center">
               <div className="w-full max-w-[82rem] flex justify-center items-center px-4">
@@ -262,7 +347,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
-
-    
