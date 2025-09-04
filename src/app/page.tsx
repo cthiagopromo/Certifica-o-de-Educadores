@@ -49,7 +49,7 @@ export default function Home() {
                             <div className="text-primary text-base md:text-lg font-bold leading-snug">Conheça a formação contemplada</div>
                         </div>
                         <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                            <h2 className="self-stretch text-foreground text-4xl md:text-5xl font-semibold leading-normal -tracking-[0.48px]">Um programa feito para apoiar você em cada passo.</h2>
+                            <h2 className="self-stretch text-foreground text-4xl md:text-5xl font-semibold leading-loose -tracking-[0.48px]">Um programa feito para apoiar você em cada passo.</h2>
                             <p className="self-stretch text-muted-foreground text-lg md:text-xl font-normal leading-normal">A Certificação de Educadores reúne de 1 a 3 cursos online, com conteúdo pensado para o dia a dia da sala de aula. Nada de teoria distante ou inacessível. Aqui, você vai encontrar formações práticas, aplicáveis e inspiradoras.</p>
                         </div>
                         <div className="self-stretch py-4 flex flex-col justify-start items-start gap-1 text-base text-foreground">
@@ -271,5 +271,7 @@ export default function Home() {
     </div>
   );
 }
+
+    
 
     
