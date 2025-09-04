@@ -152,22 +152,20 @@ export default function Home() {
                     <div className="flex flex-col items-center gap-4">
                         <div className="relative w-full flex justify-center items-center">
                             <div className="w-full h-px bg-primary/20" />
-                            <div className="absolute w-8 h-8 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">1</div>
+                            <div className="absolute px-2.5 py-0.5 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">1</div>
                         </div>
-                        <div className="p-6 bg-muted rounded-2xl shadow-md text-center flex-grow w-full">
-                            <h3 className="text-xl font-semibold text-foreground mb-2">Preencha o formulário</h3>
-                            <p className="text-foreground">Você preenche o formulário com seus dados em poucos minutos.</p>
+                        <div className="p-12 bg-muted rounded-3xl shadow-md text-left flex flex-col justify-center items-start w-full h-60">
+                            <h3 className="text-2xl font-normal text-foreground mb-2 leading-7">Você preenche o formulário com seus dados.</h3>
                         </div>
                     </div>
                     {/* Step 2 */}
                     <div className="flex flex-col items-center gap-4">
                         <div className="relative w-full flex justify-center items-center">
                             <div className="w-full h-px bg-primary/20" />
-                            <div className="absolute w-8 h-8 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">2</div>
+                            <div className="absolute px-2.5 py-0.5 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">2</div>
                         </div>
-                        <div className="p-6 bg-muted rounded-2xl shadow-md text-center flex-grow w-full">
-                            <h3 className="text-xl font-semibold text-foreground mb-2">Análise cuidadosa</h3>
-                            <p className="text-foreground">
+                        <div className="p-8 bg-muted rounded-3xl shadow-md text-left flex flex-col justify-center items-start w-full h-60">
+                            <p className="text-2xl text-foreground leading-7">
                                 Nossa equipe analisa cada perfil com cuidado, valorizando o <span className="font-bold">potencial impacto</span> que você pode gerar na educação.
                             </p>
                         </div>
@@ -176,11 +174,10 @@ export default function Home() {
                     <div className="flex flex-col items-center gap-4">
                         <div className="relative w-full flex justify-center items-center">
                             <div className="w-full h-px bg-primary/20" />
-                            <div className="absolute w-8 h-8 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">3</div>
+                            <div className="absolute px-2.5 py-0.5 bg-primary rounded-lg text-primary-foreground flex items-center justify-center font-bold text-lg border-2 border-background">3</div>
                         </div>
-                        <div className="p-6 bg-muted rounded-2xl shadow-md text-center flex-grow w-full">
-                            <h3 className="text-xl font-semibold text-foreground mb-2">Receba a aprovação</h3>
-                            <p className="text-foreground">
+                        <div className="p-8 bg-muted rounded-3xl shadow-md text-left flex flex-col justify-center items-start w-full h-60">
+                            <p className="text-2xl text-foreground leading-7">
                                Se aprovado, você recebe uma mensagem de parabéns e o link para garantir sua matrícula com <span className="font-bold">50% de bolsa.</span>
                             </p>
                         </div>
@@ -231,7 +228,7 @@ export default function Home() {
                         <h2 className="w-full text-foreground text-4xl md:text-5xl font-semibold leading-tight">Quem somos e por que fazemos isso</h2>
                         <p className="self-stretch text-muted-foreground text-lg md:text-xl font-normal leading-normal">A SóEducador nasceu com um propósito simples e poderoso: estar ao lado dos professores. Sabemos que a educação no Brasil é cheia de desafios — mas também sabemos que cada professor carrega dentro de si a chama da transformação.</p>
                     </div>
-                    <div className="w-full flex flex-col lg:flex-row justify-start items-start gap-4">
+                     <div className="w-full flex flex-col lg:flex-row justify-start items-start gap-4">
                         <Image className="w-full lg:w-96 self-stretch rounded-2xl object-cover" width={384} height={609} src="https://i.postimg.cc/cJF7hPV4/professor-rosa-s-educador.webp" alt="Educadora sorrindo" data-ai-hint="educator teaching" />
                         <div className="flex-1 self-stretch flex flex-col justify-start items-start gap-4">
                             <div className="self-stretch flex flex-col sm:flex-row justify-start items-start gap-4">
