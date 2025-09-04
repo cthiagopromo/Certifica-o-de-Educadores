@@ -17,7 +17,7 @@ export default function Home() {
                         alt="SóEducador Logo"
                         width={200}
                         height={31}
-                        className="w-52 h-auto"
+                        className="w-48 h-auto"
                     />
                         <div className="self-stretch flex flex-col justify-start items-start gap-6">
                             <h1 className="self-stretch text-white text-3xl md:text-4xl font-bold leading-tight md:leading-10">Imagine ser lembrado como o professor(a) que mudou a vida de seus alunos.</h1>
@@ -26,7 +26,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
-                            <Button asChild className="px-12 py-8 bg-accent text-accent-foreground rounded-2xl text-xl font-medium hover:bg-accent/90 transform hover:scale-105 transition-all duration-200">
+                            <Button asChild className="px-12 py-8 bg-white text-black rounded-2xl text-xl font-medium hover:bg-gray-200 transform hover:scale-105 transition-all duration-200">
                                 <Link href="#apply">QUERO MINHA BOLSA</Link>
                             </Button>
                             <div className="text-lg font-normal leading-snug text-[#F8B6FE]">Agora chegou a sua vez de ser essa inspiração.</div>
@@ -251,9 +251,9 @@ export default function Home() {
         <div className="bg-[#ED42FD] h-5 self-stretch" />
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center justify-center gap-8">
-                <div className="flex flex-col items-center gap-2">
+                <div className="flex flex-col items-center gap-4">
                     <Link href="/" className="flex items-center gap-2">
-                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={360} height={56} className="h-auto" />
+                        <Image src="https://soeducador.com.br/assets/img/site/logo/logo-wide-white-full.png" alt="SóEducador Logo" width={360} height={56} className="h-auto w-48" />
                     </Link>
                     <p className="text-base text-primary-foreground/90 flex items-center gap-2">Inspirando você a mudar o mundo 🌎</p>
                 </div>
